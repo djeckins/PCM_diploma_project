@@ -1,0 +1,37 @@
+{
+ "replicas": {
+  "E71A/1": {
+   "n_own": 49,
+   "n_provided": null,
+   "n_ions": 163,
+   "left_censored_at_start": 4,
+   "net_flux_sign": 1
+  },
+  "G77AE71A/1": {
+   "n_own": 3,
+   "n_provided": null,
+   "n_ions": 134,
+   "left_censored_at_start": 9,
+   "net_flux_sign": 1
+  },
+  "T75AE71A/1": {
+   "n_own": 0,
+   "n_provided": null,
+   "n_ions": 163,
+   "left_censored_at_start": 9,
+   "net_flux_sign": 0
+  }
+ },
+ "source_declared": "own",
+ "condition_flux_signs": {
+  "E71A": [
+   1
+  ],
+  "G77AE71A": [
+   1
+  ],
+  "T75AE71A": [
+   0
+  ]
+ }
+}

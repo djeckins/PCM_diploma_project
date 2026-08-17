@@ -1,0 +1,37 @@
+{
+ "training_units": [
+  "gramicidin:298K_2Msalt/01",
+  "gramicidin:298K_2Msalt/02",
+  "gramicidin:298K_2Msalt/03",
+  "gramicidin:298K_2Msalt/04",
+  "gramicidin:298K_2Msalt/05",
+  "gramicidin:330K_1Msalt/01",
+  "gramicidin:330K_1Msalt/02",
+  "gramicidin:330K_1Msalt/03",
+  "gramicidin:330K_1Msalt/04",
+  "gramicidin:330K_1Msalt/05",
+  "mthk:200MV/1",
+  "mthk:200MV/2",
+  "mthk:neg-200MV/1",
+  "mthk:neg-200MV/2"
+ ],
+ "held_out_family": "kcsa_family",
+ "leakage": "no unit of family 'kcsa_family' is in the training pool by construction",
+ "reproducibility_vs_experiment": {
+  "max_prob_deviation": 0.0,
+  "ok": true
+ },
+ "event_counts": {
+  "full_membrane_collector": 49,
+  "label_positive_runs": 49,
+  "authors_counter_filter_crossings": null
+ },
+ "headline": {
+  "defined": true,
+  "ap": 0.05958178757207336,
+  "base_rate": 0.048846893017296604,
+  "ratio_to_chance": 1.2197661691804134,
+  "n": 6244,
+  "n_pos": 305
+ }
+}
