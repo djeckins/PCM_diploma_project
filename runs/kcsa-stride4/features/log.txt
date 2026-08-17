@@ -1,0 +1,7 @@
+[E71A/1] 6251 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 24570}
+[G77AE71A/1] 12501 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 21474}
+[T75AE71A/1] 6251 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 24554}
+applicability: 104 columns total = 103 active + 0 structurally inapplicable + 1 constant
+  occ_has_innermost: constant
+columns with <=2 distinct values (do not resolve dynamics): ['dyn_ion_persist', 'dlv_approach_pair_n', 'dlv_rate_win']
+table: 25003 rows x 104 columns

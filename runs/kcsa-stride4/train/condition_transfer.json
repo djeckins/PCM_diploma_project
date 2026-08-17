@@ -1,0 +1,20 @@
+{
+ "E71A->G77AE71A": {
+  "skipped": "degenerate training: no rotation produced both classes — degenerate fold"
+ },
+ "E71A->T75AE71A": {
+  "skipped": "degenerate training: no rotation produced both classes — degenerate fold"
+ },
+ "G77AE71A->E71A": {
+  "skipped": "degenerate training: no rotation produced both classes — degenerate fold"
+ },
+ "G77AE71A->T75AE71A": {
+  "skipped": "degenerate training: no rotation produced both classes — degenerate fold"
+ },
+ "T75AE71A->E71A": {
+  "skipped": "single class"
+ },
+ "T75AE71A->G77AE71A": {
+  "skipped": "single class"
+ }
+}

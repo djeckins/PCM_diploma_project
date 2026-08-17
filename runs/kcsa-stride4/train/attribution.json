@@ -1,0 +1,4 @@
+{
+ "kind": "TreeSHAP (xgboost pred_contribs, exact)",
+ "head_arm": "trees"
+}

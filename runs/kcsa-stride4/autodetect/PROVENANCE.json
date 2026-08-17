@@ -1,0 +1,521 @@
+{
+ "step": "autodetect",
+ "system": "kcsa",
+ "stride": 4,
+ "timestamp_utc": "2026-08-14T22:18:08.772734+00:00",
+ "platform": {
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64"
+ },
+ "n_threads": 1,
+ "libraries": {
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "pandas": "2.3.3",
+  "MDAnalysis": "2.10.0",
+  "sklearn": "1.9.0",
+  "xgboost": "3.2.0",
+  "numba": "0.66.0",
+  "matplotlib": "3.10.9",
+  "yaml": "6.0.3",
+  "pyarrow": "21.0.0"
+ },
+ "code": {
+  "tree_sha256": "a89676e80da5daba9d352e08f47f24af0f92a22e364ec943c9c20f8edc6ebd75",
+  "files": {
+   "__init__.py": "0a97c5fa66b6709c967140730b7180ed4c8c57beb54642c5bc84daa1130e1dee",
+   "autodetect.py": "ecea0d37e039e0db2dd0c058035c4588771160fcf77d82108f47e5309397a48a",
+   "baselines/__init__.py": "5ce74332c80c76adcf11abde4e9c686eecf88b9684bd4bea3296173745e1fe18",
+   "baselines/clock.py": "38a83d3dee9ebb04c3d2cf6dfc95895046d8a4c6d7e226ffdeff975df66b65f0",
+   "baselines/linear_control.py": "0f6e4f17b6b642b0ccaa64a25359176006b546b7057ed7bf7b290eaa1fba21a9",
+   "baselines/published.py": "e5ad64b55acdce4a4fefd75a0c261e316fcf1b034a47b1912bc3ac3c1ac09ffb",
+   "benchmark.py": "015d37a7b3a0cbee6ee6512dea4dd9df6131e1327ee6555cb647f610f81c7e48",
+   "config.py": "a9957cc0a5db5c775ee625aaee51ea9e88773615988fdc57c9713e39861a8260",
+   "coords.py": "ce4caf80bd582863e396f7a26ff97d2ec4aac7a838225d557d5d7ea4461b45cc",
+   "datasets.py": "295e5b162e1a3af179caac23c2770d69f769ff73f58c0e9a635d396728786b34",
+   "evaluate.py": "615d72ea056bc574c3bc727a37e1a9718a80ab0620af3f851716b9bdb9c3fdb8",
+   "events.py": "44cea4dc20d6f1670ec66f27bfbc87da86d098c6cfdb724986635805c61086a8",
+   "features/__init__.py": "07e507dac0cf1d7f01b2eaab69b99a662ca8fe7d70e973520444e521917f09c0",
+   "features/_common.py": "0e0faba6af73ba194e005dc9dbce4d9d36656ef35b80cd147a7cc9fec6bfdc06",
+   "features/delivery.py": "9256ffefcbe2b877aabee1586ade9f540e4366ab9d4e474d31665a5b832f6f89",
+   "features/dynamics.py": "3fcae586a303ee380544484f1146bf3e338b4c832028950564a53005822564ce",
+   "features/electrostatics.py": "d21662f4aeaa868af6bbfb443955fd9b2c3e50fd50c8459ecbe2b10a89c58cd5",
+   "features/fluctuations.py": "4900cc0d2d48377a86faa3489ccfcdb9a569ddac0c1a037159f1ee91463010c9",
+   "features/geometry.py": "69c30b8571e38e4a7ffeddc2289a6bde0628bc6fb86baa7f9dcc87d320426f24",
+   "features/hydration.py": "76238392fdddc27542a05766f85ce9346a42a814f5ca63f5cb18eddb3d87b2d2",
+   "features/named_sites.py": "9337ac83e10eeeddf93e61adb7d221196c82f4d7bb9c84ca096d9ae045f50ee8",
+   "features/occupancy.py": "8a1b250577e2a0590dc5002b92e6e125c808595704cb108b7ffc06ef7f706d0e",
+   "features/symmetry.py": "19b9228e84d13e7f9b1cc5164f0791dbd8f4fa9ea21225f54ca2d923f16c49cd",
+   "features/water_wire.py": "cfed825deeaecd05d1a2c912c6180e70b96d6b58171a52e28136acf01e4373e6",
+   "inputs.py": "cc83083e1d17d8c286b4939ba422ae1d5890e28a0911bf5dda7e7fc63d8d209f",
+   "interpret.py": "4a65a73e367b08876869eb639bfd308c62c68e8193ee4137c460e14ba99a884b",
+   "io.py": "61260aa269f725527b3a11b06c2c0d00cefba02f12a06efd7c22d55b1fd82c3e",
+   "labels.py": "10fb1c1262dcaf5edc2a61580310791ed51971118ca3b4abf6b0a066c228a575",
+   "models/__init__.py": "d2bbe5c9b5be370d5906b45be36e587174ddc0a7f533a8b72ebe78a9aaaf4514",
+   "models/linear.py": "daad2b8a44f76f265847d57eea6365d7016729d0a092ae7ff8958f9d66f752a3",
+   "models/nanpolicy.py": "cd17ff85291c158fd63d7c40a01d34901f0d5ecfd9c7af0c68bff6b5f975cd47",
+   "models/plsfma.py": "0efe783e6e27df8de7092a8868828d99804aac27fd4dc6aa00f003e67067113a",
+   "models/trees.py": "2d156417ba260dd5d169e941961832b1bf852764a2fd04f8b0ca0b1952073bae",
+   "pore.py": "b75c07441f05c32f9141d715254cb986773e2a01ffd19c43b2000f962f40e92d",
+   "relevance.py": "80b8359c20731fdef2e15b8ac30ef58cf54a05e1f7bb93bb799d643afba1e730",
+   "report.py": "4466f4d365d2ca97be24fcbec6f6c836ce23dc82778bc0a2483539758decdea4",
+   "run.py": "9fe54f6dfeec9ebfd2a7291f19cc54851d33e79704773c8ee4f6997422195c49",
+   "runtime.py": "c8231455cef3008ff93f5800063280f0e767247bef8daf453a195a14846c2072",
+   "splits.py": "34e9c367ab31984929c24c313995235e08809286ac544f85765a0453e4607143",
+   "transfer.py": "a3f2610209cd647d6eba137e23d34d96b160004741bb72370b742410d76d51ea",
+   "vdw.py": "7e5c0cd8e8c69c35ebcb466c8444a37f2706c3f6603aaaf832982a4549a6fbef",
+   "viz.py": "24d22cbef76b800a42be57863e26c36eb980b7c02a39538a6f88a8818bd1d4f1"
+  }
+ },
+ "config": {
+  "system": {
+   "id": "kcsa",
+   "architecture": "k_filter_channel",
+   "permeant": "POT",
+   "arch_profile": {
+    "n_subunits": 4,
+    "filter_present": true,
+    "filter_motif": "TVGYG",
+    "filter_motif_pattern": "[TA][VIL][GA][YF]G",
+    "n_sites": 5,
+    "sites_basis": "motif_rings"
+   }
+  },
+  "data": {
+   "data_root": "/path/to/data/3 белок/kcsa_root",
+   "conditions": [
+    {
+     "id": "E71A",
+     "direction": 1,
+     "replicas": [
+      {
+       "id": "1",
+       "topology": "/path/to/data/3 белок/kcsa_root/E71A/1/production.tpr",
+       "trajectory": "/path/to/data/3 белок/kcsa_root/E71A/1/production.xtc",
+       "events": null,
+       "lineage": "E71A/1",
+       "protocol": {
+        "forcefield": "CHARMM36m",
+        "water_model": null,
+        "charge_scaling": 1.0,
+        "voltage_mV": 300.0,
+        "temperature_K": null
+       }
+      }
+     ]
+    },
+    {
+     "id": "G77AE71A",
+     "direction": 1,
+     "replicas": [
+      {
+       "id": "1",
+       "topology": "/path/to/data/3 белок/kcsa_root/G77AE71A/1/production.tpr",
+       "trajectory": "/path/to/data/3 белок/kcsa_root/G77AE71A/1/production.xtc",
+       "events": null,
+       "lineage": "G77AE71A/1",
+       "protocol": {
+        "forcefield": "CHARMM36m",
+        "water_model": null,
+        "charge_scaling": 1.0,
+        "voltage_mV": 300.0,
+        "temperature_K": null
+       }
+      }
+     ]
+    },
+    {
+     "id": "T75AE71A",
+     "direction": 1,
+     "replicas": [
+      {
+       "id": "1",
+       "topology": "/path/to/data/3 белок/kcsa_root/T75AE71A/1/production.tpr",
+       "trajectory": "/path/to/data/3 белок/kcsa_root/T75AE71A/1/production.xtc",
+       "events": null,
+       "lineage": "T75AE71A/1",
+       "protocol": {
+        "forcefield": "CHARMM36m",
+        "water_model": null,
+        "charge_scaling": 1.0,
+        "voltage_mV": 300.0,
+        "temperature_K": null
+       }
+      }
+     ]
+    }
+   ],
+   "selections": {
+    "ion": "resname POT",
+    "ion_negative": "resname CLA",
+    "water_oxygen": "resname SOL TIP3 and element O",
+    "water_hydrogen": "resname SOL TIP3 and element H",
+    "phosphate": "resname DOPE DOPG and element P",
+    "lipid": "resname DOPE DOPG",
+    "channel": "not resname CLA DOPE DOPG POT SOL TIP3",
+    "anchor": "(not resname CLA DOPE DOPG POT SOL TIP3) and name CA and resid 50 51 52 53 54 146 147 148 149 150 242 243 244 245 246 338 339 340 341 342"
+   },
+   "pore": {
+    "axis": "z",
+    "cylinder_radius_A": 8.7,
+    "crossing_cylinder_radius_A": 10.0,
+    "probe_search_radius_A": 6.0,
+    "probe_grid_dr_A": 0.5,
+    "probe_grid_n_theta": 24,
+    "fence_max_gap_deg": 120.0,
+    "lipschitz_tol_A": 0.05,
+    "slab_pad_A": 8.0,
+    "z_step_A": 1.0,
+    "z_low_offset_A": -32.0,
+    "z_high_offset_A": 16.0,
+    "bin_low_offset_A": -28.0,
+    "bin_width_A": 5.0,
+    "n_bins": 8
+   },
+   "stride": 4,
+   "autodetect_scan": {
+    "sample_ps": 200.0,
+    "window_ps": 400000.0
+   }
+  },
+  "events": {
+   "source": "own"
+  },
+  "labels": {
+   "tau_ps": [
+    500.0,
+    1000.0,
+    2000.0
+   ],
+   "primary_tau_ps": 1000.0,
+   "anchor": "exit"
+  },
+  "features": {
+   "blocks": [
+    "geometry",
+    "hydration",
+    "water_wire",
+    "occupancy",
+    "named_sites",
+    "electrostatics",
+    "symmetry",
+    "fluctuations",
+    "dynamics",
+    "delivery"
+   ],
+   "window_ps": 1000.0,
+   "coordination_cutoff_A": 3.5249999999999946,
+   "partner_cutoff_A": 12.0,
+   "site_sigma_A": 1.43,
+   "site_centers_offset_A": null,
+   "lining_band_A": 4.0,
+   "mouth_radius_A": 12.0,
+   "mouth_depth_A": 5.0
+  },
+  "model": {
+   "which": [
+    "linear",
+    "trees"
+   ],
+   "head": "trees",
+   "seed": 20260814,
+   "n_threads": 1,
+   "linear": {
+    "C_grid": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "tol": 1e-08,
+    "max_iter": 5000,
+    "class_weight_mode": "measure"
+   },
+   "trees": {
+    "learning_rate": 0.05,
+    "rounds_ceiling": 2000,
+    "patience": 50,
+    "depth_grid": [
+     2,
+     3,
+     4
+    ],
+    "k_events_grid": [
+     2.0,
+     4.0,
+     8.0
+    ],
+    "colsample_grid": [
+     0.4,
+     0.7,
+     1.0
+    ],
+    "subsample_grid": [
+     0.6,
+     0.8,
+     1.0
+    ]
+   },
+   "plsfma": {
+    "components_grid": [
+     1,
+     2,
+     3,
+     5,
+     8,
+     12,
+     20
+    ]
+   },
+   "monotone": {
+    "geo_r_constriction_A": 1
+   },
+   "calibration": {
+    "family": "sigmoid",
+    "min_positives_isotonic": 200
+   }
+  },
+  "evaluate": {
+   "ci_alpha": 0.05,
+   "n_boot": 1000,
+   "corr_threshold": 0.98,
+   "alarm": {
+    "smooth_ps": 500.0,
+    "on_quantile": 0.95,
+    "off_quantile": 0.8
+   }
+  },
+  "interpret": {
+   "negligible_frac": 0.05
+  },
+  "transfer": {
+   "max_importance_loss_frac": 0.5
+  },
+  "accept": {
+   "edge_fraction_max": 0.34,
+   "missing_budget_frac": 0.5
+  }
+ },
+ "origins": {
+  "data.conditions": {
+   "origin": "detected",
+   "basis": "discovered on disk under /path/to/data/3 белок/kcsa_root: E71A: 1 replicas; G77AE71A: 1 replicas; T75AE71A: 1 replicas"
+  },
+  "data.conditions[E71A].replicas[1].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[E71A].replicas[1].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 1.0000 e"
+  },
+  "data.conditions[E71A].replicas[1].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "directory name CHARMM36m in the input archive"
+  },
+  "data.conditions[E71A].replicas[1].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "no external MD package on this machine (gmx is absent), so the tpr parameter section cannot be read; temperature has no coordinate-based substitute"
+  },
+  "data.conditions[E71A].replicas[1].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "directory name 300mV in the input archive"
+  },
+  "data.conditions[G77AE71A].direction": {
+   "origin": "declared",
+   "basis": "declared: the applied field is +300 mV, identical to E71A whose flux sign is measured as +1; this variant's own crossings are too rare for a measured sign (authors' counter and the full-resolution collector both find ~0-2 events per microsecond)"
+  },
+  "data.conditions[G77AE71A].replicas[1].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[G77AE71A].replicas[1].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 1.0000 e"
+  },
+  "data.conditions[G77AE71A].replicas[1].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "directory name CHARMM36m in the input archive"
+  },
+  "data.conditions[G77AE71A].replicas[1].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "no external MD package on this machine (gmx is absent), so the tpr parameter section cannot be read; temperature has no coordinate-based substitute"
+  },
+  "data.conditions[G77AE71A].replicas[1].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "directory name 300mV in the input archive"
+  },
+  "data.conditions[T75AE71A].direction": {
+   "origin": "declared",
+   "basis": "declared: the applied field is +300 mV, identical to E71A whose flux sign is measured as +1; this variant's own crossings are too rare for a measured sign (authors' counter and the full-resolution collector both find ~0-2 events per microsecond)"
+  },
+  "data.conditions[T75AE71A].replicas[1].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[T75AE71A].replicas[1].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 1.0000 e"
+  },
+  "data.conditions[T75AE71A].replicas[1].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "directory name CHARMM36m in the input archive"
+  },
+  "data.conditions[T75AE71A].replicas[1].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "no external MD package on this machine (gmx is absent), so the tpr parameter section cannot be read; temperature has no coordinate-based substitute"
+  },
+  "data.conditions[T75AE71A].replicas[1].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "directory name 300mV in the input archive"
+  },
+  "data.data_root": {
+   "origin": "detected",
+   "basis": "discovered on disk under /path/to/data/3 белок/kcsa_root: E71A: 1 replicas; G77AE71A: 1 replicas; T75AE71A: 1 replicas"
+  },
+  "data.pore.axis": {
+   "origin": "detected",
+   "basis": "emptiness of the central third between leaflets from phosphates on 7 frames: {'x': 9.3, 'y': 8.5, 'z': 100.0}; best-over-second margin 11×"
+  },
+  "data.pore.bin_low_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-27.8, 11.5] A"
+  },
+  "data.pore.bin_width_A": {
+   "origin": "detected",
+   "basis": "(12.0--28.0)/8 bins"
+  },
+  "data.pore.crossing_cylinder_radius_A": {
+   "origin": "declared",
+   "basis": "task definition: separates 'crossed through the pore' from 'crossed the bilayer past the channel'; 10 A covers the vestibules of both channels and is well under half the protein-protein spacing in the membrane"
+  },
+  "data.pore.cylinder_radius_A": {
+   "origin": "detected",
+   "basis": "median of the maximum search R(z) over 3 frames [7.34, 7.17, 5.44] + 1.5 A margin"
+  },
+  "data.pore.z_high_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-27.8, 11.5] A; +4 A at the mouth"
+  },
+  "data.pore.z_low_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-27.8, 11.5] A; −4 A at the mouth"
+  },
+  "data.selections.anchor": {
+   "origin": "detected",
+   "basis": "CA atoms of the filter motif residues (resid [50, 51, 52, 53, 54, 146, 147, 148, 149, 150, 242, 243, 244, 245, 246, 338, 339, 340, 341, 342])"
+  },
+  "data.selections.channel": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.selections.ion": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.selections.ion_negative": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.selections.lipid": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.selections.phosphate": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.selections.water_hydrogen": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.selections.water_oxygen": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.stride": {
+   "origin": "declared",
+   "basis": "development compute budget; the stride is part of run identity, the results folder carries it in its name; 40 ps × 4 = 160 ps between table frames"
+  },
+  "evaluate.alarm.smooth_ps": {
+   "origin": "declared",
+   "basis": "half the primary τ: smoothing stays shorter than the prediction horizon"
+  },
+  "events.source": {
+   "origin": "declared",
+   "basis": "a single time anchor shared by both systems; the shipped gramicidin annotation is used as a cross-check — the events step prints the comparison"
+  },
+  "features.coordination_cutoff_A": {
+   "origin": "detected",
+   "basis": "median over conditions from g(r): [3.674999999999994, 3.5249999999999946, 3.424999999999995]; spread 0.25 A"
+  },
+  "features.mouth_radius_A": {
+   "origin": "declared",
+   "basis": "two hydration shells plus the mouth vestibule; diagnostics: the dlv_entry_wide_n indicator and the fraction of frames with no permeant in the zone"
+  },
+  "features.site_sigma_A": {
+   "origin": "detected",
+   "basis": "half the median ring spacing [3.31, 2.86, 2.8, 3.48, 2.82]"
+  },
+  "features.window_ps": {
+   "origin": "declared",
+   "basis": "look-back window equals the primary horizon: dynamics are measured on the same time scale on which the prediction is made"
+  },
+  "labels.primary_tau_ps": {
+   "origin": "declared",
+   "basis": "a sweep over horizons is required so conclusions are not tied to one arbitrary τ; values are cross-checked against the median transit time and the inter-crossing interval that the events step prints next to the declared τ"
+  },
+  "labels.tau_ps": {
+   "origin": "declared",
+   "basis": "a sweep over horizons is required so conclusions are not tied to one arbitrary τ; values are cross-checked against the median transit time and the inter-crossing interval that the events step prints next to the declared τ; at 300 mV conduction is fast, so the sweep is shifted toward shorter horizons"
+  },
+  "model.monotone": {
+   "origin": "declared",
+   "basis": "from physics, not from correlation: a wider pore cannot make a configuration less ready to pass a hydrated ion"
+  },
+  "model.seed": {
+   "origin": "declared",
+   "basis": "a single recorded run seed; fold seeds are derived from it"
+  },
+  "system.arch_profile.filter_motif": {
+   "origin": "detected",
+   "basis": "motif in 4 copies; ring: centroid offsets from the axis [3.7, 4.1, 3.0, 4.6] A (<10), axial spread 0.2 A (<6); frame 0"
+  },
+  "system.arch_profile.filter_motif_pattern": {
+   "origin": "declared",
+   "basis": "the dataset consists of engineered selectivity-filter mutants on the E71A background: T75A turns TVGYG into AVGYG and G77A turns it into TVAYG by construction; the widened signature admits those single substitutions while the geometric ring confirmation still gates detection"
+  },
+  "system.arch_profile.filter_present": {
+   "origin": "detected",
+   "basis": "motif in 4 copies; ring: centroid offsets from the axis [3.7, 4.1, 3.0, 4.6] A (<10), axial spread 0.2 A (<6); frame 0"
+  },
+  "system.arch_profile.n_sites": {
+   "origin": "detected",
+   "basis": "6 motif oxygen rings → 5 inter-ring sites"
+  },
+  "system.arch_profile.n_subunits": {
+   "origin": "detected",
+   "basis": "connected fragments of ≥30 atoms touching the pore (r<15 A from the axis): 4; frame 0"
+  },
+  "system.arch_profile.sites_basis": {
+   "origin": "detected",
+   "basis": "selectivity filter rings"
+  },
+  "system.architecture": {
+   "origin": "detected",
+   "basis": "K-type selectivity filter found"
+  },
+  "system.permeant": {
+   "origin": "declared",
+   "basis": "declared after the measured refusal: water out-crosses ions per particle (water 0.532, K+ 0.389, Cl- 0.031 in the strided scan), which is expected for a wide open pore over microsecond trajectories. The dataset is a K+ permeation experiment by construction (paired K/Na runs at +-300 mV; the authors' count-ion-permeation.py counts ion crossings), and readiness here is defined for the ionic current carrier; water transport remains reported by the hydration and water-wire blocks"
+  },
+  "data.conditions[E71A].direction": {
+   "origin": "detected",
+   "basis": "sign of the net permeant flux across replicas: [1]"
+  }
+ }
+}

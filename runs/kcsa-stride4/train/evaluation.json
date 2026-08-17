@@ -1,0 +1,1282 @@
+{
+ "per_arm": {
+  "clock": {
+   "500.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.0034641513237250146,
+     "base_rate": 0.006242247208995238,
+     "ratio_to_chance": 0.5549526008411015,
+     "n": 24991,
+     "n_pos": 156
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.020252440042644995,
+      "base_rate": 0.023531295021610374,
+      "ratio_to_chance": 0.8606598159619271,
+      "n": 6247,
+      "n_pos": 147
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.0006408462916168421,
+      "base_rate": 0.0007201728414819557,
+      "ratio_to_chance": 0.8898506784817418,
+      "n": 12497,
+      "n_pos": 9
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.13452491572584185,
+    "brier": 4.831333685304152e-09,
+    "calibration_pooled": {
+     "defined": false
+    },
+    "calibration_per_fold": {
+     "0:E71A/1": {
+      "defined": false
+     },
+     "1:G77AE71A/1": {
+      "defined": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   },
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.007144275113875624,
+     "base_rate": 0.012969337923304779,
+     "ratio_to_chance": 0.5508588916507433,
+     "n": 24982,
+     "n_pos": 324
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.041041758177161256,
+      "base_rate": 0.048846893017296604,
+      "ratio_to_chance": 0.8402122559285078,
+      "n": 6244,
+      "n_pos": 305
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.0013021616761894619,
+      "base_rate": 0.0015207299503761805,
+      "ratio_to_chance": 0.8562741043321651,
+      "n": 12494,
+      "n_pos": 19
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.12979917118026454,
+    "brier": 6.228083498754141e-08,
+    "calibration_pooled": {
+     "defined": false
+    },
+    "calibration_per_fold": {
+     "0:E71A/1": {
+      "defined": false
+     },
+     "1:G77AE71A/1": {
+      "defined": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.014205597552974526,
+     "base_rate": 0.02579714789296587,
+     "ratio_to_chance": 0.5506654306094039,
+     "n": 24964,
+     "n_pos": 644
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.0853934928449761,
+      "base_rate": 0.09730682911189484,
+      "ratio_to_chance": 0.8775693712800016,
+      "n": 6238,
+      "n_pos": 607
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.002451658021940202,
+      "base_rate": 0.002962844330557335,
+      "ratio_to_chance": 0.8274677129186282,
+      "n": 12488,
+      "n_pos": 37
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.12783212702271984,
+    "brier": 8.887145844215918e-07,
+    "calibration_pooled": {
+     "defined": false
+    },
+    "calibration_per_fold": {
+     "0:E71A/1": {
+      "defined": false
+     },
+     "1:G77AE71A/1": {
+      "defined": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   }
+  },
+  "linear": {
+   "500.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.0036417797722335414,
+     "base_rate": 0.006242247208995238,
+     "ratio_to_chance": 0.5834084505633874,
+     "n": 24991,
+     "n_pos": 156
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.025552847988072315,
+      "base_rate": 0.023531295021610374,
+      "ratio_to_chance": 1.0859091250441344,
+      "n": 6247,
+      "n_pos": 147
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.0004945569438245257,
+      "base_rate": 0.0007201728414819557,
+      "ratio_to_chance": 0.6867197918861221,
+      "n": 12497,
+      "n_pos": 9
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.1860326875325869,
+    "brier": 0.0009534192597705582,
+    "calibration_pooled": {
+     "defined": false
+    },
+    "calibration_per_fold": {
+     "0:E71A/1": {
+      "defined": false
+     },
+     "1:G77AE71A/1": {
+      "defined": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   },
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.007341996219800327,
+     "base_rate": 0.012969337923304779,
+     "ratio_to_chance": 0.5661041653180611,
+     "n": 24982,
+     "n_pos": 324
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.054469565238940316,
+      "base_rate": 0.048846893017296604,
+      "ratio_to_chance": 1.1151080831211257,
+      "n": 6244,
+      "n_pos": 305
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.0010381492631814692,
+      "base_rate": 0.0015207299503761805,
+      "ratio_to_chance": 0.6826650996941724,
+      "n": 12494,
+      "n_pos": 19
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.15009164881755252,
+    "brier": 6.326305790966264e-05,
+    "calibration_pooled": {
+     "defined": false
+    },
+    "calibration_per_fold": {
+     "0:E71A/1": {
+      "defined": false
+     },
+     "1:G77AE71A/1": {
+      "defined": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.014670178939993917,
+     "base_rate": 0.02579714789296587,
+     "ratio_to_chance": 0.5686744519534288,
+     "n": 24964,
+     "n_pos": 644
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.1133098044775235,
+      "base_rate": 0.09730682911189484,
+      "ratio_to_chance": 1.1644589132302992,
+      "n": 6238,
+      "n_pos": 607
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.0019275407385311823,
+      "base_rate": 0.002962844330557335,
+      "ratio_to_chance": 0.650571047102092,
+      "n": 12488,
+      "n_pos": 37
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.16205459300424976,
+    "brier": 0.00017774745790598761,
+    "calibration_pooled": {
+     "defined": false
+    },
+    "calibration_per_fold": {
+     "0:E71A/1": {
+      "defined": false
+     },
+     "1:G77AE71A/1": {
+      "defined": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   }
+  },
+  "linear_control_structural": {
+   "500.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.0034362388006733548,
+     "base_rate": 0.006242247208995238,
+     "ratio_to_chance": 0.5504810504335116,
+     "n": 24991,
+     "n_pos": 156
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.020485486053871713,
+      "base_rate": 0.023531295021610374,
+      "ratio_to_chance": 0.8705634787655551,
+      "n": 6247,
+      "n_pos": 147
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.00046553320242137433,
+      "base_rate": 0.0007201728414819557,
+      "ratio_to_chance": 0.6464187145177683,
+      "n": 12497,
+      "n_pos": 9
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.13460738308735087,
+    "brier": 1.595558337473425e-06,
+    "calibration_pooled": {
+     "defined": false
+    },
+    "calibration_per_fold": {
+     "0:E71A/1": {
+      "defined": false
+     },
+     "1:G77AE71A/1": {
+      "defined": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   },
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.007167775777404822,
+     "base_rate": 0.012969337923304779,
+     "ratio_to_chance": 0.5526709088615039,
+     "n": 24982,
+     "n_pos": 324
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.04517343215362277,
+      "base_rate": 0.048846893017296604,
+      "ratio_to_chance": 0.92479642743351,
+      "n": 6244,
+      "n_pos": 305
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.000982043520922765,
+      "base_rate": 0.0015207299503761805,
+      "ratio_to_chance": 0.6457711447583697,
+      "n": 12494,
+      "n_pos": 19
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.14237134368531887,
+    "brier": 1.116153345879978e-05,
+    "calibration_pooled": {
+     "defined": false
+    },
+    "calibration_per_fold": {
+     "0:E71A/1": {
+      "defined": false
+     },
+     "1:G77AE71A/1": {
+      "defined": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.014164025207058043,
+     "base_rate": 0.02579714789296587,
+     "ratio_to_chance": 0.5490539212251506,
+     "n": 24964,
+     "n_pos": 644
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.08986014328361713,
+      "base_rate": 0.09730682911189484,
+      "ratio_to_chance": 0.9234721149970406,
+      "n": 6238,
+      "n_pos": 607
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.0018073798362887449,
+      "base_rate": 0.002962844330557335,
+      "ratio_to_chance": 0.6100151187992932,
+      "n": 12488,
+      "n_pos": 37
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.13117267949084668,
+    "brier": 3.94058765997136e-05,
+    "calibration_pooled": {
+     "defined": false
+    },
+    "calibration_per_fold": {
+     "0:E71A/1": {
+      "defined": false
+     },
+     "1:G77AE71A/1": {
+      "defined": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   }
+  },
+  "plsfma_coords": {
+   "500.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.004928655735768797,
+     "base_rate": 0.006242247208995238,
+     "ratio_to_chance": 0.7895643300807565,
+     "n": 24991,
+     "n_pos": 156
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.041113764977039904,
+      "base_rate": 0.023531295021610374,
+      "ratio_to_chance": 1.7471951687861786,
+      "n": 6247,
+      "n_pos": 147
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.0006908046752108724,
+      "base_rate": 0.0007201728414819557,
+      "ratio_to_chance": 0.959220669567808,
+      "n": 12497,
+      "n_pos": 9
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.41012606278360253,
+    "brier": 0.0010672834765150688,
+    "calibration_pooled": {
+     "defined": false
+    },
+    "calibration_per_fold": {
+     "0:E71A/1": {
+      "defined": false
+     },
+     "1:G77AE71A/1": {
+      "defined": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   },
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.010202099592812736,
+     "base_rate": 0.012969337923304779,
+     "ratio_to_chance": 0.7866322593445919,
+     "n": 24982,
+     "n_pos": 324
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.07512834846262695,
+      "base_rate": 0.048846893017296604,
+      "ratio_to_chance": 1.5380374026250578,
+      "n": 6244,
+      "n_pos": 305
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.0013762622226951577,
+      "base_rate": 0.0015207299503761805,
+      "ratio_to_chance": 0.9050010637028053,
+      "n": 12494,
+      "n_pos": 19
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.40990791058720333,
+    "brier": 0.004800368704016173,
+    "calibration_pooled": {
+     "defined": false
+    },
+    "calibration_per_fold": {
+     "0:E71A/1": {
+      "defined": false
+     },
+     "1:G77AE71A/1": {
+      "defined": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.02022599014564781,
+     "base_rate": 0.02579714789296587,
+     "ratio_to_chance": 0.7840397794968197,
+     "n": 24964,
+     "n_pos": 644
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.13532905202784212,
+      "base_rate": 0.09730682911189484,
+      "ratio_to_chance": 1.3907456780060612,
+      "n": 6238,
+      "n_pos": 607
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.002673307575762452,
+      "base_rate": 0.002962844330557335,
+      "ratio_to_chance": 0.9022774325978783,
+      "n": 12488,
+      "n_pos": 37
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.4076200606815953,
+    "brier": 0.019651705635827996,
+    "calibration_pooled": {
+     "defined": false
+    },
+    "calibration_per_fold": {
+     "0:E71A/1": {
+      "defined": false
+     },
+     "1:G77AE71A/1": {
+      "defined": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   }
+  },
+  "published_rao2019": {
+   "500.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.008831772413116598,
+     "base_rate": 0.006242247208995238,
+     "ratio_to_chance": 1.414838617796134,
+     "n": 24991,
+     "n_pos": 156
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.020528462962938553,
+      "base_rate": 0.023531295021610374,
+      "ratio_to_chance": 0.8723898512209329,
+      "n": 6247,
+      "n_pos": 147
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.009931628746306041,
+      "base_rate": 0.0007201728414819557,
+      "ratio_to_chance": 13.790618271398511,
+      "n": 12497,
+      "n_pos": 9
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.5670046666976403
+   },
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.023861469833459104,
+     "base_rate": 0.012969337923304779,
+     "ratio_to_chance": 1.8398371585786275,
+     "n": 24982,
+     "n_pos": 324
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.049966215882949375,
+      "base_rate": 0.048846893017296604,
+      "ratio_to_chance": 1.022914924502085,
+      "n": 6244,
+      "n_pos": 305
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.005988345252485133,
+      "base_rate": 0.0015207299503761805,
+      "ratio_to_chance": 3.937809767607855,
+      "n": 12494,
+      "n_pos": 19
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.5864040443639358
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.0572027005837492,
+     "base_rate": 0.02579714789296587,
+     "ratio_to_chance": 2.2174040642433464,
+     "n": 24964,
+     "n_pos": 644
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.11223970894399252,
+      "base_rate": 0.09730682911189484,
+      "ratio_to_chance": 1.1534617864787897,
+      "n": 6238,
+      "n_pos": 607
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.009176643117978734,
+      "base_rate": 0.002962844330557335,
+      "ratio_to_chance": 3.0972410610086065,
+      "n": 12488,
+      "n_pos": 37
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.6135603955541026
+   }
+  },
+  "published_rao2019_win": {
+   "500.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.008501043531262758,
+     "base_rate": 0.006242247208995238,
+     "ratio_to_chance": 1.3618562749345358,
+     "n": 24991,
+     "n_pos": 156
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.024281306307386504,
+      "base_rate": 0.023531295021610374,
+      "ratio_to_chance": 1.0318729285866903,
+      "n": 6247,
+      "n_pos": 147
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.002166874137242576,
+      "base_rate": 0.0007201728414819557,
+      "ratio_to_chance": 3.00882512145783,
+      "n": 12497,
+      "n_pos": 9
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.6418992272072602
+   },
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.018596316269204237,
+     "base_rate": 0.012969337923304779,
+     "ratio_to_chance": 1.4338678180162354,
+     "n": 24982,
+     "n_pos": 324
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.05342555479721331,
+      "base_rate": 0.048846893017296604,
+      "ratio_to_chance": 1.0937349644386882,
+      "n": 6244,
+      "n_pos": 305
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.002494035444113653,
+      "base_rate": 0.0015207299503761805,
+      "ratio_to_chance": 1.6400252020397885,
+      "n": 12494,
+      "n_pos": 19
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.6626025510464638
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.03792616173053501,
+     "base_rate": 0.02579714789296587,
+     "ratio_to_chance": 1.4701687910575714,
+     "n": 24964,
+     "n_pos": 644
+    },
+    "per_fold": {
+     "0:E71A/1": {
+      "defined": true,
+      "ap": 0.10797809927567212,
+      "base_rate": 0.09730682911189484,
+      "ratio_to_chance": 1.1096661998050126,
+      "n": 6238,
+      "n_pos": 607
+     },
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.003769697661044572,
+      "base_rate": 0.002962844330557335,
+      "ratio_to_chance": 1.2723239024628274,
+      "n": 12488,
+      "n_pos": 37
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.6763920564829193
+   }
+  },
+  "trees": {
+   "500.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.0020811906137227394,
+     "base_rate": 0.00048015364916773366,
+     "ratio_to_chance": 4.334426318179892,
+     "n": 18744,
+     "n_pos": 9
+    },
+    "per_fold": {
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.050628136090255633,
+      "base_rate": 0.0007201728414819557,
+      "ratio_to_chance": 70.29997963554719,
+      "n": 12497,
+      "n_pos": 9
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.7767784598048809,
+    "brier": 0.0004943429205915665,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": 1.4520047652589632,
+     "intercept": -0.24917435960584655,
+     "negative_slope_alarm": false
+    },
+    "calibration_per_fold": {
+     "1:G77AE71A/1": {
+      "defined": true,
+      "slope": 3.1315219140900865,
+      "intercept": 7.690869486069534,
+      "negative_slope_alarm": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   },
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.0031867951538959447,
+     "base_rate": 0.0010139822819938095,
+     "ratio_to_chance": 3.1428509259843267,
+     "n": 18738,
+     "n_pos": 19
+    },
+    "per_fold": {
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.051578049149786136,
+      "base_rate": 0.0015207299503761805,
+      "ratio_to_chance": 33.91663926723305,
+      "n": 12494,
+      "n_pos": 19
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.7565771900770677,
+    "brier": 0.0011837175847911972,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": 5.482577629921335,
+     "intercept": 14.450760133520394,
+     "negative_slope_alarm": false
+    },
+    "calibration_per_fold": {
+     "1:G77AE71A/1": {
+      "defined": true,
+      "slope": 4.608410150275262,
+      "intercept": 11.358921132197723,
+      "negative_slope_alarm": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.003905766940722722,
+     "base_rate": 0.0019758624372530173,
+     "ratio_to_chance": 1.97674031708037,
+     "n": 18726,
+     "n_pos": 37
+    },
+    "per_fold": {
+     "1:G77AE71A/1": {
+      "defined": true,
+      "ap": 0.033802342315064085,
+      "base_rate": 0.002962844330557335,
+      "ratio_to_chance": 11.408747319743792,
+      "n": 12488,
+      "n_pos": 37
+     },
+     "2:T75AE71A/1": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.51639712911049,
+    "brier": 0.0029221519800401987,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": 3.173078577921088,
+     "intercept": 4.006977539583341,
+     "negative_slope_alarm": false
+    },
+    "calibration_per_fold": {
+     "1:G77AE71A/1": {
+      "defined": true,
+      "slope": 3.094989811622989,
+      "intercept": 3.789081209856938,
+      "negative_slope_alarm": false
+     },
+     "2:T75AE71A/1": {
+      "defined": false
+     }
+    }
+   }
+  }
+ },
+ "degenerate_folds": [
+  {
+   "arm": "clock",
+   "tau": 500.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "clock",
+   "tau": 1000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "clock",
+   "tau": 2000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "linear",
+   "tau": 500.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "linear",
+   "tau": 1000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "linear",
+   "tau": 2000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "linear_control_structural",
+   "tau": 500.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "linear_control_structural",
+   "tau": 1000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "linear_control_structural",
+   "tau": 2000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "plsfma_coords",
+   "tau": 500.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "plsfma_coords",
+   "tau": 1000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "plsfma_coords",
+   "tau": 2000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "published_rao2019",
+   "tau": 500.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "published_rao2019",
+   "tau": 1000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "published_rao2019",
+   "tau": 2000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "published_rao2019_win",
+   "tau": 500.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "published_rao2019_win",
+   "tau": 1000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "published_rao2019_win",
+   "tau": 2000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "trees",
+   "tau": 500.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "trees",
+   "tau": 1000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "trees",
+   "tau": 2000.0,
+   "fold": "2:T75AE71A/1",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  }
+ ],
+ "headline_note": "headline per-frame metric is pooled AP/base at the primary τ; the headline monitor quantity is event-level",
+ "paired_vs_head": {
+  "clock": {
+   "defined": true,
+   "mean_diff": 0.017310018555560542,
+   "ci": [
+    0.002468810636285308,
+    0.050275887473596674
+   ],
+   "n_groups": 2,
+   "n_boot_effective": 728,
+   "method": "percentile paired bootstrap over trajectories",
+   "coverage_note": "with few groups the interval coverage is not guaranteed; the interval is shown, not hidden"
+  },
+  "linear": {
+   "defined": true,
+   "mean_diff": 0.019607319038040392,
+   "ci": [
+    0.002547532024589789,
+    0.050539899886604664
+   ],
+   "n_groups": 2,
+   "n_boot_effective": 768,
+   "method": "percentile paired bootstrap over trajectories",
+   "coverage_note": "with few groups the interval coverage is not guaranteed; the interval is shown, not hidden"
+  },
+  "linear_control_structural": {
+   "defined": true,
+   "mean_diff": 0.017932066809240255,
+   "ci": [
+    0.0023468872531576587,
+    0.05059600562886337
+   ],
+   "n_groups": 2,
+   "n_boot_effective": 743,
+   "method": "percentile paired bootstrap over trajectories",
+   "coverage_note": "with few groups the interval coverage is not guaranteed; the interval is shown, not hidden"
+  },
+  "plsfma_coords": {
+   "defined": true,
+   "mean_diff": 0.01789663659466978,
+   "ci": [
+    0.0018105329312007867,
+    0.05020178692709098
+   ],
+   "n_groups": 2,
+   "n_boot_effective": 728,
+   "method": "percentile paired bootstrap over trajectories",
+   "coverage_note": "with few groups the interval coverage is not guaranteed; the interval is shown, not hidden"
+  },
+  "published_rao2019": {
+   "defined": true,
+   "mean_diff": 0.017382096884667825,
+   "ci": [
+    0.0023115003960634067,
+    0.04558970389730101
+   ],
+   "n_groups": 2,
+   "n_boot_effective": 761,
+   "method": "percentile paired bootstrap over trajectories",
+   "coverage_note": "with few groups the interval coverage is not guaranteed; the interval is shown, not hidden"
+  },
+  "published_rao2019_win": {
+   "defined": true,
+   "mean_diff": 0.018927996076653814,
+   "ci": [
+    0.00231663043355031,
+    0.04908401370567248
+   ],
+   "n_groups": 2,
+   "n_boot_effective": 732,
+   "method": "percentile paired bootstrap over trajectories",
+   "coverage_note": "with few groups the interval coverage is not guaranteed; the interval is shown, not hidden"
+  }
+ },
+ "anchor_ablation": {
+  "resting": {
+   "defined": false,
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  "transit": {
+   "defined": true,
+   "ap": 0.11881151540207761,
+   "base_rate": 0.0040169133192389005,
+   "ratio_to_chance": 29.577814097464586,
+   "n": 4730,
+   "n_pos": 19
+  },
+  "note": "the study's conclusion must hold on resting frames"
+ },
+ "block_ablation": {
+  "geometry": {
+   "1:G77AE71A/1": {
+    "defined": true,
+    "ap": 0.0394688517893221,
+    "base_rate": 0.0015207299503761805,
+    "ratio_to_chance": 25.95388601346265,
+    "n": 12494,
+    "n_pos": 19
+   },
+   "2:T75AE71A/1": {
+    "defined": false,
+    "reason": "both classes absent — the metric is undefined, not zero"
+   }
+  },
+  "hydration": {
+   "1:G77AE71A/1": {
+    "defined": true,
+    "ap": 0.04634627588204428,
+    "base_rate": 0.0015207299503761805,
+    "ratio_to_chance": 30.47633530896112,
+    "n": 12494,
+    "n_pos": 19
+   },
+   "2:T75AE71A/1": {
+    "defined": false,
+    "reason": "both classes absent — the metric is undefined, not zero"
+   }
+  },
+  "water_wire": {
+   "1:G77AE71A/1": {
+    "defined": true,
+    "ap": 0.02746768377108174,
+    "base_rate": 0.0015207299503761805,
+    "ratio_to_chance": 18.062170580836593,
+    "n": 12494,
+    "n_pos": 19
+   },
+   "2:T75AE71A/1": {
+    "defined": false,
+    "reason": "both classes absent — the metric is undefined, not zero"
+   }
+  },
+  "occupancy": {
+   "1:G77AE71A/1": {
+    "defined": true,
+    "ap": 0.005362438595067256,
+    "base_rate": 0.0015207299503761805,
+    "ratio_to_chance": 3.526226726672121,
+    "n": 12494,
+    "n_pos": 19
+   },
+   "2:T75AE71A/1": {
+    "defined": false,
+    "reason": "both classes absent — the metric is undefined, not zero"
+   }
+  },
+  "named_sites": {
+   "1:G77AE71A/1": {
+    "defined": true,
+    "ap": 0.0012101774640108061,
+    "base_rate": 0.0015207299503761805,
+    "ratio_to_chance": 0.7957872229132111,
+    "n": 12494,
+    "n_pos": 19
+   },
+   "2:T75AE71A/1": {
+    "defined": false,
+    "reason": "both classes absent — the metric is undefined, not zero"
+   }
+  },
+  "electrostatics": {
+   "1:G77AE71A/1": {
+    "defined": true,
+    "ap": 0.03160457211867677,
+    "base_rate": 0.0015207299503761805,
+    "ratio_to_chance": 20.782501265828817,
+    "n": 12494,
+    "n_pos": 19
+   },
+   "2:T75AE71A/1": {
+    "defined": false,
+    "reason": "both classes absent — the metric is undefined, not zero"
+   }
+  },
+  "symmetry": {
+   "1:G77AE71A/1": {
+    "defined": true,
+    "ap": 0.07186866369691038,
+    "base_rate": 0.0015207299503761805,
+    "ratio_to_chance": 47.25932022258938,
+    "n": 12494,
+    "n_pos": 19
+   },
+   "2:T75AE71A/1": {
+    "defined": false,
+    "reason": "both classes absent — the metric is undefined, not zero"
+   }
+  },
+  "fluctuations": {
+   "1:G77AE71A/1": {
+    "defined": true,
+    "ap": 0.05192186096775932,
+    "base_rate": 0.0015207299503761805,
+    "ratio_to_chance": 34.14272268058868,
+    "n": 12494,
+    "n_pos": 19
+   },
+   "2:T75AE71A/1": {
+    "defined": false,
+    "reason": "both classes absent — the metric is undefined, not zero"
+   }
+  },
+  "dynamics": {
+   "1:G77AE71A/1": {
+    "defined": true,
+    "ap": 0.05239910678475612,
+    "base_rate": 0.0015207299503761805,
+    "ratio_to_chance": 34.45654948256542,
+    "n": 12494,
+    "n_pos": 19
+   },
+   "2:T75AE71A/1": {
+    "defined": false,
+    "reason": "both classes absent — the metric is undefined, not zero"
+   }
+  },
+  "delivery": {
+   "1:G77AE71A/1": {
+    "defined": true,
+    "ap": 0.04932358357411366,
+    "base_rate": 0.0015207299503761805,
+    "ratio_to_chance": 32.434150167104,
+    "n": 12494,
+    "n_pos": 19
+   },
+   "2:T75AE71A/1": {
+    "defined": false,
+    "reason": "both classes absent — the metric is undefined, not zero"
+   }
+  }
+ },
+ "condition_transfer": {}
+}

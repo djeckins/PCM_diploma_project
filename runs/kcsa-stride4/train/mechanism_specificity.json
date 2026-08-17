@@ -1,0 +1,78 @@
+{
+ "axes": {
+  "constriction dehydration": {
+   "fires_on_ready_frac": 0.0,
+   "fires_on_notready_frac": 0.32662001175276456,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.32628882484790267
+  },
+  "pathway/lining rearrangement": {
+   "fires_on_ready_frac": 0.0,
+   "fires_on_notready_frac": 0.06100753245365671,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.06094567189668054
+  },
+  "ion placement and desolvation": {
+   "fires_on_ready_frac": 0.3684210526315789,
+   "fires_on_notready_frac": 0.9035739088626529,
+   "odds_ratio_notready_vs_ready": 16.06394934705183,
+   "fires_overall_frac": 0.9030312733482763
+  },
+  "water-wire rupture": {
+   "fires_on_ready_frac": 0.0,
+   "fires_on_notready_frac": 0.0007479031999572627,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.0007471448393638595
+  },
+  "electrostatics": {
+   "fires_on_ready_frac": 0.0,
+   "fires_on_notready_frac": 0.0,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.0
+  },
+  "column immobility": {
+   "fires_on_ready_frac": 0.0,
+   "fires_on_notready_frac": 0.0,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.0
+  },
+  "permeant delivery": {
+   "fires_on_ready_frac": 0.0,
+   "fires_on_notready_frac": 0.3268871200384636,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.3265556622905326
+  }
+ },
+ "availability": {
+  "constriction dehydration": {
+   "available": true,
+   "n_columns": 25
+  },
+  "pathway/lining rearrangement": {
+   "available": true,
+   "n_columns": 34
+  },
+  "ion placement and desolvation": {
+   "available": true,
+   "n_columns": 11
+  },
+  "water-wire rupture": {
+   "available": true,
+   "n_columns": 4
+  },
+  "electrostatics": {
+   "available": true,
+   "n_columns": 5
+  },
+  "column immobility": {
+   "available": true,
+   "n_columns": 4
+  },
+  "permeant delivery": {
+   "available": true,
+   "n_columns": 9
+  }
+ },
+ "negligible_threshold_logit": 0.34468014871473096,
+ "near_universal_axes_warning": []
+}

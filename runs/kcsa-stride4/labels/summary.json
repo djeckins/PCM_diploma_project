@@ -1,0 +1,69 @@
+{
+ "per_replica": {
+  "E71A/1": {
+   "n_events_dir": 49,
+   "n_events_total": 49,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau500": {
+    "positives": 147,
+    "censored_dropped": 4,
+    "base_rate_valid": 0.023531295021610374
+   },
+   "tau1000": {
+    "positives": 305,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.048846893017296604
+   },
+   "tau2000": {
+    "positives": 607,
+    "censored_dropped": 13,
+    "base_rate_valid": 0.09730682911189484
+   }
+  },
+  "G77AE71A/1": {
+   "n_events_dir": 3,
+   "n_events_total": 3,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau500": {
+    "positives": 9,
+    "censored_dropped": 4,
+    "base_rate_valid": 0.0007201728414819557
+   },
+   "tau1000": {
+    "positives": 19,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.0015207299503761805
+   },
+   "tau2000": {
+    "positives": 37,
+    "censored_dropped": 13,
+    "base_rate_valid": 0.002962844330557335
+   }
+  },
+  "T75AE71A/1": {
+   "n_events_dir": 0,
+   "n_events_total": 0,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau500": {
+    "positives": 0,
+    "censored_dropped": 4,
+    "base_rate_valid": 0.0
+   },
+   "tau1000": {
+    "positives": 0,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.0
+   },
+   "tau2000": {
+    "positives": 0,
+    "censored_dropped": 13,
+    "base_rate_valid": 0.0
+   }
+  }
+ },
+ "tau_ps": [
+  500.0,
+  1000.0,
+  2000.0
+ ]
+}

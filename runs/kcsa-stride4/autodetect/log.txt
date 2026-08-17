@@ -1,0 +1,19 @@
+selections: {"ion": "resname POT", "ion_negative": "resname CLA", "water_oxygen": "resname SOL TIP3 and element O", "water_hydrogen": "resname SOL TIP3 and element H", "lipid": "resname DOPE DOPG", "phosphate": "resname DOPE DOPG and element P", "channel": "not resname CLA DOPE DOPG POT SOL TIP3"}
+frame step, ps: {'E71A/1': 40.0, 'G77AE71A/1': 40.0, 'T75AE71A/1': 40.0}; triclinic cell: False
+pore axis: z (emptiness of the central third between leaflets from phosphates on 7 frames: {'x': 9.3, 'y': 8.5, 'z': 100.0}; best-over-second margin 11×)
+filter: True (motif in 4 copies; ring: centroid offsets from the axis [3.7, 4.1, 3.0, 4.6] A (<10), axial spread 0.2 A (<6); frame 0)
+anchor: (not resname CLA DOPE DOPG POT SOL TIP3) and name CA and resid 50 51 52 53 54 146 147 148 149 150 242 243 244 245 246 338 339 340 341 342
+scan E71A/1 (stride 5): ion: 17 crossings over 163 particles, ion_negative: 0 crossings over 140 particles, water: 18 crossings over 11257 particles
+scan G77AE71A/1 (stride 5): ion: 0 crossings over 134 particles, ion_negative: 0 crossings over 117 particles, water: 33 crossings over 9315 particles
+scan T75AE71A/1 (stride 5): ion: 0 crossings over 163 particles, ion_negative: 0 crossings over 140 particles, water: 14 crossings over 11257 particles
+permeant declared by a human: POT; measured per-particle crossings: {'ion': 0.035, 'ion_negative': 0.0, 'water': 0.002}
+direction E71A: 1 (replica signs [1])
+coordination cutoff E71A: 3.67 A (ion-water g(r) on 5 frames: peak 2.72 A, first minimum 3.67 A (window 2.2–4.8 A))
+coordination cutoff G77AE71A: 3.52 A (ion-water g(r) on 5 frames: peak 2.67 A, first minimum 3.52 A (window 2.2–4.8 A))
+coordination cutoff T75AE71A: 3.42 A (ion-water g(r) on 5 frames: peak 2.67 A, first minimum 3.42 A (window 2.2–4.8 A))
+pore extent from the anchor: [-28.0, 12.0] A; bin 5.0 A × 8
+pore cylinder: 8.7 A
+Autodetection REFUSALS (each names a config key):
+  data.conditions[G77AE71A].direction: replica flux signs disagree or are all zero: [0]
+  data.conditions[T75AE71A].direction: replica flux signs disagree or are all zero: [0]
+config updated in place: configs/kcsa.yaml

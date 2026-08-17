@@ -1,0 +1,52 @@
+{
+ "smooth_ps": 500.0,
+ "thresholds_rule": "quantiles of the calibrated OOF scores of the remaining folds (out of this fold's sample)",
+ "per_trajectory": {
+  "G77AE71A/1": {
+   "n_crossings": 3,
+   "n_warned": 3,
+   "warned_frac": 1.0,
+   "n_episodes": 1,
+   "n_empty_episodes": 0,
+   "duty_cycle": 1.0,
+   "lead_ps": {
+    "median": 1040200.0,
+    "p10": 1021960.0,
+    "p90": 1053096.0
+   },
+   "on_thr": 0.011699977784271759,
+   "off_thr": 0.010468619808442905
+  },
+  "T75AE71A/1": {
+   "n_crossings": 0,
+   "n_warned": 0,
+   "warned_frac": NaN,
+   "n_episodes": 0,
+   "n_empty_episodes": 0,
+   "duty_cycle": 0.0,
+   "lead_ps": {
+    "median": NaN,
+    "p10": NaN,
+    "p90": NaN
+   },
+   "on_thr": 0.02039425584155032,
+   "off_thr": 0.018352201312338178
+  }
+ },
+ "random_null": {
+  "G77AE71A/1": {
+   "warned_frac_mean": 1.0,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "T75AE71A/1": {
+   "warned_frac_mean": NaN,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  }
+ },
+ "headline_event_level": {
+  "warned_frac_mean": 1.0,
+  "random_null_warned_frac_mean": 1.0,
+  "empty_episodes_total": 0,
+  "episodes_total": 1
+ }
+}
