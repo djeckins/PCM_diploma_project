@@ -1,0 +1,54 @@
+{
+ "200MV/1": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 27337
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "200MV/2": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 27337
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "neg-200MV/1": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 27337
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": -1
+ },
+ "neg-200MV/2": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 27337
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": -1
+ }
+}

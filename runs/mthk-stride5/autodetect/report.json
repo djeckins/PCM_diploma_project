@@ -1,0 +1,263 @@
+{
+ "measured": {
+  "dt_ps_per_file": {
+   "200MV/1": 50.0,
+   "200MV/2": 50.0,
+   "neg-200MV/1": 50.0,
+   "neg-200MV/2": 50.0
+  },
+  "triclinic": false,
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 27337
+  }
+ },
+ "refusals": [],
+ "origins_after": {
+  "data.data_root": {
+   "origin": "detected",
+   "basis": "discovered on disk under /path/to/data/CHARMM-ECC-078: 200MV: 2 replicas; neg-200MV: 2 replicas"
+  },
+  "data.conditions": {
+   "origin": "detected",
+   "basis": "discovered on disk under /path/to/data/CHARMM-ECC-078: 200MV: 2 replicas; neg-200MV: 2 replicas"
+  },
+  "data.conditions[200MV].replicas[1].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[200MV].replicas[1].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "dataset name CHARMM-ECC-078"
+  },
+  "data.conditions[200MV].replicas[1].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "condition folder name 200MV"
+  },
+  "data.conditions[200MV].replicas[1].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "no external MD package on this machine (gmx is absent), so the tpr parameter section cannot be read; temperature has no coordinate-based substitute"
+  },
+  "data.conditions[200MV].replicas[2].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[200MV].replicas[2].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "dataset name CHARMM-ECC-078"
+  },
+  "data.conditions[200MV].replicas[2].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "condition folder name 200MV"
+  },
+  "data.conditions[200MV].replicas[2].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "no external MD package on this machine (gmx is absent), so the tpr parameter section cannot be read; temperature has no coordinate-based substitute"
+  },
+  "data.conditions[neg-200MV].replicas[1].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[neg-200MV].replicas[1].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "dataset name CHARMM-ECC-078"
+  },
+  "data.conditions[neg-200MV].replicas[1].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "condition folder name neg-200MV"
+  },
+  "data.conditions[neg-200MV].replicas[1].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "no external MD package on this machine (gmx is absent), so the tpr parameter section cannot be read; temperature has no coordinate-based substitute"
+  },
+  "data.conditions[neg-200MV].replicas[2].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[neg-200MV].replicas[2].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "dataset name CHARMM-ECC-078"
+  },
+  "data.conditions[neg-200MV].replicas[2].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "condition folder name neg-200MV"
+  },
+  "data.conditions[neg-200MV].replicas[2].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "no external MD package on this machine (gmx is absent), so the tpr parameter section cannot be read; temperature has no coordinate-based substitute"
+  },
+  "labels.tau_ps": {
+   "origin": "declared",
+   "basis": "a sweep over horizons is required so conclusions are not tied to one arbitrary τ; values are cross-checked against the median transit time and the inter-crossing interval that the events step prints next to the declared τ"
+  },
+  "labels.primary_tau_ps": {
+   "origin": "declared",
+   "basis": "a sweep over horizons is required so conclusions are not tied to one arbitrary τ; values are cross-checked against the median transit time and the inter-crossing interval that the events step prints next to the declared τ"
+  },
+  "events.source": {
+   "origin": "declared",
+   "basis": "a single time anchor shared by both systems; the shipped gramicidin annotation is used as a cross-check — the events step prints the comparison"
+  },
+  "data.pore.crossing_cylinder_radius_A": {
+   "origin": "declared",
+   "basis": "task definition: separates 'crossed through the pore' from 'crossed the bilayer past the channel'; 10 A covers the vestibules of both channels and is well under half the protein-protein spacing in the membrane"
+  },
+  "features.window_ps": {
+   "origin": "declared",
+   "basis": "look-back window equals the primary horizon: dynamics are measured on the same time scale on which the prediction is made"
+  },
+  "features.mouth_radius_A": {
+   "origin": "declared",
+   "basis": "two hydration shells plus the mouth vestibule; diagnostics: the dlv_entry_wide_n indicator and the fraction of frames with no permeant in the zone"
+  },
+  "model.seed": {
+   "origin": "declared",
+   "basis": "a single recorded run seed; fold seeds are derived from it"
+  },
+  "model.monotone": {
+   "origin": "declared",
+   "basis": "from physics, not from correlation: a wider pore cannot make a configuration less ready to pass a hydrated ion"
+  },
+  "evaluate.alarm.smooth_ps": {
+   "origin": "declared",
+   "basis": "half the primary τ: smoothing stays shorter than the prediction horizon"
+  },
+  "data.stride": {
+   "origin": "declared",
+   "basis": "development compute budget; the stride is part of run identity, the results folder carries it in its name; 50 ps × 5 = 250 ps between table frames"
+  },
+  "model.trees.depth_grid": {
+   "origin": "declared",
+   "basis": "fixed deliberately: a 3x3x3x3 grid search showed a flat selection-criterion curve (within-fold log-loss range 0.0017-0.0034 vs between-fold spread 0.061, see grid_scores in the searched run's folds.json); the criterion does not select this parameter, an edge pick would be noise rather than an optimum"
+  },
+  "model.trees.k_events_grid": {
+   "origin": "declared",
+   "basis": "fixed deliberately: a 3x3x3x3 grid search showed a flat selection-criterion curve (within-fold log-loss range 0.0017-0.0034 vs between-fold spread 0.061, see grid_scores in the searched run's folds.json); the criterion does not select this parameter, an edge pick would be noise rather than an optimum"
+  },
+  "model.trees.colsample_grid": {
+   "origin": "declared",
+   "basis": "fixed deliberately: a 3x3x3x3 grid search showed a flat selection-criterion curve (within-fold log-loss range 0.0017-0.0034 vs between-fold spread 0.061, see grid_scores in the searched run's folds.json); the criterion does not select this parameter, an edge pick would be noise rather than an optimum"
+  },
+  "model.trees.subsample_grid": {
+   "origin": "declared",
+   "basis": "fixed deliberately: a 3x3x3x3 grid search showed a flat selection-criterion curve (within-fold log-loss range 0.0017-0.0034 vs between-fold spread 0.061, see grid_scores in the searched run's folds.json); the criterion does not select this parameter, an edge pick would be noise rather than an optimum"
+  },
+  "data.selections.ion": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[0.78]), anions ['CLA'], water ['SOL'] (O+2H, n=17700), lipid ['POPE'] ([125] atoms × [177]), channel by subtraction: ['ACE', 'ALA', 'ARG', 'ASP', 'CYS', 'GLU', 'GLY', 'HSD']…"
+  },
+  "data.selections.ion_negative": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[0.78]), anions ['CLA'], water ['SOL'] (O+2H, n=17700), lipid ['POPE'] ([125] atoms × [177]), channel by subtraction: ['ACE', 'ALA', 'ARG', 'ASP', 'CYS', 'GLU', 'GLY', 'HSD']…"
+  },
+  "data.selections.water_oxygen": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[0.78]), anions ['CLA'], water ['SOL'] (O+2H, n=17700), lipid ['POPE'] ([125] atoms × [177]), channel by subtraction: ['ACE', 'ALA', 'ARG', 'ASP', 'CYS', 'GLU', 'GLY', 'HSD']…"
+  },
+  "data.selections.water_hydrogen": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[0.78]), anions ['CLA'], water ['SOL'] (O+2H, n=17700), lipid ['POPE'] ([125] atoms × [177]), channel by subtraction: ['ACE', 'ALA', 'ARG', 'ASP', 'CYS', 'GLU', 'GLY', 'HSD']…"
+  },
+  "data.selections.lipid": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[0.78]), anions ['CLA'], water ['SOL'] (O+2H, n=17700), lipid ['POPE'] ([125] atoms × [177]), channel by subtraction: ['ACE', 'ALA', 'ARG', 'ASP', 'CYS', 'GLU', 'GLY', 'HSD']…"
+  },
+  "data.selections.phosphate": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[0.78]), anions ['CLA'], water ['SOL'] (O+2H, n=17700), lipid ['POPE'] ([125] atoms × [177]), channel by subtraction: ['ACE', 'ALA', 'ARG', 'ASP', 'CYS', 'GLU', 'GLY', 'HSD']…"
+  },
+  "data.selections.channel": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[0.78]), anions ['CLA'], water ['SOL'] (O+2H, n=17700), lipid ['POPE'] ([125] atoms × [177]), channel by subtraction: ['ACE', 'ALA', 'ARG', 'ASP', 'CYS', 'GLU', 'GLY', 'HSD']…"
+  },
+  "data.pore.axis": {
+   "origin": "detected",
+   "basis": "emptiness of the central third between leaflets from phosphates on 7 frames: {'x': 7.2, 'y': 7.7, 'z': 100.0}; best-over-second margin 13×"
+  },
+  "system.arch_profile.filter_present": {
+   "origin": "detected",
+   "basis": "motif in 4 copies; ring: centroid offsets from the axis [3.8, 3.8, 4.2, 3.5] A (<10), axial spread 0.3 A (<6); frame 0"
+  },
+  "system.arch_profile.n_subunits": {
+   "origin": "detected",
+   "basis": "connected fragments of ≥30 atoms touching the pore (r<15 A from the axis): 4; frame 0"
+  },
+  "system.arch_profile.filter_motif": {
+   "origin": "detected",
+   "basis": "motif in 4 copies; ring: centroid offsets from the axis [3.8, 3.8, 4.2, 3.5] A (<10), axial spread 0.3 A (<6); frame 0"
+  },
+  "system.architecture": {
+   "origin": "detected",
+   "basis": "K-type selectivity filter found"
+  },
+  "data.selections.anchor": {
+   "origin": "detected",
+   "basis": "CA atoms of the filter motif residues (resid [43, 44, 45, 46, 47, 127, 128, 129, 130, 131, 211, 212, 213, 214, 215, 295, 296, 297, 298, 299])"
+  },
+  "system.permeant": {
+   "origin": "detected",
+   "basis": "per-particle crossings: {'ion': 0.622, 'ion_negative': 0.002, 'water': 0.097} — leader ion with a 6.4× margin over second"
+  },
+  "data.conditions[200MV].direction": {
+   "origin": "detected",
+   "basis": "sign of the net permeant flux across replicas: [1, 1]"
+  },
+  "data.conditions[neg-200MV].direction": {
+   "origin": "detected",
+   "basis": "sign of the net permeant flux across replicas: [-1, -1]"
+  },
+  "data.conditions[200MV].replicas[1].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7800 e"
+  },
+  "data.conditions[200MV].replicas[2].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7800 e"
+  },
+  "data.conditions[neg-200MV].replicas[1].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7800 e"
+  },
+  "data.conditions[neg-200MV].replicas[2].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7800 e"
+  },
+  "features.coordination_cutoff_A": {
+   "origin": "detected",
+   "basis": "median over conditions from g(r): [3.374999999999995, 3.4749999999999948]; spread 0.10 A"
+  },
+  "data.pore.z_low_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-24.3, 8.5] A; −4 A at the mouth"
+  },
+  "data.pore.z_high_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-24.3, 8.5] A; +4 A at the mouth"
+  },
+  "data.pore.bin_low_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-24.3, 8.5] A"
+  },
+  "data.pore.bin_width_A": {
+   "origin": "detected",
+   "basis": "(9.0--25.0)/8 bins"
+  },
+  "data.pore.cylinder_radius_A": {
+   "origin": "detected",
+   "basis": "median of the maximum search R(z) over 3 frames [3.0, 3.91, 3.11] + 1.5 A margin"
+  },
+  "system.arch_profile.n_sites": {
+   "origin": "detected",
+   "basis": "6 motif oxygen rings → 5 inter-ring sites"
+  },
+  "system.arch_profile.sites_basis": {
+   "origin": "detected",
+   "basis": "selectivity filter rings"
+  },
+  "features.site_sigma_A": {
+   "origin": "detected",
+   "basis": "half the median ring spacing [3.08, 3.19, 2.66, 3.38, 2.88]"
+  }
+ }
+}

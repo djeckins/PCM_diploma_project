@@ -1,0 +1,18 @@
+selections: {"ion": "resname POT", "ion_negative": "resname CLA", "water_oxygen": "resname SOL and element O", "water_hydrogen": "resname SOL and element H", "lipid": "resname POPE", "phosphate": "resname POPE and element P", "channel": "not resname CLA POPE POT SOL"}
+frame step, ps: {'200MV/1': 50.0, '200MV/2': 50.0, 'neg-200MV/1': 50.0, 'neg-200MV/2': 50.0}; triclinic cell: False
+pore axis: z (emptiness of the central third between leaflets from phosphates on 7 frames: {'x': 7.2, 'y': 7.7, 'z': 100.0}; best-over-second margin 13×)
+filter: True (motif in 4 copies; ring: centroid offsets from the axis [3.8, 3.8, 4.2, 3.5] A (<10), axial spread 0.3 A (<6); frame 0)
+anchor: (not resname CLA POPE POT SOL) and name CA and resid 43 44 45 46 47 127 128 129 130 131 211 212 213 214 215 295 296 297 298 299
+scan 200MV/1 (stride 25): ion: 181 crossings over 249 particles, ion_negative: 1 crossings over 237 particles, water: 1662 crossings over 17700 particles
+scan 200MV/2 (stride 25): ion: 122 crossings over 249 particles, ion_negative: 1 crossings over 237 particles, water: 1844 crossings over 17700 particles
+scan neg-200MV/1 (stride 25): ion: 173 crossings over 249 particles, ion_negative: 0 crossings over 237 particles, water: 1865 crossings over 17700 particles
+scan neg-200MV/2 (stride 25): ion: 144 crossings over 249 particles, ion_negative: 0 crossings over 237 particles, water: 1482 crossings over 17700 particles
+permeant: POT (per particle: {'ion': 0.622, 'ion_negative': 0.002, 'water': 0.097})
+direction 200MV: 1 (replica signs [1, 1])
+direction neg-200MV: -1 (replica signs [-1, -1])
+coordination cutoff 200MV: 3.37 A (ion-water g(r) on 5 frames: peak 2.67 A, first minimum 3.37 A (window 2.2–4.8 A))
+coordination cutoff neg-200MV: 3.47 A (ion-water g(r) on 5 frames: peak 2.72 A, first minimum 3.47 A (window 2.2–4.8 A))
+pore extent from the anchor: [-25.0, 9.0] A; bin 4.25 A × 8
+pore cylinder: 4.6 A
+autodetection finished without refusals
+config updated in place: configs/mthk.yaml

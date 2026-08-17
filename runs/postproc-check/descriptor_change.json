@@ -1,0 +1,13 @@
+{
+ "cx43_zero_shot_tau4000": {
+  "absolute_descriptors_83col": {
+   "full": 4.25,
+   "physics_only": 2.39
+  },
+  "system_relative_104col": {
+   "full": 3.91,
+   "physics_only": 3.89
+  },
+  "note": "pre-change values from the 83-column canon (commit 16fe1e5 era); post-change from the 104-column canon (commit 216c5c0)."
+ }
+}

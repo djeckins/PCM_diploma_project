@@ -1,0 +1,5 @@
+[200MV/1] 2001 frames aligned
+[200MV/2] 2001 frames aligned
+[neg-200MV/1] 2001 frames aligned
+[neg-200MV/2] 2001 frames aligned
+superimposed coordinates: 8004 frames x 984 Cartesian components

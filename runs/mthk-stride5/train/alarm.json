@@ -1,0 +1,90 @@
+{
+ "smooth_ps": 1000.0,
+ "thresholds_rule": "quantiles of the calibrated OOF scores of the remaining folds (out of this fold's sample)",
+ "per_trajectory": {
+  "200MV/1": {
+   "n_crossings": 175,
+   "n_warned": 6,
+   "warned_frac": 0.03428571428571429,
+   "n_episodes": 4,
+   "n_empty_episodes": 0,
+   "duty_cycle": 0.004997501249375313,
+   "lead_ps": {
+    "median": 475.0,
+    "p10": 175.0,
+    "p90": 1950.0
+   },
+   "on_thr": 0.7140069637681196,
+   "off_thr": 0.5992273280157221
+  },
+  "200MV/2": {
+   "n_crossings": 104,
+   "n_warned": 24,
+   "warned_frac": 0.23076923076923078,
+   "n_episodes": 21,
+   "n_empty_episodes": 5,
+   "duty_cycle": 0.053973013493253376,
+   "lead_ps": {
+    "median": 400.0,
+    "p10": 100.0,
+    "p90": 2490.0
+   },
+   "on_thr": 0.6966896733423954,
+   "off_thr": 0.5840685149608711
+  },
+  "neg-200MV/1": {
+   "n_crossings": 166,
+   "n_warned": 1,
+   "warned_frac": 0.006024096385542169,
+   "n_episodes": 1,
+   "n_empty_episodes": 0,
+   "duty_cycle": 0.0029985007496251873,
+   "lead_ps": {
+    "median": 800.0,
+    "p10": 800.0,
+    "p90": 800.0
+   },
+   "on_thr": 0.7268322745686828,
+   "off_thr": 0.5794565379943253
+  },
+  "neg-200MV/2": {
+   "n_crossings": 162,
+   "n_warned": 0,
+   "warned_frac": 0.0,
+   "n_episodes": 0,
+   "n_empty_episodes": 0,
+   "duty_cycle": 0.0,
+   "lead_ps": {
+    "median": NaN,
+    "p10": NaN,
+    "p90": NaN
+   },
+   "on_thr": 0.7355092603192792,
+   "off_thr": 0.6076507952126303
+  }
+ },
+ "random_null": {
+  "200MV/1": {
+   "warned_frac_mean": 0.019885714285714288,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "200MV/2": {
+   "warned_frac_mean": 0.13057692307692306,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "neg-200MV/1": {
+   "warned_frac_mean": 0.007228915662650603,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "neg-200MV/2": {
+   "warned_frac_mean": 0.0,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  }
+ },
+ "headline_event_level": {
+  "warned_frac_mean": 0.06776976036012182,
+  "random_null_warned_frac_mean": 0.03942288825632199,
+  "empty_episodes_total": 5,
+  "episodes_total": 26
+ }
+}

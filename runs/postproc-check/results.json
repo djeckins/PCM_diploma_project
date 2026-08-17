@@ -1,0 +1,58 @@
+{
+ "in_system": {
+  "gramicidin": {
+   "baseline_trees": 2.591,
+   "smooth_250ps": 2.623,
+   "smooth_500ps": 2.645,
+   "smooth_1000ps": 2.645,
+   "ensemble_trees+linear": 2.738,
+   "ensemble_smoothed_500ps": 2.843,
+   "multi_tau_ranks(3)": 2.733,
+   "mcc_headroom_max": 0.305
+  },
+  "mthk": {
+   "baseline_trees": 1.367,
+   "smooth_250ps": 1.367,
+   "smooth_500ps": 1.339,
+   "smooth_1000ps": 1.26,
+   "ensemble_trees+linear": 1.285,
+   "ensemble_smoothed_250ps": 1.285,
+   "multi_tau_ranks(3)": 1.333,
+   "mcc_headroom_max": 0.247
+  },
+  "kcsa": {
+   "baseline_trees": 1.977,
+   "smooth_250ps": 1.609,
+   "smooth_500ps": 1.355,
+   "smooth_1000ps": 0.989,
+   "multi_tau_ranks(3)": 1.574,
+   "mcc_headroom_max": 0.151
+  }
+ },
+ "zero_shot_smoothing": {
+  "gramicidin": {
+   "baseline": 1.609,
+   "smooth_250ps": 1.627,
+   "smooth_500ps": 1.651,
+   "smooth_1000ps": 1.685
+  },
+  "mthk": {
+   "baseline": 1.137,
+   "smooth_250ps": 1.137,
+   "smooth_500ps": 1.131,
+   "smooth_1000ps": 1.115
+  },
+  "kcsa_family": {
+   "baseline": 1.205,
+   "smooth_250ps": 1.239,
+   "smooth_500ps": 1.25,
+   "smooth_1000ps": 1.275
+  },
+  "cx43": {
+   "baseline": 3.914,
+   "smooth_250ps": 4.779,
+   "smooth_500ps": 5.723,
+   "smooth_1000ps": 5.1
+  }
+ }
+}

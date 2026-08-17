@@ -1,0 +1,84 @@
+{
+ "axes": {
+  "constriction dehydration": {
+   "fires_on_ready_frac": 0.9982482482482482,
+   "fires_on_notready_frac": 0.9969879518072289,
+   "odds_ratio_notready_vs_ready": 0.5808473301579417,
+   "fires_overall_frac": 0.9976190476190476
+  },
+  "pathway/lining rearrangement": {
+   "fires_on_ready_frac": 0.9997497497497497,
+   "fires_on_notready_frac": 1.0,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.999874686716792
+  },
+  "ion placement and desolvation": {
+   "fires_on_ready_frac": 0.9612112112112112,
+   "fires_on_notready_frac": 0.9741465863453815,
+   "odds_ratio_notready_vs_ready": 1.5205258541591367,
+   "fires_overall_frac": 0.9676691729323308
+  },
+  "water-wire rupture": {
+   "fires_on_ready_frac": 0.9692192192192193,
+   "fires_on_notready_frac": 0.9658634538152611,
+   "odds_ratio_notready_vs_ready": 0.8985738369708833,
+   "fires_overall_frac": 0.9675438596491228
+  },
+  "electrostatics": {
+   "fires_on_ready_frac": 0.9874874874874875,
+   "fires_on_notready_frac": 0.9904618473895582,
+   "odds_ratio_notready_vs_ready": 1.3157894736842088,
+   "fires_overall_frac": 0.9889724310776943
+  },
+  "column immobility": {
+   "fires_on_ready_frac": 0.7537537537537538,
+   "fires_on_notready_frac": 0.8692269076305221,
+   "odds_ratio_notready_vs_ready": 2.1714753270985168,
+   "fires_overall_frac": 0.8114035087719298
+  },
+  "permeant delivery": {
+   "fires_on_ready_frac": 0.8853853853853854,
+   "fires_on_notready_frac": 0.8785140562248996,
+   "odds_ratio_notready_vs_ready": 0.9361174310555065,
+   "fires_overall_frac": 0.8819548872180452
+  }
+ },
+ "availability": {
+  "constriction dehydration": {
+   "available": true,
+   "n_columns": 21
+  },
+  "pathway/lining rearrangement": {
+   "available": true,
+   "n_columns": 33
+  },
+  "ion placement and desolvation": {
+   "available": true,
+   "n_columns": 10
+  },
+  "water-wire rupture": {
+   "available": true,
+   "n_columns": 3
+  },
+  "electrostatics": {
+   "available": true,
+   "n_columns": 5
+  },
+  "column immobility": {
+   "available": true,
+   "n_columns": 4
+  },
+  "permeant delivery": {
+   "available": true,
+   "n_columns": 10
+  }
+ },
+ "negligible_threshold_logit": 0.00014992514981282789,
+ "near_universal_axes_warning": [
+  "constriction dehydration",
+  "pathway/lining rearrangement",
+  "ion placement and desolvation",
+  "water-wire rupture",
+  "electrostatics"
+ ]
+}

@@ -1,0 +1,4 @@
+[200MV/1] events in direction: 175; τ=1000: +648, censored dropped 4, base rate 0.324; τ=2000: +1131, censored dropped 8, base rate 0.567; τ=4000: +1642, censored dropped 10, base rate 0.825; entrance labels exclude events without entry: 1
+[200MV/2] events in direction: 104; τ=1000: +396, censored dropped 4, base rate 0.198; τ=2000: +723, censored dropped 4, base rate 0.362; τ=4000: +1179, censored dropped 4, base rate 0.590; entrance labels exclude events without entry: 0
+[neg-200MV/1] events in direction: 166; τ=1000: +604, censored dropped 4, base rate 0.302; τ=2000: +1069, censored dropped 7, base rate 0.536; τ=4000: +1618, censored dropped 7, base rate 0.811; entrance labels exclude events without entry: 0
+[neg-200MV/2] events in direction: 162; τ=1000: +597, censored dropped 4, base rate 0.299; τ=2000: +1073, censored dropped 5, base rate 0.538; τ=4000: +1588, censored dropped 5, base rate 0.796; entrance labels exclude events without entry: 0

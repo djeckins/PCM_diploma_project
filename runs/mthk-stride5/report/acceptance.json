@@ -1,0 +1,287 @@
+{
+ "hyperparam_edges": {
+  "linear.C": {
+   "edge_frac": 0.027777777777777776,
+   "ok": true
+  },
+  "trees.depth": {
+   "edge_frac": 0.0,
+   "ok": true
+  },
+  "trees.k_events": {
+   "edge_frac": 0.0,
+   "ok": true
+  },
+  "trees.colsample": {
+   "edge_frac": 0.0,
+   "ok": true
+  },
+  "trees.subsample": {
+   "edge_frac": 0.0,
+   "ok": true
+  },
+  "plsfma_coords.selection": {
+   "edge_frac": 0.0,
+   "ok": true
+  }
+ },
+ "edge_exception2_recorded": {
+  "ok": true,
+  "cases": [
+   {
+    "fold": "0:200MV/1",
+    "tau": 1000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.26); edge is meaningful"
+   },
+   {
+    "fold": "0:200MV/1",
+    "tau": 1000.0,
+    "arm": "clock",
+    "note": "upper edge: unpenalized optimum reached (df=4.00 saturated); edge is meaningful"
+   },
+   {
+    "fold": "1:200MV/2",
+    "tau": 1000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "3:neg-200MV/2",
+    "tau": 1000.0,
+    "arm": "clock",
+    "note": "upper edge: unpenalized optimum reached (df=4.00 saturated); edge is meaningful"
+   },
+   {
+    "fold": "0:200MV/1",
+    "tau": 2000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.26); edge is meaningful"
+   },
+   {
+    "fold": "0:200MV/1",
+    "tau": 2000.0,
+    "arm": "clock",
+    "note": "upper edge: unpenalized optimum reached (df=4.00 saturated); edge is meaningful"
+   },
+   {
+    "fold": "1:200MV/2",
+    "tau": 2000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "2:neg-200MV/1",
+    "tau": 2000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.26); edge is meaningful"
+   },
+   {
+    "fold": "3:neg-200MV/2",
+    "tau": 2000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.26); edge is meaningful"
+   },
+   {
+    "fold": "3:neg-200MV/2",
+    "tau": 2000.0,
+    "arm": "clock",
+    "note": "upper edge: unpenalized optimum reached (df=4.00 saturated); edge is meaningful"
+   },
+   {
+    "fold": "3:neg-200MV/2",
+    "tau": 2000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "0:200MV/1",
+    "tau": 4000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.21); edge is meaningful"
+   },
+   {
+    "fold": "1:200MV/2",
+    "tau": 4000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "2:neg-200MV/1",
+    "tau": 4000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.21); edge is meaningful"
+   },
+   {
+    "fold": "3:neg-200MV/2",
+    "tau": 4000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.21); edge is meaningful"
+   },
+   {
+    "fold": "3:neg-200MV/2",
+    "tau": 4000.0,
+    "arm": "clock",
+    "note": "upper edge: unpenalized optimum reached (df=4.00 saturated); edge is meaningful"
+   },
+   {
+    "fold": "3:neg-200MV/2",
+    "tau": 4000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   }
+  ]
+ },
+ "no_ceiling_hits": {
+  "ok": true,
+  "hits": 0
+ },
+ "penalty_in_df_units": {
+  "ok": true,
+  "df_by_fold": [
+   66.64777729622024,
+   0.26049040574445226,
+   3.9999582750093627,
+   66.78138421977985,
+   1.1980448256720497,
+   3.6447959252460542,
+   10.949633200235906,
+   1.1978143616650876,
+   2.238666552034712,
+   39.770650972671476,
+   1.8738087507660492,
+   3.9999591856218664,
+   66.76598163634763,
+   0.2603474287613676,
+   3.9999565482977637,
+   66.69916879356401,
+   1.872979091261152,
+   3.6380422226294766,
+   39.87989096828854,
+   0.26032258427783594,
+   3.6376621673183265,
+   40.10043028415469,
+   0.26025597632316466,
+   3.9999579783852965,
+   64.3589365739357,
+   0.21021673806613828,
+   3.622144795010427,
+   32.8854182503624,
+   1.8043963850784999,
+   3.613726322057733,
+   36.092592340453365,
+   0.2078808191402982,
+   3.621871142183047,
+   64.38276462792703,
+   0.20555531010316583,
+   3.9999560209124
+  ]
+ },
+ "events_and_features_per_branch": {
+  "trees": [
+   {
+    "n_events": 350,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 402,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 362,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 359,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 260,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 280,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 253,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 254,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 123,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 115,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 121,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 127,
+    "branch": "native",
+    "n_features": 86
+   }
+  ]
+ },
+ "calibration_recorded_per_fold": {
+  "ok": true
+ },
+ "events_source_declared": {
+  "ok": true,
+  "declared": "own"
+ },
+ "vendored_checksums": {
+  "ok": true,
+  "actual": {
+   "heuristic_grid.json": "bb29c21e1339e71e7a877d5095a4d72c4ac3ab06ce04c863fbcfb407e567c4f0",
+   "wimley_white_1996.json": "d898884281bf666074ea8c2a5629896b31b9bea6bed4d4389a736ef355542b5c"
+  }
+ },
+ "figure_catalog": {
+  "ok": true
+ },
+ "answers_with_mechanism": {
+  "ok": true
+ },
+ "resting_frames_defined": {
+  "ok": true,
+  "resting": {
+   "defined": true,
+   "ap": 0.38815170599530546,
+   "base_rate": 0.23728813559322035,
+   "ratio_to_chance": 1.6357821895516444,
+   "n": 2242,
+   "n_pos": 532
+  },
+  "transit": {
+   "defined": true,
+   "ap": 0.763563836440611,
+   "base_rate": 0.6036946671314046,
+   "ratio_to_chance": 1.2648179253741993,
+   "n": 5738,
+   "n_pos": 3464
+  }
+ },
+ "applicability_mask_written": {
+  "ok": true
+ },
+ "note": "linter/test and notebook gates are checked by make test and a notebook run, outside this run's artifacts"
+}

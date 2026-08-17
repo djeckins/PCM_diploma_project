@@ -1,0 +1,5 @@
+[200MV/1] own=175 provided=None flux_sign=1 left-censored at start: 15
+[200MV/2] own=104 provided=None flux_sign=1 left-censored at start: 15
+[neg-200MV/1] own=166 provided=None flux_sign=-1 left-censored at start: 15
+[neg-200MV/2] own=162 provided=None flux_sign=-1 left-censored at start: 15
+median transit time: 1950 ps; median interval between crossings: 2450 ps; declared horizons τ: [1000.0, 2000.0, 4000.0] ps

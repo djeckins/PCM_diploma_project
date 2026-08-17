@@ -1,0 +1,89 @@
+{
+ "per_replica": {
+  "200MV/1": {
+   "n_events_dir": 175,
+   "n_events_total": 175,
+   "n_entry_unobserved_excluded_from_entrance": 1,
+   "tau1000": {
+    "positives": 648,
+    "censored_dropped": 4,
+    "base_rate_valid": 0.32448673009514273
+   },
+   "tau2000": {
+    "positives": 1131,
+    "censored_dropped": 8,
+    "base_rate_valid": 0.5674862017059709
+   },
+   "tau4000": {
+    "positives": 1642,
+    "censored_dropped": 10,
+    "base_rate_valid": 0.8247112004018081
+   }
+  },
+  "200MV/2": {
+   "n_events_dir": 104,
+   "n_events_total": 104,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 396,
+    "censored_dropped": 4,
+    "base_rate_valid": 0.19829744616925388
+   },
+   "tau2000": {
+    "positives": 723,
+    "censored_dropped": 4,
+    "base_rate_valid": 0.36204306459689534
+   },
+   "tau4000": {
+    "positives": 1179,
+    "censored_dropped": 4,
+    "base_rate_valid": 0.5903855783675513
+   }
+  },
+  "neg-200MV/1": {
+   "n_events_dir": 166,
+   "n_events_total": 166,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 604,
+    "censored_dropped": 4,
+    "base_rate_valid": 0.3024536805207812
+   },
+   "tau2000": {
+    "positives": 1069,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.5361083249749248
+   },
+   "tau4000": {
+    "positives": 1618,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.8114343029087262
+   }
+  },
+  "neg-200MV/2": {
+   "n_events_dir": 162,
+   "n_events_total": 162,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 597,
+    "censored_dropped": 4,
+    "base_rate_valid": 0.29894842263395094
+   },
+   "tau2000": {
+    "positives": 1073,
+    "censored_dropped": 5,
+    "base_rate_valid": 0.5375751503006012
+   },
+   "tau4000": {
+    "positives": 1588,
+    "censored_dropped": 5,
+    "base_rate_valid": 0.7955911823647295
+   }
+  }
+ },
+ "tau_ps": [
+  1000.0,
+  2000.0,
+  4000.0
+ ]
+}

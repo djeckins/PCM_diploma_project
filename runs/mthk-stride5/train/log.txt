@@ -1,0 +1,22 @@
+model matrix: training on 86 of 104 columns; 18 excluded:
+  mask: 7
+  structural exclusion: 11
+outer folds (over independent assemblies): 4; the effective sample size is the number of trajectories
+fold 0:200MV/1 τ=1000.0 done
+fold 1:200MV/2 τ=1000.0 done
+fold 2:neg-200MV/1 τ=1000.0 done
+fold 3:neg-200MV/2 τ=1000.0 done
+fold 0:200MV/1 τ=2000.0 done
+fold 1:200MV/2 τ=2000.0 done
+fold 2:neg-200MV/1 τ=2000.0 done
+fold 3:neg-200MV/2 τ=2000.0 done
+fold 0:200MV/1 τ=4000.0 done
+fold 1:200MV/2 τ=4000.0 done
+fold 2:neg-200MV/1 τ=4000.0 done
+fold 3:neg-200MV/2 τ=4000.0 done
+condition transfer 200MV->neg-200MV: trained on 3990 rows
+condition transfer neg-200MV->200MV: trained on 3990 rows
+head arm trees at τ=2000.0: pooled AP=0.684 at base rate 0.501 (×1.37 over chance)
+monitor: warned fraction 0.07 of crossings (random null 0.04); empty episodes 5/26
+WARNING: axes named on nearly every frame (they discriminate nothing): ['constriction dehydration', 'pathway/lining rearrangement', 'ion placement and desolvation', 'water-wire rupture', 'electrostatics']
+per-frame answers: 8004; 'unclear' on 0 frames; block importances: dynamics=0.50, delivery=0.37, named_sites=0.12, geometry=0.10, hydration=0.09

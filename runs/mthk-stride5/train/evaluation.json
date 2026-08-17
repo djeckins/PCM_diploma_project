@@ -1,0 +1,1913 @@
+{
+ "per_arm": {
+  "clock": {
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.30216883594942523,
+     "base_rate": 0.28104656985478216,
+     "ratio_to_chance": 1.075155751253456,
+     "n": 7988,
+     "n_pos": 2245
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.3826736421861873,
+      "base_rate": 0.32448673009514273,
+      "ratio_to_chance": 1.1793198509966296,
+      "n": 1997,
+      "n_pos": 648
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.23796801721127325,
+      "base_rate": 0.19829744616925388,
+      "ratio_to_chance": 1.200055884775032,
+      "n": 1997,
+      "n_pos": 396
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.3457452262883211,
+      "base_rate": 0.3024536805207812,
+      "ratio_to_chance": 1.143134465062545,
+      "n": 1997,
+      "n_pos": 604
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.33512100935151135,
+      "base_rate": 0.29894842263395094,
+      "ratio_to_chance": 1.1209994232411526,
+      "n": 1997,
+      "n_pos": 597
+     }
+    },
+    "auroc_report_only": 0.547368753749602,
+    "brier": 0.2197766146976738,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": -0.17785751600439084,
+     "intercept": -1.0533110202943579,
+     "negative_slope_alarm": true
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": 1.723139371898256,
+      "intercept": 0.21961835335330485,
+      "negative_slope_alarm": false
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 1.0894541369581097,
+      "intercept": -1.341685769707508,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": -11.333925932698483,
+      "intercept": -13.867440174055739,
+      "negative_slope_alarm": true
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": 3.266550584588692,
+      "intercept": 1.5365627991764623,
+      "negative_slope_alarm": false
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.5062174379712909,
+     "base_rate": 0.5007518796992482,
+     "ratio_to_chance": 1.0109147034561814,
+     "n": 7980,
+     "n_pos": 3996
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.5789527795600109,
+      "base_rate": 0.5674862017059709,
+      "ratio_to_chance": 1.020205914821487,
+      "n": 1993,
+      "n_pos": 1131
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.38659529758678324,
+      "base_rate": 0.36204306459689534,
+      "ratio_to_chance": 1.0678157804713777,
+      "n": 1997,
+      "n_pos": 723
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.6017643663590639,
+      "base_rate": 0.5361083249749248,
+      "ratio_to_chance": 1.1224678639101717,
+      "n": 1994,
+      "n_pos": 1069
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.5836199033856629,
+      "base_rate": 0.5375751503006012,
+      "ratio_to_chance": 1.085652681414523,
+      "n": 1996,
+      "n_pos": 1073
+     }
+    },
+    "auroc_report_only": 0.5338650962709698,
+    "brier": 0.2508929340330699,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": 0.35438625416767283,
+     "intercept": 0.012225309154129256,
+     "negative_slope_alarm": false
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": 1.3914680214824715,
+      "intercept": 0.3420495437639099,
+      "negative_slope_alarm": false
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 0.8245693337837455,
+      "intercept": -0.6085457450351006,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": 182.0698867742695,
+      "intercept": 8.192783355621119,
+      "negative_slope_alarm": false
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": -26.16562164973405,
+      "intercept": -0.9591590278092467,
+      "negative_slope_alarm": true
+     }
+    }
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.8242338263028585,
+     "base_rate": 0.7554524943594886,
+     "ratio_to_chance": 1.091046534966684,
+     "n": 7978,
+     "n_pos": 6027
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.8375018324316277,
+      "base_rate": 0.8247112004018081,
+      "ratio_to_chance": 1.015509225561127,
+      "n": 1991,
+      "n_pos": 1642
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.6285235571984796,
+      "base_rate": 0.5903855783675513,
+      "ratio_to_chance": 1.0645984255516232,
+      "n": 1997,
+      "n_pos": 1179
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.823001345514873,
+      "base_rate": 0.8114343029087262,
+      "ratio_to_chance": 1.0142550574515803,
+      "n": 1994,
+      "n_pos": 1618
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.8347736514544855,
+      "base_rate": 0.7955911823647295,
+      "ratio_to_chance": 1.0492495014503482,
+      "n": 1996,
+      "n_pos": 1588
+     }
+    },
+    "auroc_report_only": 0.6517471310760556,
+    "brier": 0.18022242865315963,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": 0.9422426947092989,
+     "intercept": 0.4314277665650179,
+     "negative_slope_alarm": false
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": 3.1054049415750664,
+      "intercept": -1.6002040302904896,
+      "negative_slope_alarm": false
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 0.8015017032311789,
+      "intercept": 0.35594095080634475,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": 18.41120403635979,
+      "intercept": -17.49881796152323,
+      "negative_slope_alarm": false
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": -5.447451767253294,
+      "intercept": 7.328228838185871,
+      "negative_slope_alarm": true
+     }
+    }
+   }
+  },
+  "linear": {
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.40717758950717303,
+     "base_rate": 0.28104656985478216,
+     "ratio_to_chance": 1.4487904610170594,
+     "n": 7988,
+     "n_pos": 2245
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.5343933658046652,
+      "base_rate": 0.32448673009514273,
+      "ratio_to_chance": 1.6468881967776487,
+      "n": 1997,
+      "n_pos": 648
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.3870780498284223,
+      "base_rate": 0.19829744616925388,
+      "ratio_to_chance": 1.9520072361296954,
+      "n": 1997,
+      "n_pos": 396
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.353149331681622,
+      "base_rate": 0.3024536805207812,
+      "ratio_to_chance": 1.167614594980462,
+      "n": 1997,
+      "n_pos": 604
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.3444452841978644,
+      "base_rate": 0.29894842263395094,
+      "ratio_to_chance": 1.1521896692514828,
+      "n": 1997,
+      "n_pos": 597
+     }
+    },
+    "auroc_report_only": 0.6384878347107567,
+    "brier": 0.21196173291893178,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": 0.6528908685659932,
+     "intercept": -0.6833199968708047,
+     "negative_slope_alarm": false
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": 1.0655509741939144,
+      "intercept": -0.25931822117255077,
+      "negative_slope_alarm": false
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 1.036469067548514,
+      "intercept": -1.3984205078342982,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": 6.693986932019857,
+      "intercept": 4.284708269348135,
+      "negative_slope_alarm": false
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": 1.2240184838867414,
+      "intercept": -0.47931127346730634,
+      "negative_slope_alarm": false
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.5790202666454041,
+     "base_rate": 0.5007518796992482,
+     "ratio_to_chance": 1.1563017336912722,
+     "n": 7980,
+     "n_pos": 3996
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.6818563932857731,
+      "base_rate": 0.5674862017059709,
+      "ratio_to_chance": 1.2015382774699785,
+      "n": 1993,
+      "n_pos": 1131
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.491390342506271,
+      "base_rate": 0.36204306459689534,
+      "ratio_to_chance": 1.357270420449548,
+      "n": 1997,
+      "n_pos": 723
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.6204202257546686,
+      "base_rate": 0.5361083249749248,
+      "ratio_to_chance": 1.1572665389661452,
+      "n": 1994,
+      "n_pos": 1069
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.602991894835675,
+      "base_rate": 0.5375751503006012,
+      "ratio_to_chance": 1.1216885574016842,
+      "n": 1996,
+      "n_pos": 1073
+     }
+    },
+    "auroc_report_only": 0.5909393957210223,
+    "brier": 0.2490548808146085,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": 0.5240677037882221,
+     "intercept": 0.021862680510704526,
+     "negative_slope_alarm": false
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": 0.9266568822992676,
+      "intercept": 0.5711339942986088,
+      "negative_slope_alarm": false
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 0.9061611046256722,
+      "intercept": -0.7585820059940017,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": 4.115146294218841,
+      "intercept": 0.23562921879101442,
+      "negative_slope_alarm": false
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": 4.206228737650362,
+      "intercept": 0.13201497472056642,
+      "negative_slope_alarm": false
+     }
+    }
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.7887189207363364,
+     "base_rate": 0.7554524943594886,
+     "ratio_to_chance": 1.044035100320971,
+     "n": 7978,
+     "n_pos": 6027
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.8771249305226989,
+      "base_rate": 0.8247112004018081,
+      "ratio_to_chance": 1.0635540418213725,
+      "n": 1991,
+      "n_pos": 1642
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.6855120841684692,
+      "base_rate": 0.5903855783675513,
+      "ratio_to_chance": 1.1611260662293748,
+      "n": 1997,
+      "n_pos": 1179
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.8529667833988206,
+      "base_rate": 0.8114343029087262,
+      "ratio_to_chance": 1.0511840334346405,
+      "n": 1994,
+      "n_pos": 1618
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.829204224054738,
+      "base_rate": 0.7955911823647295,
+      "ratio_to_chance": 1.0422491380436127,
+      "n": 1996,
+      "n_pos": 1588
+     }
+    },
+    "auroc_report_only": 0.5536009705853814,
+    "brier": 0.18692342838821993,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": 0.2035899188366243,
+     "intercept": 0.9008980009926054,
+     "negative_slope_alarm": false
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": 1.3289223422823409,
+      "intercept": 0.5315990425223613,
+      "negative_slope_alarm": false
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 1.063073847835459,
+      "intercept": -1.1619435399750804,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": 21.394141531283505,
+      "intercept": -20.600952945975614,
+      "negative_slope_alarm": false
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": 2.080045502319511,
+      "intercept": -1.0947713991576673,
+      "negative_slope_alarm": false
+     }
+    }
+   }
+  },
+  "linear_control_structural": {
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.2960032458022379,
+     "base_rate": 0.28104656985478216,
+     "ratio_to_chance": 1.0532177850638202,
+     "n": 7988,
+     "n_pos": 2245
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.3820601684572775,
+      "base_rate": 0.32448673009514273,
+      "ratio_to_chance": 1.1774292537178752,
+      "n": 1997,
+      "n_pos": 648
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.23805715435621141,
+      "base_rate": 0.19829744616925388,
+      "ratio_to_chance": 1.200505397094329,
+      "n": 1997,
+      "n_pos": 396
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.31373252848350125,
+      "base_rate": 0.3024536805207812,
+      "ratio_to_chance": 1.0372911579164767,
+      "n": 1997,
+      "n_pos": 604
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.3119346491311855,
+      "base_rate": 0.29894842263395094,
+      "ratio_to_chance": 1.0434396889698114,
+      "n": 1997,
+      "n_pos": 597
+     }
+    },
+    "auroc_report_only": 0.518729763783314,
+    "brier": 0.24836854864919655,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": -0.21532258119586747,
+     "intercept": -1.3405771380080438,
+     "negative_slope_alarm": true
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": -9.263422481044591,
+      "intercept": -29.890497695498972,
+      "negative_slope_alarm": true
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 3.965339137856724,
+      "intercept": -0.34314685234321063,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": -0.6033994881328614,
+      "intercept": -2.232065934134404,
+      "negative_slope_alarm": true
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": -0.3816577858443953,
+      "intercept": -1.4306908891099794,
+      "negative_slope_alarm": true
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.44891130285433745,
+     "base_rate": 0.5007518796992482,
+     "ratio_to_chance": 0.8964745237181212,
+     "n": 7980,
+     "n_pos": 3996
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.5949799714835772,
+      "base_rate": 0.5674862017059709,
+      "ratio_to_chance": 1.0484483493959058,
+      "n": 1993,
+      "n_pos": 1131
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.3645471330992041,
+      "base_rate": 0.36204306459689534,
+      "ratio_to_chance": 1.0069164934980783,
+      "n": 1997,
+      "n_pos": 723
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.5412549911640879,
+      "base_rate": 0.5361083249749248,
+      "ratio_to_chance": 1.009600049000179,
+      "n": 1994,
+      "n_pos": 1069
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.5606575206422864,
+      "base_rate": 0.5375751503006012,
+      "ratio_to_chance": 1.0429379414743742,
+      "n": 1996,
+      "n_pos": 1073
+     }
+    },
+    "auroc_report_only": 0.4429099028747623,
+    "brier": 0.2593463501312438,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": -1.8789380654427912,
+     "intercept": -0.16148428934280426,
+     "negative_slope_alarm": true
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": -7.622179337441092,
+      "intercept": -1.7333421141538152,
+      "negative_slope_alarm": true
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": -0.10910786355758637,
+      "intercept": -0.5451897389599442,
+      "negative_slope_alarm": true
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": -2.94740981575188,
+      "intercept": -0.2546501316482583,
+      "negative_slope_alarm": true
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": -6.916936976367107,
+      "intercept": -0.8357726440957313,
+      "negative_slope_alarm": true
+     }
+    }
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.6827228526827751,
+     "base_rate": 0.7554524943594886,
+     "ratio_to_chance": 0.9037270480675593,
+     "n": 7978,
+     "n_pos": 6027
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.832513854133209,
+      "base_rate": 0.8247112004018081,
+      "ratio_to_chance": 1.0094610740433734,
+      "n": 1991,
+      "n_pos": 1642
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.5889743112801711,
+      "base_rate": 0.5903855783675513,
+      "ratio_to_chance": 0.9976095840767614,
+      "n": 1997,
+      "n_pos": 1179
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.8004935577761496,
+      "base_rate": 0.8114343029087262,
+      "ratio_to_chance": 0.9865167825745625,
+      "n": 1994,
+      "n_pos": 1618
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.8095428808758016,
+      "base_rate": 0.7955911823647295,
+      "ratio_to_chance": 1.0175362658867129,
+      "n": 1996,
+      "n_pos": 1588
+     }
+    },
+    "auroc_report_only": 0.3779087562316747,
+    "brier": 0.1902878384582736,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": -3.2411755172288887,
+     "intercept": 5.107417840666334,
+     "negative_slope_alarm": true
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": 0.7705949282937374,
+      "intercept": 0.7043547936279421,
+      "negative_slope_alarm": false
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": -0.9918708258818926,
+      "intercept": 1.812456293678651,
+      "negative_slope_alarm": true
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": 0.7246641368221358,
+      "intercept": 0.6421928062010516,
+      "negative_slope_alarm": false
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": 0.671234398414309,
+      "intercept": 0.5780471325682124,
+      "negative_slope_alarm": false
+     }
+    }
+   }
+  },
+  "plsfma_coords": {
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.28410954334542826,
+     "base_rate": 0.28104656985478216,
+     "ratio_to_chance": 1.0108984553422187,
+     "n": 7988,
+     "n_pos": 2245
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.33857401911307,
+      "base_rate": 0.32448673009514273,
+      "ratio_to_chance": 1.0434140681617297,
+      "n": 1997,
+      "n_pos": 648
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.24948852584132403,
+      "base_rate": 0.19829744616925388,
+      "ratio_to_chance": 1.25815299521496,
+      "n": 1997,
+      "n_pos": 396
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.28667809983910864,
+      "base_rate": 0.3024536805207812,
+      "ratio_to_chance": 0.9478413334084436,
+      "n": 1997,
+      "n_pos": 604
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.2971433425558171,
+      "base_rate": 0.29894842263395094,
+      "ratio_to_chance": 0.9939619013131771,
+      "n": 1997,
+      "n_pos": 597
+     }
+    },
+    "auroc_report_only": 0.4930276695905968,
+    "brier": 0.20506332700948018,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": -1.1170094686956105,
+     "intercept": -2.0414088120703204,
+     "negative_slope_alarm": true
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": 0.36708421038103156,
+      "intercept": -0.36544981770135426,
+      "negative_slope_alarm": false
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 17.430763669279745,
+      "intercept": 12.356742280269426,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": -0.29813186869254915,
+      "intercept": -1.1819828276843685,
+      "negative_slope_alarm": true
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": 0.42589040487724417,
+      "intercept": -0.43866960458193127,
+      "negative_slope_alarm": false
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.4741712113235357,
+     "base_rate": 0.5007518796992482,
+     "ratio_to_chance": 0.9469184850755291,
+     "n": 7980,
+     "n_pos": 3996
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.5622355157661545,
+      "base_rate": 0.5674862017059709,
+      "ratio_to_chance": 0.9907474650061414,
+      "n": 1993,
+      "n_pos": 1131
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.41976999024042816,
+      "base_rate": 0.36204306459689534,
+      "ratio_to_chance": 1.1594476770541287,
+      "n": 1997,
+      "n_pos": 723
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.5149226471486001,
+      "base_rate": 0.5361083249749248,
+      "ratio_to_chance": 0.9604824681144141,
+      "n": 1994,
+      "n_pos": 1069
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.5624966570353842,
+      "base_rate": 0.5375751503006012,
+      "ratio_to_chance": 1.0463591122484872,
+      "n": 1996,
+      "n_pos": 1073
+     }
+    },
+    "auroc_report_only": 0.4425537485276442,
+    "brier": 0.25833166748510616,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": -1.154263214597313,
+     "intercept": -0.006832093456694703,
+     "negative_slope_alarm": true
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": -0.3619556540836702,
+      "intercept": 0.22738095758604182,
+      "negative_slope_alarm": true
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 36.23935814822858,
+      "intercept": -7.998482749324042,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": -0.38103612585621444,
+      "intercept": 0.07067411640727726,
+      "negative_slope_alarm": true
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": -0.8793502170577616,
+      "intercept": 0.21910661944540327,
+      "negative_slope_alarm": true
+     }
+    }
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.7471862552030181,
+     "base_rate": 0.7554524943594886,
+     "ratio_to_chance": 0.9890578967993493,
+     "n": 7978,
+     "n_pos": 6027
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.8259226888779305,
+      "base_rate": 0.8247112004018081,
+      "ratio_to_chance": 1.0014689851132519,
+      "n": 1991,
+      "n_pos": 1642
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.6777022040128586,
+      "base_rate": 0.5903855783675513,
+      "ratio_to_chance": 1.1478976263050709,
+      "n": 1997,
+      "n_pos": 1179
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.8075092322701842,
+      "base_rate": 0.8114343029087262,
+      "ratio_to_chance": 0.9951627992254309,
+      "n": 1994,
+      "n_pos": 1618
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.8175696451988839,
+      "base_rate": 0.7955911823647295,
+      "ratio_to_chance": 1.0276253223028793,
+      "n": 1996,
+      "n_pos": 1588
+     }
+    },
+    "auroc_report_only": 0.4586965013155817,
+    "brier": 0.19296584052084495,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": -1.4440507199897468,
+     "intercept": 2.915900126803804,
+     "negative_slope_alarm": true
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": 3.425461281588713,
+      "intercept": -2.047005125523968,
+      "negative_slope_alarm": false
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 10.031636711364703,
+      "intercept": -14.958051662047104,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": 0.31734308974963615,
+      "intercept": 1.156032973007651,
+      "negative_slope_alarm": false
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": -1.110236462678156,
+      "intercept": 2.8235859735005047,
+      "negative_slope_alarm": true
+     }
+    }
+   }
+  },
+  "published_rao2019": {
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.2751292478084901,
+     "base_rate": 0.28104656985478216,
+     "ratio_to_chance": 0.9789454037836164,
+     "n": 7988,
+     "n_pos": 2245
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.3136300723670041,
+      "base_rate": 0.32448673009514273,
+      "ratio_to_chance": 0.9665420594396714,
+      "n": 1997,
+      "n_pos": 648
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.19495358671600155,
+      "base_rate": 0.19829744616925388,
+      "ratio_to_chance": 0.9831371532117553,
+      "n": 1997,
+      "n_pos": 396
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.2875119873149631,
+      "base_rate": 0.3024536805207812,
+      "ratio_to_chance": 0.9505984083906974,
+      "n": 1997,
+      "n_pos": 604
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.3104468004747535,
+      "base_rate": 0.29894842263395094,
+      "ratio_to_chance": 1.038462747986738,
+      "n": 1997,
+      "n_pos": 597
+     }
+    },
+    "auroc_report_only": 0.48267618912071514
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.4976988746146216,
+     "base_rate": 0.5007518796992482,
+     "ratio_to_chance": 0.9939031580141842,
+     "n": 7980,
+     "n_pos": 3996
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.5683782074205204,
+      "base_rate": 0.5674862017059709,
+      "ratio_to_chance": 1.001571854455435,
+      "n": 1993,
+      "n_pos": 1131
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.36964097446347066,
+      "base_rate": 0.36204306459689534,
+      "ratio_to_chance": 1.0209862047075393,
+      "n": 1997,
+      "n_pos": 723
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.5218176907309794,
+      "base_rate": 0.5361083249749248,
+      "ratio_to_chance": 0.9733437561436603,
+      "n": 1994,
+      "n_pos": 1069
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.5370364793630292,
+      "base_rate": 0.5375751503006012,
+      "ratio_to_chance": 0.9989979616110031,
+      "n": 1996,
+      "n_pos": 1073
+     }
+    },
+    "auroc_report_only": 0.4911942250985924
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.7504572583293627,
+     "base_rate": 0.7554524943594886,
+     "ratio_to_chance": 0.9933877562554597,
+     "n": 7978,
+     "n_pos": 6027
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.8237269951690542,
+      "base_rate": 0.8247112004018081,
+      "ratio_to_chance": 0.9988066062007229,
+      "n": 1991,
+      "n_pos": 1642
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.5995842384341126,
+      "base_rate": 0.5903855783675513,
+      "ratio_to_chance": 1.0155807668811898,
+      "n": 1997,
+      "n_pos": 1179
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.7941045899758291,
+      "base_rate": 0.8114343029087262,
+      "ratio_to_chance": 0.9786431102668747,
+      "n": 1994,
+      "n_pos": 1618
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.7944237934015558,
+      "base_rate": 0.7955911823647295,
+      "ratio_to_chance": 0.998532677348555,
+      "n": 1996,
+      "n_pos": 1588
+     }
+    },
+    "auroc_report_only": 0.4880654515809899
+   }
+  },
+  "published_rao2019_win": {
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.28179157029731844,
+     "base_rate": 0.28104656985478216,
+     "ratio_to_chance": 1.0026508078106815,
+     "n": 7988,
+     "n_pos": 2245
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.34052479333361313,
+      "base_rate": 0.32448673009514273,
+      "ratio_to_chance": 1.0494259448876935,
+      "n": 1997,
+      "n_pos": 648
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.22308905499410395,
+      "base_rate": 0.19829744616925388,
+      "ratio_to_chance": 1.1250223303616809,
+      "n": 1997,
+      "n_pos": 396
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.28781940961884117,
+      "base_rate": 0.3024536805207812,
+      "ratio_to_chance": 0.9516148361073274,
+      "n": 1997,
+      "n_pos": 604
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.28153324825975,
+      "base_rate": 0.29894842263395094,
+      "ratio_to_chance": 0.9417452207281755,
+      "n": 1997,
+      "n_pos": 597
+     }
+    },
+    "auroc_report_only": 0.49985790777733863
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.5104003874456934,
+     "base_rate": 0.5007518796992482,
+     "ratio_to_chance": 1.0192680409951533,
+     "n": 7980,
+     "n_pos": 3996
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.5822419406194524,
+      "base_rate": 0.5674862017059709,
+      "ratio_to_chance": 1.026001934265755,
+      "n": 1993,
+      "n_pos": 1131
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.42201642586640054,
+      "base_rate": 0.36204306459689534,
+      "ratio_to_chance": 1.1656525621787024,
+      "n": 1997,
+      "n_pos": 723
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.5215788776974954,
+      "base_rate": 0.5361083249749248,
+      "ratio_to_chance": 0.9728982994656744,
+      "n": 1994,
+      "n_pos": 1069
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.5226500019169045,
+      "base_rate": 0.5375751503006012,
+      "ratio_to_chance": 0.9722361638640646,
+      "n": 1996,
+      "n_pos": 1073
+     }
+    },
+    "auroc_report_only": 0.5064481838766477
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.7464927034894158,
+     "base_rate": 0.7554524943594886,
+     "ratio_to_chance": 0.9881398354800994,
+     "n": 7978,
+     "n_pos": 6027
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.8349694273991051,
+      "base_rate": 0.8247112004018081,
+      "ratio_to_chance": 1.012438568789049,
+      "n": 1991,
+      "n_pos": 1642
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.6273282614246385,
+      "base_rate": 0.5903855783675513,
+      "ratio_to_chance": 1.0625738236344384,
+      "n": 1997,
+      "n_pos": 1179
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.7718598655093863,
+      "base_rate": 0.8114343029087262,
+      "ratio_to_chance": 0.9512290307946331,
+      "n": 1994,
+      "n_pos": 1618
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.7614200327675542,
+      "base_rate": 0.7955911823647295,
+      "ratio_to_chance": 0.9570493610856664,
+      "n": 1996,
+      "n_pos": 1588
+     }
+    },
+    "auroc_report_only": 0.47589826644613165
+   }
+  },
+  "trees": {
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.5559450169426985,
+     "base_rate": 0.28104656985478216,
+     "ratio_to_chance": 1.9781241850059135,
+     "n": 7988,
+     "n_pos": 2245
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.6355119429101875,
+      "base_rate": 0.32448673009514273,
+      "ratio_to_chance": 1.9585144289994514,
+      "n": 1997,
+      "n_pos": 648
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.5677155033515062,
+      "base_rate": 0.19829744616925388,
+      "ratio_to_chance": 2.862949141901409,
+      "n": 1997,
+      "n_pos": 396
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.5342224013587469,
+      "base_rate": 0.3024536805207812,
+      "ratio_to_chance": 1.7662949263467176,
+      "n": 1997,
+      "n_pos": 604
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.5580410390468925,
+      "base_rate": 0.29894842263395094,
+      "ratio_to_chance": 1.8666799915856689,
+      "n": 1997,
+      "n_pos": 597
+     }
+    },
+    "auroc_report_only": 0.72323467670723,
+    "brier": 0.1709597574640948,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": 1.1672016823879667,
+     "intercept": 0.1544096620332794,
+     "negative_slope_alarm": false
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": 1.1909258446129112,
+      "intercept": 0.7322961556350399,
+      "negative_slope_alarm": false
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 1.336186879212219,
+      "intercept": -0.25377931397364123,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": 1.0279149004987194,
+      "intercept": -0.013823767303213289,
+      "negative_slope_alarm": false
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": 1.682535967683393,
+      "intercept": 0.5869462293714074,
+      "negative_slope_alarm": false
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.6844890365418782,
+     "base_rate": 0.5007518796992482,
+     "ratio_to_chance": 1.3669225504514984,
+     "n": 7980,
+     "n_pos": 3996
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.7411881031011662,
+      "base_rate": 0.5674862017059709,
+      "ratio_to_chance": 1.3060900879581117,
+      "n": 1993,
+      "n_pos": 1131
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.594362080271396,
+      "base_rate": 0.36204306459689534,
+      "ratio_to_chance": 1.6416888994494854,
+      "n": 1997,
+      "n_pos": 723
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.7249050040259817,
+      "base_rate": 0.5361083249749248,
+      "ratio_to_chance": 1.3521614387537955,
+      "n": 1994,
+      "n_pos": 1069
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.72773045085103,
+      "base_rate": 0.5375751503006012,
+      "ratio_to_chance": 1.3537278470630532,
+      "n": 1996,
+      "n_pos": 1073
+     }
+    },
+    "auroc_report_only": 0.6545039328987622,
+    "brier": 0.23232007757536507,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": 1.0476212755270522,
+     "intercept": 0.05271137092411391,
+     "negative_slope_alarm": false
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": 1.0558630096458543,
+      "intercept": 0.6580756647601157,
+      "negative_slope_alarm": false
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 1.1132750733232584,
+      "intercept": -0.6689349277869472,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": 1.6295559662905432,
+      "intercept": 0.022330288376817376,
+      "negative_slope_alarm": false
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": 2.373760681960778,
+      "intercept": 0.14102069481183804,
+      "negative_slope_alarm": false
+     }
+    }
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.7872166760657345,
+     "base_rate": 0.7554524943594886,
+     "ratio_to_chance": 1.0420465640704215,
+     "n": 7978,
+     "n_pos": 6027
+    },
+    "per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "ap": 0.8860363779565075,
+      "base_rate": 0.8247112004018081,
+      "ratio_to_chance": 1.0743595788741818,
+      "n": 1991,
+      "n_pos": 1642
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "ap": 0.7172286550136886,
+      "base_rate": 0.5903855783675513,
+      "ratio_to_chance": 1.2148478575592334,
+      "n": 1997,
+      "n_pos": 1179
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "ap": 0.8666048520504548,
+      "base_rate": 0.8114343029087262,
+      "ratio_to_chance": 1.0679913936888794,
+      "n": 1994,
+      "n_pos": 1618
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "ap": 0.8722163751556874,
+      "base_rate": 0.7955911823647295,
+      "ratio_to_chance": 1.0963122700319596,
+      "n": 1996,
+      "n_pos": 1588
+     }
+    },
+    "auroc_report_only": 0.5532322641399199,
+    "brier": 0.18910274596895313,
+    "calibration_pooled": {
+     "defined": true,
+     "slope": -0.08913279450510712,
+     "intercept": 1.224867875241216,
+     "negative_slope_alarm": true
+    },
+    "calibration_per_fold": {
+     "0:200MV/1": {
+      "defined": true,
+      "slope": 1.4505132760616792,
+      "intercept": 0.39602993085296495,
+      "negative_slope_alarm": false
+     },
+     "1:200MV/2": {
+      "defined": true,
+      "slope": 1.3638346756365123,
+      "intercept": -1.4951569961662832,
+      "negative_slope_alarm": false
+     },
+     "2:neg-200MV/1": {
+      "defined": true,
+      "slope": 6.844187468821516,
+      "intercept": -5.721569212932284,
+      "negative_slope_alarm": false
+     },
+     "3:neg-200MV/2": {
+      "defined": true,
+      "slope": -3.0441874824092245,
+      "intercept": 4.696002252441082,
+      "negative_slope_alarm": true
+     }
+    }
+   }
+  }
+ },
+ "degenerate_folds": [],
+ "headline_note": "headline per-frame metric is pooled AP/base at the primary τ; the headline monitor quantity is event-level",
+ "paired_vs_head": {
+  "clock": {
+   "defined": true,
+   "mean_diff": 0.17232237341441767,
+   "ci": [
+    0.13467567098073285,
+    0.21685906548210243
+   ],
+   "n_groups": 4,
+   "n_boot_effective": 1000,
+   "method": "percentile paired bootstrap over trajectories",
+   "coverage_note": "with few groups the interval coverage is not guaranteed; the interval is shown, not hidden"
+  },
+  "linear": {
+   "defined": true,
+   "mean_diff": 0.10313823137169573,
+   "ci": [
+    0.06771335421372704,
+    0.127212751993873
+   ],
+   "n_groups": 4,
+   "n_boot_effective": 1000,
+   "method": "percentile paired bootstrap over trajectories",
+   "coverage_note": "with few groups the interval coverage is not guaranteed; the interval is shown, not hidden"
+  },
+  "linear_control_structural": {
+   "defined": true,
+   "mean_diff": 0.21561501937272237,
+   "ci": [
+    0.15485039899579023,
+    0.2598588875082932
+   ],
+   "n_groups": 4,
+   "n_boot_effective": 1000,
+   "method": "percentile paired bootstrap over trajectories",
+   "coverage_note": "with few groups the interval coverage is not guaranteed; the interval is shown, not hidden"
+  },
+  "plsfma_coords": {
+   "defined": true,
+   "mean_diff": 0.20298731869300707,
+   "ci": [
+    0.16481972951544777,
+    0.2539320902805108
+   ],
+   "n_groups": 4,
+   "n_boot_effective": 1000,
+   "method": "percentile paired bootstrap over trajectories",
+   "coverage_note": "with few groups the interval coverage is not guaranteed; the interval is shown, not hidden"
+  },
+  "published_rao2019": {
+   "defined": true,
+   "mean_diff": 0.18869889426705283,
+   "ci": [
+    0.16120028600855796,
+    0.2301248179255002
+   ],
+   "n_groups": 4,
+   "n_boot_effective": 1000,
+   "method": "percentile paired bootstrap over trajectories",
+   "coverage_note": "with few groups the interval coverage is not guaranteed; the interval is shown, not hidden"
+  },
+  "published_rao2019_win": {
+   "defined": true,
+   "mean_diff": 0.17613854106817592,
+   "ci": [
+    0.1215192315876733,
+    0.22015350805661765
+   ],
+   "n_groups": 4,
+   "n_boot_effective": 1000,
+   "method": "percentile paired bootstrap over trajectories",
+   "coverage_note": "with few groups the interval coverage is not guaranteed; the interval is shown, not hidden"
+  }
+ },
+ "anchor_ablation": {
+  "resting": {
+   "defined": true,
+   "ap": 0.38815170599530546,
+   "base_rate": 0.23728813559322035,
+   "ratio_to_chance": 1.6357821895516444,
+   "n": 2242,
+   "n_pos": 532
+  },
+  "transit": {
+   "defined": true,
+   "ap": 0.763563836440611,
+   "base_rate": 0.6036946671314046,
+   "ratio_to_chance": 1.2648179253741993,
+   "n": 5738,
+   "n_pos": 3464
+  },
+  "note": "the study's conclusion must hold on resting frames"
+ },
+ "block_ablation": {
+  "geometry": {
+   "0:200MV/1": {
+    "defined": true,
+    "ap": 0.7409047301387304,
+    "base_rate": 0.5674862017059709,
+    "ratio_to_chance": 1.3055907402002562,
+    "n": 1993,
+    "n_pos": 1131
+   },
+   "1:200MV/2": {
+    "defined": true,
+    "ap": 0.5923391094524146,
+    "base_rate": 0.36204306459689534,
+    "ratio_to_chance": 1.6361012469937373,
+    "n": 1997,
+    "n_pos": 723
+   },
+   "2:neg-200MV/1": {
+    "defined": true,
+    "ap": 0.7270579969559017,
+    "base_rate": 0.5361083249749248,
+    "ratio_to_chance": 1.3561774049860318,
+    "n": 1994,
+    "n_pos": 1069
+   },
+   "3:neg-200MV/2": {
+    "defined": true,
+    "ap": 0.730095678274191,
+    "base_rate": 0.5375751503006012,
+    "ratio_to_chance": 1.358127655018905,
+    "n": 1996,
+    "n_pos": 1073
+   }
+  },
+  "hydration": {
+   "0:200MV/1": {
+    "defined": true,
+    "ap": 0.7384825016819001,
+    "base_rate": 0.5674862017059709,
+    "ratio_to_chance": 1.3013223924421105,
+    "n": 1993,
+    "n_pos": 1131
+   },
+   "1:200MV/2": {
+    "defined": true,
+    "ap": 0.5981001286711158,
+    "base_rate": 0.36204306459689534,
+    "ratio_to_chance": 1.652013771723677,
+    "n": 1997,
+    "n_pos": 723
+   },
+   "2:neg-200MV/1": {
+    "defined": true,
+    "ap": 0.7267113094415589,
+    "base_rate": 0.5361083249749248,
+    "ratio_to_chance": 1.3555307306140958,
+    "n": 1994,
+    "n_pos": 1069
+   },
+   "3:neg-200MV/2": {
+    "defined": true,
+    "ap": 0.7278037035044227,
+    "base_rate": 0.5375751503006012,
+    "ratio_to_chance": 1.3538641120175468,
+    "n": 1996,
+    "n_pos": 1073
+   }
+  },
+  "water_wire": {
+   "0:200MV/1": {
+    "defined": true,
+    "ap": 0.7376136868603783,
+    "base_rate": 0.5674862017059709,
+    "ratio_to_chance": 1.299791403990039,
+    "n": 1993,
+    "n_pos": 1131
+   },
+   "1:200MV/2": {
+    "defined": true,
+    "ap": 0.6026994285926839,
+    "base_rate": 0.36204306459689534,
+    "ratio_to_chance": 1.664717508851438,
+    "n": 1997,
+    "n_pos": 723
+   },
+   "2:neg-200MV/1": {
+    "defined": true,
+    "ap": 0.7263372286664018,
+    "base_rate": 0.5361083249749248,
+    "ratio_to_chance": 1.3548329597388262,
+    "n": 1994,
+    "n_pos": 1069
+   },
+   "3:neg-200MV/2": {
+    "defined": true,
+    "ap": 0.7276035348455598,
+    "base_rate": 0.5375751503006012,
+    "ratio_to_chance": 1.3534917572709575,
+    "n": 1996,
+    "n_pos": 1073
+   }
+  },
+  "occupancy": {
+   "0:200MV/1": {
+    "defined": true,
+    "ap": 0.7392169066446804,
+    "base_rate": 0.5674862017059709,
+    "ratio_to_chance": 1.3026165295692733,
+    "n": 1993,
+    "n_pos": 1131
+   },
+   "1:200MV/2": {
+    "defined": true,
+    "ap": 0.5886039832838001,
+    "base_rate": 0.36204306459689534,
+    "ratio_to_chance": 1.6257844462209528,
+    "n": 1997,
+    "n_pos": 723
+   },
+   "2:neg-200MV/1": {
+    "defined": true,
+    "ap": 0.7293523061821479,
+    "base_rate": 0.5361083249749248,
+    "ratio_to_chance": 1.3604569677522944,
+    "n": 1994,
+    "n_pos": 1069
+   },
+   "3:neg-200MV/2": {
+    "defined": true,
+    "ap": 0.727448272560739,
+    "base_rate": 0.5375751503006012,
+    "ratio_to_chance": 1.3532029375873578,
+    "n": 1996,
+    "n_pos": 1073
+   }
+  },
+  "named_sites": {
+   "0:200MV/1": {
+    "defined": true,
+    "ap": 0.735046271804837,
+    "base_rate": 0.5674862017059709,
+    "ratio_to_chance": 1.295267214595084,
+    "n": 1993,
+    "n_pos": 1131
+   },
+   "1:200MV/2": {
+    "defined": true,
+    "ap": 0.5919810702974322,
+    "base_rate": 0.36204306459689534,
+    "ratio_to_chance": 1.6351123062018977,
+    "n": 1997,
+    "n_pos": 723
+   },
+   "2:neg-200MV/1": {
+    "defined": true,
+    "ap": 0.7290989159854752,
+    "base_rate": 0.5361083249749248,
+    "ratio_to_chance": 1.3599843203695392,
+    "n": 1994,
+    "n_pos": 1069
+   },
+   "3:neg-200MV/2": {
+    "defined": true,
+    "ap": 0.7181280916539188,
+    "base_rate": 0.5375751503006012,
+    "ratio_to_chance": 1.335865490159573,
+    "n": 1996,
+    "n_pos": 1073
+   }
+  },
+  "electrostatics": {
+   "0:200MV/1": {
+    "defined": true,
+    "ap": 0.7392844745697491,
+    "base_rate": 0.5674862017059709,
+    "ratio_to_chance": 1.3027355948872767,
+    "n": 1993,
+    "n_pos": 1131
+   },
+   "1:200MV/2": {
+    "defined": true,
+    "ap": 0.5937971726393159,
+    "base_rate": 0.36204306459689534,
+    "ratio_to_chance": 1.6401285667506416,
+    "n": 1997,
+    "n_pos": 723
+   },
+   "2:neg-200MV/1": {
+    "defined": true,
+    "ap": 0.7268560625048193,
+    "base_rate": 0.5361083249749248,
+    "ratio_to_chance": 1.3558007377311596,
+    "n": 1994,
+    "n_pos": 1069
+   },
+   "3:neg-200MV/2": {
+    "defined": true,
+    "ap": 0.7275846034931426,
+    "base_rate": 0.5375751503006012,
+    "ratio_to_chance": 1.3534565410739166,
+    "n": 1996,
+    "n_pos": 1073
+   }
+  },
+  "symmetry": {
+   "0:200MV/1": {
+    "defined": true,
+    "ap": 0.7383898729875685,
+    "base_rate": 0.5674862017059709,
+    "ratio_to_chance": 1.3011591661045308,
+    "n": 1993,
+    "n_pos": 1131
+   },
+   "1:200MV/2": {
+    "defined": true,
+    "ap": 0.5909860690689259,
+    "base_rate": 0.36204306459689534,
+    "ratio_to_chance": 1.6323640109690802,
+    "n": 1997,
+    "n_pos": 723
+   },
+   "2:neg-200MV/1": {
+    "defined": true,
+    "ap": 0.7231410801951695,
+    "base_rate": 0.5361083249749248,
+    "ratio_to_chance": 1.3488712010375754,
+    "n": 1994,
+    "n_pos": 1069
+   },
+   "3:neg-200MV/2": {
+    "defined": true,
+    "ap": 0.728064301597096,
+    "base_rate": 0.5375751503006012,
+    "ratio_to_chance": 1.3543488779010284,
+    "n": 1996,
+    "n_pos": 1073
+   }
+  },
+  "fluctuations": {
+   "0:200MV/1": {
+    "defined": true,
+    "ap": 0.7367394216895278,
+    "base_rate": 0.5674862017059709,
+    "ratio_to_chance": 1.2982508111646587,
+    "n": 1993,
+    "n_pos": 1131
+   },
+   "1:200MV/2": {
+    "defined": true,
+    "ap": 0.5984054335717368,
+    "base_rate": 0.36204306459689534,
+    "ratio_to_chance": 1.6528570551075497,
+    "n": 1997,
+    "n_pos": 723
+   },
+   "2:neg-200MV/1": {
+    "defined": true,
+    "ap": 0.7232569207810934,
+    "base_rate": 0.5361083249749248,
+    "ratio_to_chance": 1.349087277864827,
+    "n": 1994,
+    "n_pos": 1069
+   },
+   "3:neg-200MV/2": {
+    "defined": true,
+    "ap": 0.7299148535199829,
+    "base_rate": 0.5375751503006012,
+    "ratio_to_chance": 1.357791283901105,
+    "n": 1996,
+    "n_pos": 1073
+   }
+  },
+  "dynamics": {
+   "0:200MV/1": {
+    "defined": true,
+    "ap": 0.6735350574779867,
+    "base_rate": 0.5674862017059709,
+    "ratio_to_chance": 1.1868747741411385,
+    "n": 1993,
+    "n_pos": 1131
+   },
+   "1:200MV/2": {
+    "defined": true,
+    "ap": 0.48208152964251,
+    "base_rate": 0.36204306459689534,
+    "ratio_to_chance": 1.331558526550612,
+    "n": 1997,
+    "n_pos": 723
+   },
+   "2:neg-200MV/1": {
+    "defined": true,
+    "ap": 0.5465096410322677,
+    "base_rate": 0.5361083249749248,
+    "ratio_to_chance": 1.0194015193810495,
+    "n": 1994,
+    "n_pos": 1069
+   },
+   "3:neg-200MV/2": {
+    "defined": true,
+    "ap": 0.5966408136616108,
+    "base_rate": 0.5375751503006012,
+    "ratio_to_chance": 1.1098742442391194,
+    "n": 1996,
+    "n_pos": 1073
+   }
+  },
+  "delivery": {
+   "0:200MV/1": {
+    "defined": true,
+    "ap": 0.7093732757951281,
+    "base_rate": 0.5674862017059709,
+    "ratio_to_chance": 1.250027355136773,
+    "n": 1993,
+    "n_pos": 1131
+   },
+   "1:200MV/2": {
+    "defined": true,
+    "ap": 0.5541783684014776,
+    "base_rate": 0.36204306459689534,
+    "ratio_to_chance": 1.5306973744090606,
+    "n": 1997,
+    "n_pos": 723
+   },
+   "2:neg-200MV/1": {
+    "defined": true,
+    "ap": 0.6259493407938521,
+    "base_rate": 0.5361083249749248,
+    "ratio_to_chance": 1.167579967767017,
+    "n": 1994,
+    "n_pos": 1069
+   },
+   "3:neg-200MV/2": {
+    "defined": true,
+    "ap": 0.6435943108872505,
+    "base_rate": 0.5375751503006012,
+    "ratio_to_chance": 1.1972173760773084,
+    "n": 1996,
+    "n_pos": 1073
+   }
+  }
+ },
+ "condition_transfer": {
+  "200MV->neg-200MV": {
+   "defined": true,
+   "ap": 0.6308421499455592,
+   "base_rate": 0.5368421052631579,
+   "ratio_to_chance": 1.1750981224476102,
+   "n": 3990,
+   "n_pos": 2142
+  },
+  "neg-200MV->200MV": {
+   "defined": true,
+   "ap": 0.5942059814429651,
+   "base_rate": 0.46466165413533833,
+   "ratio_to_chance": 1.2787928079597792,
+   "n": 3990,
+   "n_pos": 1854
+  }
+ }
+}

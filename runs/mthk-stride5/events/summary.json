@@ -1,0 +1,43 @@
+{
+ "replicas": {
+  "200MV/1": {
+   "n_own": 175,
+   "n_provided": null,
+   "n_ions": 249,
+   "left_censored_at_start": 15,
+   "net_flux_sign": 1
+  },
+  "200MV/2": {
+   "n_own": 104,
+   "n_provided": null,
+   "n_ions": 249,
+   "left_censored_at_start": 15,
+   "net_flux_sign": 1
+  },
+  "neg-200MV/1": {
+   "n_own": 166,
+   "n_provided": null,
+   "n_ions": 249,
+   "left_censored_at_start": 15,
+   "net_flux_sign": -1
+  },
+  "neg-200MV/2": {
+   "n_own": 162,
+   "n_provided": null,
+   "n_ions": 249,
+   "left_censored_at_start": 15,
+   "net_flux_sign": -1
+  }
+ },
+ "source_declared": "own",
+ "condition_flux_signs": {
+  "200MV": [
+   1,
+   1
+  ],
+  "neg-200MV": [
+   -1,
+   -1
+  ]
+ }
+}

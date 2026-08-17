@@ -1,0 +1,276 @@
+{
+ "tau_ps": 1000.0,
+ "held_out": {
+  "kcsa:E71A/1": {
+   "n_train": 64148,
+   "n_test": 6251,
+   "test_base_rate": 0.048846893017296604,
+   "arms": {
+    "trees": {
+     "chosen": {
+      "depth": 4,
+      "k_events": 4.0,
+      "colsample": 0.7,
+      "subsample": 0.8
+     },
+     "M_rounds": 155,
+     "eval": {
+      "defined": true,
+      "ap": 0.055775315883048224,
+      "base_rate": 0.048846893017296604,
+      "ratio_to_chance": 1.141839581553289,
+      "n": 6244,
+      "n_pos": 305
+     },
+     "verdict_accuracy": 0.9461883408071748
+    },
+    "linear": {
+     "chosen_C": 0.01,
+     "eval": {
+      "defined": true,
+      "ap": 0.07431424176827162,
+      "base_rate": 0.048846893017296604,
+      "ratio_to_chance": 1.5213709036101246,
+      "n": 6244,
+      "n_pos": 305
+     }
+    },
+    "clock": {
+     "eval": {
+      "defined": true,
+      "ap": 0.05657917090414158,
+      "base_rate": 0.048846893017296604,
+      "ratio_to_chance": 1.1582962069687215,
+      "n": 6244,
+      "n_pos": 305
+     }
+    }
+   }
+  },
+  "kcsa:G77AE71A/1": {
+   "n_train": 57898,
+   "n_test": 12501,
+   "test_base_rate": 0.0015207299503761805,
+   "arms": {
+    "trees": {
+     "chosen": {
+      "depth": 4,
+      "k_events": 2.0,
+      "colsample": 0.7,
+      "subsample": 0.8
+     },
+     "M_rounds": 152,
+     "eval": {
+      "defined": true,
+      "ap": 0.01010132965898317,
+      "base_rate": 0.0015207299503761805,
+      "ratio_to_chance": 6.6424217241755645,
+      "n": 12494,
+      "n_pos": 19
+     },
+     "verdict_accuracy": 0.9984792700496238
+    },
+    "linear": {
+     "chosen_C": 0.01,
+     "eval": {
+      "defined": true,
+      "ap": 0.0035759409733930915,
+      "base_rate": 0.0015207299503761805,
+      "ratio_to_chance": 2.351463501135436,
+      "n": 12494,
+      "n_pos": 19
+     }
+    },
+    "clock": {
+     "eval": {
+      "defined": true,
+      "ap": 0.01803337866945755,
+      "base_rate": 0.0015207299503761805,
+      "ratio_to_chance": 11.858370162958034,
+      "n": 12494,
+      "n_pos": 19
+     }
+    }
+   }
+  },
+  "kcsa:T75AE71A/1": {
+   "n_train": 64148,
+   "n_test": 6251,
+   "test_base_rate": 0.0,
+   "arms": {
+    "trees": {
+     "chosen": {
+      "depth": 4,
+      "k_events": 4.0,
+      "colsample": 0.7,
+      "subsample": 0.8
+     },
+     "M_rounds": 179,
+     "eval": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     },
+     "verdict_accuracy": 1.0
+    },
+    "linear": {
+     "chosen_C": 0.01,
+     "eval": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "clock": {
+     "eval": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   }
+  },
+  "kcsa_na:E71A/1": {
+   "n_train": 64148,
+   "n_test": 6251,
+   "test_base_rate": 0.0,
+   "arms": {
+    "trees": {
+     "chosen": {
+      "depth": 4,
+      "k_events": 4.0,
+      "colsample": 0.7,
+      "subsample": 0.8
+     },
+     "M_rounds": 170,
+     "eval": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     },
+     "verdict_accuracy": 1.0
+    },
+    "linear": {
+     "chosen_C": 0.01,
+     "eval": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "clock": {
+     "eval": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   }
+  },
+  "kcsa_na:G77AE71A/1": {
+   "n_train": 57898,
+   "n_test": 12501,
+   "test_base_rate": 0.0034416519929566193,
+   "arms": {
+    "trees": {
+     "chosen": {
+      "depth": 4,
+      "k_events": 8.0,
+      "colsample": 0.7,
+      "subsample": 0.8
+     },
+     "M_rounds": 157,
+     "eval": {
+      "defined": true,
+      "ap": 0.0374394252997906,
+      "base_rate": 0.0034416519929566193,
+      "ratio_to_chance": 10.878329760362412,
+      "n": 12494,
+      "n_pos": 43
+     },
+     "verdict_accuracy": 0.9794301264607012
+    },
+    "linear": {
+     "chosen_C": 0.01,
+     "eval": {
+      "defined": true,
+      "ap": 0.021121546439531784,
+      "base_rate": 0.0034416519929566193,
+      "ratio_to_chance": 6.137037237570002,
+      "n": 12494,
+      "n_pos": 43
+     }
+    },
+    "clock": {
+     "eval": {
+      "defined": true,
+      "ap": 0.006176037494493492,
+      "base_rate": 0.0034416519929566193,
+      "ratio_to_chance": 1.7944979640977137,
+      "n": 12494,
+      "n_pos": 43
+     }
+    }
+   }
+  },
+  "kcsa_na:T75AE71A/1": {
+   "n_train": 64148,
+   "n_test": 6251,
+   "test_base_rate": 0.0009609224855861628,
+   "arms": {
+    "trees": {
+     "chosen": {
+      "depth": 4,
+      "k_events": 8.0,
+      "colsample": 0.7,
+      "subsample": 0.8
+     },
+     "M_rounds": 179,
+     "eval": {
+      "defined": true,
+      "ap": 0.000707756967785049,
+      "base_rate": 0.0009609224855861628,
+      "ratio_to_chance": 0.7365390844749743,
+      "n": 6244,
+      "n_pos": 6
+     },
+     "verdict_accuracy": 0.9990390775144138
+    },
+    "linear": {
+     "chosen_C": 0.01,
+     "eval": {
+      "defined": true,
+      "ap": 0.000584055090891355,
+      "base_rate": 0.0009609224855861628,
+      "ratio_to_chance": 0.6078066645876034,
+      "n": 6244,
+      "n_pos": 6
+     }
+    },
+    "clock": {
+     "eval": {
+      "defined": true,
+      "ap": 0.0015659883852223982,
+      "base_rate": 0.0009609224855861628,
+      "ratio_to_chance": 1.629671912888109,
+      "n": 6244,
+      "n_pos": 6
+     }
+    }
+   }
+  }
+ },
+ "system_label_columns": [
+  "geo_lining_n",
+  "geo_r_bin0_A",
+  "geo_r_bin1_A",
+  "geo_r_bin2_A",
+  "geo_bin5_nsearch",
+  "hyd_water_pore_n",
+  "hyd_lining_n_facing",
+  "hyd_water_bin0_n",
+  "hyd_water_bin1_n",
+  "hyd_water_bin2_n",
+  "hyd_water_bin3_n",
+  "hyd_water_bin6_n",
+  "ww_n_waters",
+  "ww_max_gap_A",
+  "sym_com_z_spread_A"
+ ],
+ "n_pool_rows": 70520,
+ "note_plsfma": "coordinate-based FMA cannot pool across proteins: Cartesian spaces are incommensurable"
+}
