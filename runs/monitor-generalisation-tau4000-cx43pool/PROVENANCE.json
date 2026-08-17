@@ -1,0 +1,713 @@
+{
+ "step": "transfer",
+ "system": "gramicidin",
+ "stride": 4,
+ "timestamp_utc": "2026-08-16T14:30:23.268531+00:00",
+ "platform": {
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64"
+ },
+ "n_threads": 1,
+ "libraries": {
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "pandas": "2.3.3",
+  "MDAnalysis": "2.10.0",
+  "sklearn": "1.9.0",
+  "xgboost": "3.2.0",
+  "numba": "0.66.0",
+  "matplotlib": "3.10.9",
+  "yaml": "6.0.3",
+  "pyarrow": "21.0.0"
+ },
+ "code": {
+  "tree_sha256": "ac4efdc2cbd2f6ef6820851f34b1fb54501d9397b540adfcecb0753a90a6816c",
+  "files": {
+   "__init__.py": "0a97c5fa66b6709c967140730b7180ed4c8c57beb54642c5bc84daa1130e1dee",
+   "autodetect.py": "ecea0d37e039e0db2dd0c058035c4588771160fcf77d82108f47e5309397a48a",
+   "baselines/__init__.py": "5ce74332c80c76adcf11abde4e9c686eecf88b9684bd4bea3296173745e1fe18",
+   "baselines/clock.py": "38a83d3dee9ebb04c3d2cf6dfc95895046d8a4c6d7e226ffdeff975df66b65f0",
+   "baselines/linear_control.py": "0f6e4f17b6b642b0ccaa64a25359176006b546b7057ed7bf7b290eaa1fba21a9",
+   "baselines/published.py": "174d11988796f53c7a18e02c41d14696d7f9cbb84ba0313853241f3d6e9c7e34",
+   "benchmark.py": "a3a552dee8536ff6710151e0b307ebeeeb99d45c9abd53c2590f7f193b6a5910",
+   "config.py": "9ebce37009e41d1480462e9ceabe34325761f66f6fb07fa58dd6e69701e82316",
+   "coords.py": "4a04cb9a1026344f97cf74c1c3b29148e29f4684a46639d1e5bf17a42628ce66",
+   "datasets.py": "295e5b162e1a3af179caac23c2770d69f769ff73f58c0e9a635d396728786b34",
+   "evaluate.py": "964f2b4f7379f95ef7b9d583cc80b4fe04c689f175c30e2266417f44201a4f6c",
+   "events.py": "d05223d4d189e8bea86aa93ce5c966bbdceffa18f8db5cbbb04cdf55efcc2e4b",
+   "features/__init__.py": "26878e99b83e079f55cc6b5f81f75e2e589b3ff08e13e10c65442baab7986d73",
+   "features/_common.py": "45b15c5a15f756f1169c66b33d35f4fa5515ce4292301e0e2221161220a97eb4",
+   "features/delivery.py": "9256ffefcbe2b877aabee1586ade9f540e4366ab9d4e474d31665a5b832f6f89",
+   "features/dynamics.py": "3fcae586a303ee380544484f1146bf3e338b4c832028950564a53005822564ce",
+   "features/electrostatics.py": "d21662f4aeaa868af6bbfb443955fd9b2c3e50fd50c8459ecbe2b10a89c58cd5",
+   "features/fluctuations.py": "4900cc0d2d48377a86faa3489ccfcdb9a569ddac0c1a037159f1ee91463010c9",
+   "features/geometry.py": "843c7c25a24ea8c4d2b8794a6c443561fc1e173309189d6be0f57ba540c2603b",
+   "features/hydration.py": "5d32abdba69803bb86eb01b9f1a3887bfd971aa64a9ba048e224e1c8a75a84d4",
+   "features/named_sites.py": "9337ac83e10eeeddf93e61adb7d221196c82f4d7bb9c84ca096d9ae045f50ee8",
+   "features/occupancy.py": "8a1b250577e2a0590dc5002b92e6e125c808595704cb108b7ffc06ef7f706d0e",
+   "features/symmetry.py": "f7985ff03c5fa816ff7cd25cd8c8452f229b88245c11e7b9905cd4164e508bb3",
+   "features/water_wire.py": "89b5638272c85fe013b335c11ecd1d7dcacfbee9854cca5756ff8b2b89157aaa",
+   "inputs.py": "6bbdc9c9a98167c2d52beb697962565ad6d35e1d7b8c24c567ee6a9dfa3d9af7",
+   "interpret.py": "4a65a73e367b08876869eb639bfd308c62c68e8193ee4137c460e14ba99a884b",
+   "io.py": "25b908d821f78a0ef6c7bc21f3235891f9953cb87e19dd6f77580193bd109cd7",
+   "labels.py": "10fb1c1262dcaf5edc2a61580310791ed51971118ca3b4abf6b0a066c228a575",
+   "models/__init__.py": "b251fad730e4dfc732c231d0590fb748a5f273515377c3b9d53e403de3a1edca",
+   "models/linear.py": "daad2b8a44f76f265847d57eea6365d7016729d0a092ae7ff8958f9d66f752a3",
+   "models/nanpolicy.py": "cd17ff85291c158fd63d7c40a01d34901f0d5ecfd9c7af0c68bff6b5f975cd47",
+   "models/plsfma.py": "ec53a5a9cfd04d714552a0d220cf3e7e27ec586c97fcc989782ed41b27867749",
+   "models/trees.py": "2d156417ba260dd5d169e941961832b1bf852764a2fd04f8b0ca0b1952073bae",
+   "pore.py": "b75c07441f05c32f9141d715254cb986773e2a01ffd19c43b2000f962f40e92d",
+   "relevance.py": "80b8359c20731fdef2e15b8ac30ef58cf54a05e1f7bb93bb799d643afba1e730",
+   "report.py": "4466f4d365d2ca97be24fcbec6f6c836ce23dc82778bc0a2483539758decdea4",
+   "run.py": "9fe54f6dfeec9ebfd2a7291f19cc54851d33e79704773c8ee4f6997422195c49",
+   "runtime.py": "c8231455cef3008ff93f5800063280f0e767247bef8daf453a195a14846c2072",
+   "splits.py": "34e9c367ab31984929c24c313995235e08809286ac544f85765a0453e4607143",
+   "transfer.py": "2b397a8499a065f5a6c51d8b4a01609dbe46ef9d08da7e4760607e6796504b53",
+   "vdw.py": "7e5c0cd8e8c69c35ebcb466c8444a37f2706c3f6603aaaf832982a4549a6fbef",
+   "viz.py": "9e8207d75bc1a65e9cfa0c8107025732ee1d9071b03f319e6635767b6025e6ba"
+  }
+ },
+ "config": {
+  "system": {
+   "id": "gramicidin",
+   "architecture": "single_file_channel",
+   "permeant": "K",
+   "arch_profile": {
+    "n_subunits": 2,
+    "filter_present": false,
+    "filter_motif": null,
+    "filter_motif_pattern": "T[VIL]G[YF]G",
+    "n_sites": null,
+    "sites_basis": null
+   }
+  },
+  "data": {
+   "data_root": "/path/to/data/Shared_KCl_500mV",
+   "conditions": [
+    {
+     "id": "298K_2Msalt",
+     "direction": 1,
+     "replicas": [
+      {
+       "id": "01",
+       "topology": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/01-pt7scaling-11pA.tpr",
+       "trajectory": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/01-pt7scaling-11pA.xtc",
+       "events": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/01-transit-times.dat",
+       "lineage": "298K_2Msalt/01",
+       "protocol": {
+        "forcefield": null,
+        "water_model": null,
+        "charge_scaling": 0.7,
+        "voltage_mV": 500.0,
+        "temperature_K": 298.15
+       }
+      },
+      {
+       "id": "02",
+       "topology": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/02-pt7scaling-11pA.tpr",
+       "trajectory": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/02-pt7scaling-11pA.xtc",
+       "events": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/02-transit-times.dat",
+       "lineage": "298K_2Msalt/02",
+       "protocol": {
+        "forcefield": null,
+        "water_model": null,
+        "charge_scaling": 0.7,
+        "voltage_mV": 500.0,
+        "temperature_K": 298.15
+       }
+      },
+      {
+       "id": "03",
+       "topology": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/03-pt7scaling-12pA.tpr",
+       "trajectory": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/03-pt7scaling-12pA.xtc",
+       "events": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/03-transit-times.dat",
+       "lineage": "298K_2Msalt/03",
+       "protocol": {
+        "forcefield": null,
+        "water_model": null,
+        "charge_scaling": 0.7,
+        "voltage_mV": 500.0,
+        "temperature_K": 298.15
+       }
+      },
+      {
+       "id": "04",
+       "topology": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/04-pt7scaling-11pA.tpr",
+       "trajectory": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/04-pt7scaling-11pA.xtc",
+       "events": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/04-transit-times.dat",
+       "lineage": "298K_2Msalt/04",
+       "protocol": {
+        "forcefield": null,
+        "water_model": null,
+        "charge_scaling": 0.7,
+        "voltage_mV": 500.0,
+        "temperature_K": 298.15
+       }
+      },
+      {
+       "id": "05",
+       "topology": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/05-pt7scaling-10pA.tpr",
+       "trajectory": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/05-pt7scaling-10pA.xtc",
+       "events": "/path/to/data/Shared_KCl_500mV/298K_2Msalt/05-transit-times.dat",
+       "lineage": "298K_2Msalt/05",
+       "protocol": {
+        "forcefield": null,
+        "water_model": null,
+        "charge_scaling": 0.7,
+        "voltage_mV": 500.0,
+        "temperature_K": 298.15
+       }
+      }
+     ]
+    },
+    {
+     "id": "330K_1Msalt",
+     "direction": 1,
+     "replicas": [
+      {
+       "id": "01",
+       "topology": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/01-pt75scaling-16pA.tpr",
+       "trajectory": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/01-pt75scaling-16pA.xtc",
+       "events": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/01-transit-times.dat",
+       "lineage": "330K_1Msalt/01",
+       "protocol": {
+        "forcefield": null,
+        "water_model": null,
+        "charge_scaling": 0.75,
+        "voltage_mV": 500.0,
+        "temperature_K": 330.0
+       }
+      },
+      {
+       "id": "02",
+       "topology": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/02-pt75scaling-15pA.tpr",
+       "trajectory": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/02-pt75scaling-15pA.xtc",
+       "events": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/02-transit-times.dat",
+       "lineage": "330K_1Msalt/02",
+       "protocol": {
+        "forcefield": null,
+        "water_model": null,
+        "charge_scaling": 0.75,
+        "voltage_mV": 500.0,
+        "temperature_K": 330.0
+       }
+      },
+      {
+       "id": "03",
+       "topology": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/03-pt75scaling-11pA.tpr",
+       "trajectory": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/03-pt75scaling-11pA.xtc",
+       "events": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/03-transit-times.dat",
+       "lineage": "330K_1Msalt/03",
+       "protocol": {
+        "forcefield": null,
+        "water_model": null,
+        "charge_scaling": 0.75,
+        "voltage_mV": 500.0,
+        "temperature_K": 330.0
+       }
+      },
+      {
+       "id": "04",
+       "topology": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/04-pt75scaling-14pA.tpr",
+       "trajectory": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/04-pt75scaling-14pA.xtc",
+       "events": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/04-transit-times.dat",
+       "lineage": "330K_1Msalt/04",
+       "protocol": {
+        "forcefield": null,
+        "water_model": null,
+        "charge_scaling": 0.75,
+        "voltage_mV": 500.0,
+        "temperature_K": 330.0
+       }
+      },
+      {
+       "id": "05",
+       "topology": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/05-pt75scaling-14pA.tpr",
+       "trajectory": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/05-pt75scaling-14pA.xtc",
+       "events": "/path/to/data/Shared_KCl_500mV/330K_1Msalt/05-transit-times.dat",
+       "lineage": "330K_1Msalt/05",
+       "protocol": {
+        "forcefield": null,
+        "water_model": null,
+        "charge_scaling": 0.75,
+        "voltage_mV": 500.0,
+        "temperature_K": 330.0
+       }
+      }
+     ]
+    }
+   ],
+   "selections": {
+    "ion": "resname K",
+    "ion_negative": "resname CL",
+    "water_oxygen": "resname SOL and element O",
+    "water_hydrogen": "resname SOL and element H",
+    "phosphate": "resname POPC and element P",
+    "lipid": "resname POPC",
+    "channel": "not resname CL K POPC SOL",
+    "anchor": "(not resname CL K POPC SOL) and name CA"
+   },
+   "pore": {
+    "axis": "z",
+    "cylinder_radius_A": 3.3,
+    "crossing_cylinder_radius_A": 10.0,
+    "probe_search_radius_A": 6.0,
+    "probe_grid_dr_A": 0.5,
+    "probe_grid_n_theta": 24,
+    "fence_max_gap_deg": 120.0,
+    "lipschitz_tol_A": 0.05,
+    "slab_pad_A": 8.0,
+    "z_step_A": 1.0,
+    "z_low_offset_A": -16.0,
+    "z_high_offset_A": 16.0,
+    "bin_low_offset_A": -12.0,
+    "bin_width_A": 3.0,
+    "n_bins": 8
+   },
+   "stride": 4,
+   "autodetect_scan": {
+    "sample_ps": 200.0,
+    "window_ps": 400000.0
+   }
+  },
+  "events": {
+   "source": "own"
+  },
+  "labels": {
+   "tau_ps": [
+    1000.0,
+    2000.0,
+    4000.0
+   ],
+   "primary_tau_ps": 2000.0,
+   "anchor": "exit"
+  },
+  "features": {
+   "blocks": [
+    "geometry",
+    "hydration",
+    "water_wire",
+    "occupancy",
+    "named_sites",
+    "electrostatics",
+    "symmetry",
+    "fluctuations",
+    "dynamics",
+    "delivery"
+   ],
+   "window_ps": 2000.0,
+   "coordination_cutoff_A": 3.8249999999999935,
+   "partner_cutoff_A": 12.0,
+   "site_sigma_A": null,
+   "site_centers_offset_A": null,
+   "lining_band_A": 4.0,
+   "mouth_radius_A": 12.0,
+   "mouth_depth_A": 5.0
+  },
+  "model": {
+   "which": [
+    "linear",
+    "trees"
+   ],
+   "head": "trees",
+   "seed": 20260814,
+   "n_threads": 1,
+   "linear": {
+    "C_grid": [
+     0.0001,
+     0.001,
+     0.01,
+     0.1,
+     1.0,
+     10.0,
+     100.0
+    ],
+    "tol": 1e-08,
+    "max_iter": 5000,
+    "class_weight_mode": "measure"
+   },
+   "trees": {
+    "learning_rate": 0.05,
+    "rounds_ceiling": 2000,
+    "patience": 50,
+    "depth_grid": [
+     3
+    ],
+    "k_events_grid": [
+     4.0
+    ],
+    "colsample_grid": [
+     0.7
+    ],
+    "subsample_grid": [
+     0.8
+    ]
+   },
+   "plsfma": {
+    "components_grid": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   "monotone": {
+    "geo_r_constriction_A": 1
+   },
+   "calibration": {
+    "family": "sigmoid",
+    "min_positives_isotonic": 200
+   }
+  },
+  "evaluate": {
+   "ci_alpha": 0.05,
+   "n_boot": 1000,
+   "corr_threshold": 0.98,
+   "alarm": {
+    "smooth_ps": 1000.0,
+    "on_quantile": 0.95,
+    "off_quantile": 0.8
+   }
+  },
+  "interpret": {
+   "negligible_frac": 0.05
+  },
+  "transfer": {
+   "max_importance_loss_frac": 0.5
+  },
+  "accept": {
+   "edge_fraction_max": 0.34,
+   "missing_budget_frac": 0.5
+  }
+ },
+ "origins": {
+  "data.conditions": {
+   "origin": "detected",
+   "basis": "discovered on disk under /path/to/data/Shared_KCl_500mV: 298K_2Msalt: 5 replicas; 330K_1Msalt: 5 replicas"
+  },
+  "data.conditions[298K_2Msalt].direction": {
+   "origin": "detected",
+   "basis": "sign of the net permeant flux across replicas: [1, 1, 1, 1, 1]"
+  },
+  "data.conditions[298K_2Msalt].replicas[01].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[298K_2Msalt].replicas[01].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7000 e"
+  },
+  "data.conditions[298K_2Msalt].replicas[01].protocol.temperature_K": {
+   "origin": "detected",
+   "basis": "ref-t of the thermostat read from the run tpr with gmx dump (GROMACS in the separate 'gmx' conda environment)"
+  },
+  "data.conditions[298K_2Msalt].replicas[01].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "dataset name Shared_KCl_500mV"
+  },
+  "data.conditions[298K_2Msalt].replicas[02].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[298K_2Msalt].replicas[02].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7000 e"
+  },
+  "data.conditions[298K_2Msalt].replicas[02].protocol.temperature_K": {
+   "origin": "detected",
+   "basis": "ref-t of the thermostat read from the run tpr with gmx dump (GROMACS in the separate 'gmx' conda environment)"
+  },
+  "data.conditions[298K_2Msalt].replicas[02].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "dataset name Shared_KCl_500mV"
+  },
+  "data.conditions[298K_2Msalt].replicas[03].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[298K_2Msalt].replicas[03].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7000 e"
+  },
+  "data.conditions[298K_2Msalt].replicas[03].protocol.temperature_K": {
+   "origin": "detected",
+   "basis": "ref-t of the thermostat read from the run tpr with gmx dump (GROMACS in the separate 'gmx' conda environment)"
+  },
+  "data.conditions[298K_2Msalt].replicas[03].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "dataset name Shared_KCl_500mV"
+  },
+  "data.conditions[298K_2Msalt].replicas[04].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[298K_2Msalt].replicas[04].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7000 e"
+  },
+  "data.conditions[298K_2Msalt].replicas[04].protocol.temperature_K": {
+   "origin": "detected",
+   "basis": "ref-t of the thermostat read from the run tpr with gmx dump (GROMACS in the separate 'gmx' conda environment)"
+  },
+  "data.conditions[298K_2Msalt].replicas[04].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "dataset name Shared_KCl_500mV"
+  },
+  "data.conditions[298K_2Msalt].replicas[05].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[298K_2Msalt].replicas[05].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7000 e"
+  },
+  "data.conditions[298K_2Msalt].replicas[05].protocol.temperature_K": {
+   "origin": "detected",
+   "basis": "ref-t of the thermostat read from the run tpr with gmx dump (GROMACS in the separate 'gmx' conda environment)"
+  },
+  "data.conditions[298K_2Msalt].replicas[05].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "dataset name Shared_KCl_500mV"
+  },
+  "data.conditions[330K_1Msalt].direction": {
+   "origin": "detected",
+   "basis": "sign of the net permeant flux across replicas: [1, 1, 1, 1, 1]"
+  },
+  "data.conditions[330K_1Msalt].replicas[01].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[330K_1Msalt].replicas[01].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7500 e"
+  },
+  "data.conditions[330K_1Msalt].replicas[01].protocol.temperature_K": {
+   "origin": "detected",
+   "basis": "ref-t of the thermostat read from the run tpr with gmx dump (GROMACS in the separate 'gmx' conda environment)"
+  },
+  "data.conditions[330K_1Msalt].replicas[01].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "dataset name Shared_KCl_500mV"
+  },
+  "data.conditions[330K_1Msalt].replicas[02].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[330K_1Msalt].replicas[02].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7500 e"
+  },
+  "data.conditions[330K_1Msalt].replicas[02].protocol.temperature_K": {
+   "origin": "detected",
+   "basis": "ref-t of the thermostat read from the run tpr with gmx dump (GROMACS in the separate 'gmx' conda environment)"
+  },
+  "data.conditions[330K_1Msalt].replicas[02].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "dataset name Shared_KCl_500mV"
+  },
+  "data.conditions[330K_1Msalt].replicas[03].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[330K_1Msalt].replicas[03].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7500 e"
+  },
+  "data.conditions[330K_1Msalt].replicas[03].protocol.temperature_K": {
+   "origin": "detected",
+   "basis": "ref-t of the thermostat read from the run tpr with gmx dump (GROMACS in the separate 'gmx' conda environment)"
+  },
+  "data.conditions[330K_1Msalt].replicas[03].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "dataset name Shared_KCl_500mV"
+  },
+  "data.conditions[330K_1Msalt].replicas[04].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[330K_1Msalt].replicas[04].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7500 e"
+  },
+  "data.conditions[330K_1Msalt].replicas[04].protocol.temperature_K": {
+   "origin": "detected",
+   "basis": "ref-t of the thermostat read from the run tpr with gmx dump (GROMACS in the separate 'gmx' conda environment)"
+  },
+  "data.conditions[330K_1Msalt].replicas[04].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "dataset name Shared_KCl_500mV"
+  },
+  "data.conditions[330K_1Msalt].replicas[05].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[330K_1Msalt].replicas[05].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 0.7500 e"
+  },
+  "data.conditions[330K_1Msalt].replicas[05].protocol.temperature_K": {
+   "origin": "detected",
+   "basis": "ref-t of the thermostat read from the run tpr with gmx dump (GROMACS in the separate 'gmx' conda environment)"
+  },
+  "data.conditions[330K_1Msalt].replicas[05].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "dataset name Shared_KCl_500mV"
+  },
+  "data.data_root": {
+   "origin": "detected",
+   "basis": "discovered on disk under /path/to/data/Shared_KCl_500mV: 298K_2Msalt: 5 replicas; 330K_1Msalt: 5 replicas"
+  },
+  "data.pore.axis": {
+   "origin": "detected",
+   "basis": "emptiness of the central third between leaflets from phosphates on 7 frames: {'x': 5.5, 'y': 5.9, 'z': 100.0}; best-over-second margin 17×"
+  },
+  "data.pore.bin_low_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-11.5, 11.3] A"
+  },
+  "data.pore.bin_width_A": {
+   "origin": "detected",
+   "basis": "(12.0--12.0)/8 bins"
+  },
+  "data.pore.crossing_cylinder_radius_A": {
+   "origin": "declared",
+   "basis": "task definition: separates 'crossed through the pore' from 'crossed the bilayer past the channel'; 10 A covers the vestibules of both channels and is well under half the protein-protein spacing in the membrane"
+  },
+  "data.pore.cylinder_radius_A": {
+   "origin": "detected",
+   "basis": "median of the maximum search R(z) over 3 frames [1.82, 1.84, 1.77] + 1.5 A margin"
+  },
+  "data.pore.z_high_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-11.5, 11.3] A; +4 A at the mouth"
+  },
+  "data.pore.z_low_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-11.5, 11.3] A; −4 A at the mouth"
+  },
+  "data.selections.anchor": {
+   "origin": "detected",
+   "basis": "CA of the whole channel: no filter, anchor = backbone center of mass"
+  },
+  "data.selections.channel": {
+   "origin": "detected",
+   "basis": "by composition: cations ['K'] (|q|=[0.7]), anions ['CL'], water ['SOL'] (O+2H, n=5518), lipid ['POPC'] ([134] atoms × [100]), channel by subtraction: ['ALA', 'DLEU', 'DVAL', 'ETA', 'FVA', 'GLY', 'TRP', 'VAL']…"
+  },
+  "data.selections.ion": {
+   "origin": "detected",
+   "basis": "by composition: cations ['K'] (|q|=[0.7]), anions ['CL'], water ['SOL'] (O+2H, n=5518), lipid ['POPC'] ([134] atoms × [100]), channel by subtraction: ['ALA', 'DLEU', 'DVAL', 'ETA', 'FVA', 'GLY', 'TRP', 'VAL']…"
+  },
+  "data.selections.ion_negative": {
+   "origin": "detected",
+   "basis": "by composition: cations ['K'] (|q|=[0.7]), anions ['CL'], water ['SOL'] (O+2H, n=5518), lipid ['POPC'] ([134] atoms × [100]), channel by subtraction: ['ALA', 'DLEU', 'DVAL', 'ETA', 'FVA', 'GLY', 'TRP', 'VAL']…"
+  },
+  "data.selections.lipid": {
+   "origin": "detected",
+   "basis": "by composition: cations ['K'] (|q|=[0.7]), anions ['CL'], water ['SOL'] (O+2H, n=5518), lipid ['POPC'] ([134] atoms × [100]), channel by subtraction: ['ALA', 'DLEU', 'DVAL', 'ETA', 'FVA', 'GLY', 'TRP', 'VAL']…"
+  },
+  "data.selections.phosphate": {
+   "origin": "detected",
+   "basis": "by composition: cations ['K'] (|q|=[0.7]), anions ['CL'], water ['SOL'] (O+2H, n=5518), lipid ['POPC'] ([134] atoms × [100]), channel by subtraction: ['ALA', 'DLEU', 'DVAL', 'ETA', 'FVA', 'GLY', 'TRP', 'VAL']…"
+  },
+  "data.selections.water_hydrogen": {
+   "origin": "detected",
+   "basis": "by composition: cations ['K'] (|q|=[0.7]), anions ['CL'], water ['SOL'] (O+2H, n=5518), lipid ['POPC'] ([134] atoms × [100]), channel by subtraction: ['ALA', 'DLEU', 'DVAL', 'ETA', 'FVA', 'GLY', 'TRP', 'VAL']…"
+  },
+  "data.selections.water_oxygen": {
+   "origin": "detected",
+   "basis": "by composition: cations ['K'] (|q|=[0.7]), anions ['CL'], water ['SOL'] (O+2H, n=5518), lipid ['POPC'] ([134] atoms × [100]), channel by subtraction: ['ALA', 'DLEU', 'DVAL', 'ETA', 'FVA', 'GLY', 'TRP', 'VAL']…"
+  },
+  "data.stride": {
+   "origin": "declared",
+   "basis": "development compute budget; the stride is part of run identity, the results folder carries it in its name; 40 ps × 4 = 160 ps between table frames"
+  },
+  "evaluate.alarm.smooth_ps": {
+   "origin": "declared",
+   "basis": "half the primary τ: smoothing stays shorter than the prediction horizon"
+  },
+  "events.source": {
+   "origin": "declared",
+   "basis": "a single time anchor shared by both systems; the shipped gramicidin annotation is used as a cross-check — the events step prints the comparison"
+  },
+  "features.coordination_cutoff_A": {
+   "origin": "detected",
+   "basis": "median over conditions from g(r): [3.924999999999993, 3.724999999999994]; spread 0.20 A"
+  },
+  "features.mouth_radius_A": {
+   "origin": "declared",
+   "basis": "two hydration shells plus the mouth vestibule; diagnostics: the dlv_entry_wide_n indicator and the fraction of frames with no permeant in the zone"
+  },
+  "features.window_ps": {
+   "origin": "declared",
+   "basis": "look-back window equals the primary horizon: dynamics are measured on the same time scale on which the prediction is made"
+  },
+  "labels.primary_tau_ps": {
+   "origin": "declared",
+   "basis": "a sweep over horizons is required so conclusions are not tied to one arbitrary τ; values are cross-checked against the median transit time and the inter-crossing interval that the events step prints next to the declared τ"
+  },
+  "labels.tau_ps": {
+   "origin": "declared",
+   "basis": "a sweep over horizons is required so conclusions are not tied to one arbitrary τ; values are cross-checked against the median transit time and the inter-crossing interval that the events step prints next to the declared τ"
+  },
+  "model.monotone": {
+   "origin": "declared",
+   "basis": "from physics, not from correlation: a wider pore cannot make a configuration less ready to pass a hydrated ion"
+  },
+  "model.seed": {
+   "origin": "declared",
+   "basis": "a single recorded run seed; fold seeds are derived from it"
+  },
+  "model.trees.colsample_grid": {
+   "origin": "declared",
+   "basis": "fixed deliberately: a 3x3x3x3 grid search showed a flat selection-criterion curve (within-fold log-loss range 0.001-0.0035 vs between-fold spread 0.094, see grid_scores in the searched run's folds.json); the criterion does not select this parameter, an edge pick would be noise rather than an optimum"
+  },
+  "model.trees.depth_grid": {
+   "origin": "declared",
+   "basis": "fixed deliberately: a 3x3x3x3 grid search showed a flat selection-criterion curve (within-fold log-loss range 0.001-0.0035 vs between-fold spread 0.094, see grid_scores in the searched run's folds.json); the criterion does not select this parameter, an edge pick would be noise rather than an optimum"
+  },
+  "model.trees.k_events_grid": {
+   "origin": "declared",
+   "basis": "fixed deliberately: a 3x3x3x3 grid search showed a flat selection-criterion curve (within-fold log-loss range 0.001-0.0035 vs between-fold spread 0.094, see grid_scores in the searched run's folds.json); the criterion does not select this parameter, an edge pick would be noise rather than an optimum"
+  },
+  "model.trees.subsample_grid": {
+   "origin": "declared",
+   "basis": "fixed deliberately: a 3x3x3x3 grid search showed a flat selection-criterion curve (within-fold log-loss range 0.001-0.0035 vs between-fold spread 0.094, see grid_scores in the searched run's folds.json); the criterion does not select this parameter, an edge pick would be noise rather than an optimum"
+  },
+  "system.arch_profile.filter_present": {
+   "origin": "detected",
+   "basis": "motif T[VIL]G[YF]G not found in 2 connected fragments"
+  },
+  "system.arch_profile.n_subunits": {
+   "origin": "detected",
+   "basis": "connected fragments of ≥30 atoms touching the pore (r<15 A from the axis): 2; frame 0"
+  },
+  "system.architecture": {
+   "origin": "detected",
+   "basis": "no filter; the channel is a single-file pore (water wire)"
+  },
+  "system.permeant": {
+   "origin": "detected",
+   "basis": "per-particle crossings: {'ion': 0.066, 'ion_negative': 0.0, 'water': 0.019} — leader ion with a 3.5× margin over second"
+  }
+ },
+ "extra": {
+  "experiment": "conducting-channels generalisation"
+ }
+}
