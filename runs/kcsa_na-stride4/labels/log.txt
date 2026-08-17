@@ -1,0 +1,3 @@
+[E71A/1] events in direction: 0; τ=500: +0, censored dropped 4, base rate 0.000; τ=1000: +0, censored dropped 7, base rate 0.000; τ=2000: +0, censored dropped 13, base rate 0.000; entrance labels exclude events without entry: 0
+[G77AE71A/1] events in direction: 7; τ=500: +21, censored dropped 4, base rate 0.002; τ=1000: +43, censored dropped 7, base rate 0.003; τ=2000: +86, censored dropped 13, base rate 0.007; entrance labels exclude events without entry: 0
+[T75AE71A/1] events in direction: 1; τ=500: +3, censored dropped 4, base rate 0.000; τ=1000: +6, censored dropped 7, base rate 0.001; τ=2000: +13, censored dropped 13, base rate 0.002; entrance labels exclude events without entry: 0

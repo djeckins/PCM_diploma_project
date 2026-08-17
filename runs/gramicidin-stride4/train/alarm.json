@@ -1,0 +1,204 @@
+{
+ "smooth_ps": 1000.0,
+ "thresholds_rule": "quantiles of the calibrated OOF scores of the remaining folds (out of this fold's sample)",
+ "per_trajectory": {
+  "298K_2Msalt/01": {
+   "n_crossings": 13,
+   "n_warned": 5,
+   "warned_frac": 0.38461538461538464,
+   "n_episodes": 5,
+   "n_empty_episodes": 1,
+   "duty_cycle": 0.0903277378097522,
+   "lead_ps": {
+    "median": 2560.0,
+    "p10": 1136.0,
+    "p90": 3976.0
+   },
+   "on_thr": 0.3471072112687799,
+   "off_thr": 0.1841866290474127
+  },
+  "298K_2Msalt/02": {
+   "n_crossings": 13,
+   "n_warned": 2,
+   "warned_frac": 0.15384615384615385,
+   "n_episodes": 2,
+   "n_empty_episodes": 0,
+   "duty_cycle": 0.05995203836930456,
+   "lead_ps": {
+    "median": 5180.0,
+    "p10": 3500.0,
+    "p90": 6860.0
+   },
+   "on_thr": 0.34941092149518915,
+   "off_thr": 0.1921567092831184
+  },
+  "298K_2Msalt/03": {
+   "n_crossings": 14,
+   "n_warned": 2,
+   "warned_frac": 0.14285714285714285,
+   "n_episodes": 1,
+   "n_empty_episodes": 0,
+   "duty_cycle": 0.007194244604316547,
+   "lead_ps": {
+    "median": 820.0,
+    "p10": 452.0,
+    "p90": 1188.0
+   },
+   "on_thr": 0.3519427502754091,
+   "off_thr": 0.19073602081973776
+  },
+  "298K_2Msalt/04": {
+   "n_crossings": 12,
+   "n_warned": 7,
+   "warned_frac": 0.5833333333333334,
+   "n_episodes": 4,
+   "n_empty_episodes": 1,
+   "duty_cycle": 0.16706634692246203,
+   "lead_ps": {
+    "median": 10160.0,
+    "p10": 3024.0,
+    "p90": 16536.0
+   },
+   "on_thr": 0.33604204924807574,
+   "off_thr": 0.1847549420331003
+  },
+  "298K_2Msalt/05": {
+   "n_crossings": 11,
+   "n_warned": 5,
+   "warned_frac": 0.45454545454545453,
+   "n_episodes": 6,
+   "n_empty_episodes": 2,
+   "duty_cycle": 0.13029576338928858,
+   "lead_ps": {
+    "median": 2720.0,
+    "p10": 1232.0,
+    "p90": 5176.0
+   },
+   "on_thr": 0.3442643101309699,
+   "off_thr": 0.1900683177438846
+  },
+  "330K_1Msalt/01": {
+   "n_crossings": 10,
+   "n_warned": 4,
+   "warned_frac": 0.4,
+   "n_episodes": 4,
+   "n_empty_episodes": 0,
+   "duty_cycle": 0.0407673860911271,
+   "lead_ps": {
+    "median": 1440.0,
+    "p10": 512.0,
+    "p90": 2284.0
+   },
+   "on_thr": 0.3491570482286421,
+   "off_thr": 0.19242078147990854
+  },
+  "330K_1Msalt/02": {
+   "n_crossings": 6,
+   "n_warned": 4,
+   "warned_frac": 0.6666666666666666,
+   "n_episodes": 7,
+   "n_empty_episodes": 3,
+   "duty_cycle": 0.11590727418065548,
+   "lead_ps": {
+    "median": 900.0,
+    "p10": 476.0,
+    "p90": 1744.0000000000002
+   },
+   "on_thr": 0.34134057319447964,
+   "off_thr": 0.1883537915550827
+  },
+  "330K_1Msalt/03": {
+   "n_crossings": 8,
+   "n_warned": 2,
+   "warned_frac": 0.25,
+   "n_episodes": 7,
+   "n_empty_episodes": 5,
+   "duty_cycle": 0.11270983213429256,
+   "lead_ps": {
+    "median": 5400.0,
+    "p10": 2648.0,
+    "p90": 8152.0
+   },
+   "on_thr": 0.3471072112687799,
+   "off_thr": 0.1923878568986966
+  },
+  "330K_1Msalt/04": {
+   "n_crossings": 10,
+   "n_warned": 4,
+   "warned_frac": 0.4,
+   "n_episodes": 3,
+   "n_empty_episodes": 0,
+   "duty_cycle": 0.01838529176658673,
+   "lead_ps": {
+    "median": 920.0,
+    "p10": 104.0,
+    "p90": 1960.0
+   },
+   "on_thr": 0.35262158386795817,
+   "off_thr": 0.19726308214976365
+  },
+  "330K_1Msalt/05": {
+   "n_crossings": 15,
+   "n_warned": 1,
+   "warned_frac": 0.06666666666666667,
+   "n_episodes": 1,
+   "n_empty_episodes": 0,
+   "duty_cycle": 0.010391686650679457,
+   "lead_ps": {
+    "median": 1720.0,
+    "p10": 1720.0,
+    "p90": 1720.0
+   },
+   "on_thr": 0.3526492415426317,
+   "off_thr": 0.1945038517661683
+  }
+ },
+ "random_null": {
+  "298K_2Msalt/01": {
+   "warned_frac_mean": 0.16153846153846152,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "298K_2Msalt/02": {
+   "warned_frac_mean": 0.08307692307692306,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "298K_2Msalt/03": {
+   "warned_frac_mean": 0.011428571428571429,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "298K_2Msalt/04": {
+   "warned_frac_mean": 0.18833333333333335,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "298K_2Msalt/05": {
+   "warned_frac_mean": 0.19090909090909094,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "330K_1Msalt/01": {
+   "warned_frac_mean": 0.064,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "330K_1Msalt/02": {
+   "warned_frac_mean": 0.2033333333333333,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "330K_1Msalt/03": {
+   "warned_frac_mean": 0.1675,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "330K_1Msalt/04": {
+   "warned_frac_mean": 0.016,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  },
+  "330K_1Msalt/05": {
+   "warned_frac_mean": 0.025333333333333336,
+   "method": "cyclic shift of the alarm series, preserving episode structure"
+  }
+ },
+ "headline_event_level": {
+  "warned_frac_mean": 0.3502530802530803,
+  "random_null_warned_frac_mean": 0.1111453046953047,
+  "empty_episodes_total": 12,
+  "episodes_total": 40
+ }
+}

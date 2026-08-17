@@ -1,0 +1,132 @@
+{
+ "298K_2Msalt/01": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 13952
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "298K_2Msalt/02": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 13952
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "298K_2Msalt/03": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 13952
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "298K_2Msalt/04": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 13952
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "298K_2Msalt/05": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 13952
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "330K_1Msalt/01": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 13952
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "330K_1Msalt/02": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 13952
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "330K_1Msalt/03": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 13952
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "330K_1Msalt/04": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 13952
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "330K_1Msalt/05": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 13952
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ }
+}

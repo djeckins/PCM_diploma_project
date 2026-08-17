@@ -1,0 +1,11 @@
+[298K_2Msalt/01] 1251 frames aligned
+[298K_2Msalt/02] 1251 frames aligned
+[298K_2Msalt/03] 1251 frames aligned
+[298K_2Msalt/04] 1251 frames aligned
+[298K_2Msalt/05] 1251 frames aligned
+[330K_1Msalt/01] 1251 frames aligned
+[330K_1Msalt/02] 1251 frames aligned
+[330K_1Msalt/03] 1251 frames aligned
+[330K_1Msalt/04] 1251 frames aligned
+[330K_1Msalt/05] 1251 frames aligned
+superimposed coordinates: 12510 frames x 96 Cartesian components

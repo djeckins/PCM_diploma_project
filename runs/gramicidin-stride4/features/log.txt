@@ -1,0 +1,20 @@
+[298K_2Msalt/01] 1251 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 13952}
+[298K_2Msalt/02] 1251 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 13952}
+[298K_2Msalt/03] 1251 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 13952}
+[298K_2Msalt/04] 1251 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 13952}
+[298K_2Msalt/05] 1251 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 13952}
+[330K_1Msalt/01] 1251 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 13952}
+[330K_1Msalt/02] 1251 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 13952}
+[330K_1Msalt/03] 1251 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 13952}
+[330K_1Msalt/04] 1251 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 13952}
+[330K_1Msalt/05] 1251 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 13952}
+applicability: 104 columns total = 97 active + 7 structurally inapplicable + 0 constant
+  ns_filter_n_ions: inapplicable_structural
+  ns_S0_occ: inapplicable_structural
+  ns_S1_occ: inapplicable_structural
+  ns_S2_occ: inapplicable_structural
+  ns_S3_occ: inapplicable_structural
+  ns_S4_occ: inapplicable_structural
+  sym_nn_dist_cv: inapplicable_structural
+columns with <=2 distinct values (do not resolve dynamics): ['hyd_min_bin_water_n', 'occ_has_innermost', 'dyn_ion_persist', 'dlv_approach_pair_n']
+table: 12510 rows x 104 columns

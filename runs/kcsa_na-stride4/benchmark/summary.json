@@ -1,0 +1,66 @@
+[
+ {
+  "method": "trees",
+  "claims": "this work (head model): P(crossing completes within tau), READY/NOT_READY verdict and mechanism axis (pore state) per frame",
+  "frames_judged": 6244,
+  "verdict_accuracy": 0.6718449711723254,
+  "balanced_accuracy": NaN,
+  "ap_over_chance": NaN
+ },
+ {
+  "method": "clock",
+  "claims": "temporal null: event seriality only (time since last crossing, event rate, pore ion count); no structural input",
+  "frames_judged": 6244,
+  "verdict_accuracy": 1.0,
+  "balanced_accuracy": NaN,
+  "ap_over_chance": 0.577007137344856
+ },
+ {
+  "method": "linear",
+  "claims": "this work (linear branch): same probabilistic claim, ridge-logistic on all descriptors",
+  "frames_judged": 6244,
+  "verdict_accuracy": 0.0,
+  "balanced_accuracy": NaN,
+  "ap_over_chance": 0.6207945021386162
+ },
+ {
+  "method": "linear_control_structural",
+  "claims": "fitted linear control on the published criterion's inputs (constriction radius + lining hydrophobicity)",
+  "frames_judged": 6244,
+  "verdict_accuracy": 1.0,
+  "balanced_accuracy": NaN,
+  "ap_over_chance": 0.9070099294560884
+ },
+ {
+  "method": "plsfma_coords",
+  "claims": "PLS-FMA (Krivobokova et al. 2012; the authors' g_fma PLS core, Helland/Denham): collective mode maximally covarying with the readiness label, regressed on superimposed C-alpha Cartesian coordinates — the published method's machinery applied to a binary functional quantity",
+  "frames_judged": 6244,
+  "verdict_accuracy": 0.0,
+  "balanced_accuracy": NaN,
+  "ap_over_chance": 0.8001045405331185
+ },
+ {
+  "method": "published_rao2019",
+  "claims": "Rao et al. 2019 heuristic: local DEWETTING of the constriction (frame-wise application); readiness proxy = wetted",
+  "frames_judged": 24982,
+  "verdict_accuracy": 0.9139380353854776,
+  "balanced_accuracy": 0.45786708378454255,
+  "ap_over_chance": 0.740860737053939
+ },
+ {
+  "method": "published_rao2019_win",
+  "claims": "Rao et al. 2019 heuristic on window-averaged inputs (closer to the authors' time-averaged definition)",
+  "frames_judged": 24982,
+  "verdict_accuracy": 0.9917540629253062,
+  "balanced_accuracy": 0.49685156218666027,
+  "ap_over_chance": 0.6932828176826699
+ },
+ {
+  "method": "published_rao2019_sigma",
+  "claims": "Rao et al. 2019 STRUCTURE classifier as published: sum of contour distances (sigma_d) over all pore-facing residue points past the 1RT line; non-conductive when sigma_d > 0.55 — the rule the paper's AUC 0.91 belongs to",
+  "frames_judged": 24982,
+  "verdict_accuracy": 0.9913537747177968,
+  "balanced_accuracy": 0.4966510247463201,
+  "ap_over_chance": 1.2477846428607262
+ }
+]

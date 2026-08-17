@@ -1,0 +1,243 @@
+{
+ "measured": {
+  "dt_ps_per_file": {
+   "E71A/1": 40.0,
+   "G77AE71A/1": 40.0,
+   "T75AE71A/1": 40.0
+  },
+  "triclinic": false,
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 24570
+  }
+ },
+ "refusals": [
+  {
+   "key": "data.conditions[E71A].direction",
+   "message": "replica flux signs disagree or are all zero: [0]"
+  },
+  {
+   "key": "data.conditions[G77AE71A].direction",
+   "message": "replica flux signs disagree or are all zero: [0]"
+  }
+ ],
+ "origins_after": {
+  "data.conditions": {
+   "origin": "detected",
+   "basis": "discovered on disk under /path/to/data/3 белок/kcsa_na_root: E71A: 1 replicas; G77AE71A: 1 replicas; T75AE71A: 1 replicas"
+  },
+  "data.conditions[E71A].direction": {
+   "origin": "declared",
+   "basis": "declared: +300 mV field as in the K arm; Na crossings are too rare in the selective background for a measured sign"
+  },
+  "data.conditions[E71A].replicas[1].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[E71A].replicas[1].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 1.0000 e"
+  },
+  "data.conditions[E71A].replicas[1].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "directory name CHARMM36m in the input archive"
+  },
+  "data.conditions[E71A].replicas[1].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "no external MD package on this machine (gmx is absent), so the tpr parameter section cannot be read; temperature has no coordinate-based substitute"
+  },
+  "data.conditions[E71A].replicas[1].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "directory name 300mV in the input archive"
+  },
+  "data.conditions[G77AE71A].direction": {
+   "origin": "declared",
+   "basis": "declared: +300 mV field as in the K arm; Na crossings are too rare in the selective background for a measured sign"
+  },
+  "data.conditions[G77AE71A].replicas[1].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[G77AE71A].replicas[1].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 1.0000 e"
+  },
+  "data.conditions[G77AE71A].replicas[1].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "directory name CHARMM36m in the input archive"
+  },
+  "data.conditions[G77AE71A].replicas[1].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "no external MD package on this machine (gmx is absent), so the tpr parameter section cannot be read; temperature has no coordinate-based substitute"
+  },
+  "data.conditions[G77AE71A].replicas[1].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "directory name 300mV in the input archive"
+  },
+  "data.conditions[T75AE71A].direction": {
+   "origin": "detected",
+   "basis": "sign of the net permeant flux across replicas: [1]"
+  },
+  "data.conditions[T75AE71A].replicas[1].lineage": {
+   "origin": "declared",
+   "basis": "declared: each replica is an independent assembly. In the 500mV set the replicas carry distinct measured currents in their file names (independent runs); MthK replicas sit in separate run folders. If a common equilibrated ancestor is known, merge the lineage manually"
+  },
+  "data.conditions[T75AE71A].replicas[1].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 1.0000 e"
+  },
+  "data.conditions[T75AE71A].replicas[1].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "directory name CHARMM36m in the input archive"
+  },
+  "data.conditions[T75AE71A].replicas[1].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "no external MD package on this machine (gmx is absent), so the tpr parameter section cannot be read; temperature has no coordinate-based substitute"
+  },
+  "data.conditions[T75AE71A].replicas[1].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "directory name 300mV in the input archive"
+  },
+  "data.data_root": {
+   "origin": "detected",
+   "basis": "discovered on disk under /path/to/data/3 белок/kcsa_na_root: E71A: 1 replicas; G77AE71A: 1 replicas; T75AE71A: 1 replicas"
+  },
+  "data.pore.axis": {
+   "origin": "detected",
+   "basis": "emptiness of the central third between leaflets from phosphates on 7 frames: {'x': 8.5, 'y': 8.5, 'z': 100.0}; best-over-second margin 12×"
+  },
+  "data.pore.bin_low_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-27.9, 11.2] A"
+  },
+  "data.pore.bin_width_A": {
+   "origin": "detected",
+   "basis": "(12.0--28.0)/8 bins"
+  },
+  "data.pore.crossing_cylinder_radius_A": {
+   "origin": "declared",
+   "basis": "task definition: separates 'crossed through the pore' from 'crossed the bilayer past the channel'; 10 A covers the vestibules of both channels and is well under half the protein-protein spacing in the membrane"
+  },
+  "data.pore.cylinder_radius_A": {
+   "origin": "detected",
+   "basis": "median of the maximum search R(z) over 3 frames [7.34, 7.21, 7.4] + 1.5 A margin"
+  },
+  "data.pore.z_high_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-27.9, 11.2] A; +4 A at the mouth"
+  },
+  "data.pore.z_low_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-27.9, 11.2] A; −4 A at the mouth"
+  },
+  "data.selections.anchor": {
+   "origin": "detected",
+   "basis": "CA atoms of the filter motif residues (resid [50, 51, 52, 53, 54, 146, 147, 148, 149, 150, 242, 243, 244, 245, 246, 338, 339, 340, 341, 342])"
+  },
+  "data.selections.channel": {
+   "origin": "detected",
+   "basis": "by composition: cations ['SOD'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.selections.ion": {
+   "origin": "detected",
+   "basis": "by composition: cations ['SOD'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.selections.ion_negative": {
+   "origin": "detected",
+   "basis": "by composition: cations ['SOD'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.selections.lipid": {
+   "origin": "detected",
+   "basis": "by composition: cations ['SOD'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.selections.phosphate": {
+   "origin": "detected",
+   "basis": "by composition: cations ['SOD'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.selections.water_hydrogen": {
+   "origin": "detected",
+   "basis": "by composition: cations ['SOD'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.selections.water_oxygen": {
+   "origin": "detected",
+   "basis": "by composition: cations ['SOD'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=11257), lipid ['DOPG', 'DOPE'] ([131, 129] atoms × [39, 105]), channel by subtraction: ['ALA', 'ARG', 'ASP', 'GLN', 'GLU', 'GLY', 'ILE', 'LEU']…; names unioned over 3 topologies"
+  },
+  "data.stride": {
+   "origin": "declared",
+   "basis": "development compute budget; the stride is part of run identity, the results folder carries it in its name; 40 ps × 4 = 160 ps between table frames"
+  },
+  "evaluate.alarm.smooth_ps": {
+   "origin": "declared",
+   "basis": "half the primary τ: smoothing stays shorter than the prediction horizon"
+  },
+  "events.source": {
+   "origin": "declared",
+   "basis": "a single time anchor shared by both systems; the shipped gramicidin annotation is used as a cross-check — the events step prints the comparison"
+  },
+  "features.coordination_cutoff_A": {
+   "origin": "detected",
+   "basis": "median over conditions from g(r): [3.174999999999996, 3.374999999999995, 3.074999999999996]; spread 0.30 A"
+  },
+  "features.mouth_radius_A": {
+   "origin": "declared",
+   "basis": "two hydration shells plus the mouth vestibule; diagnostics: the dlv_entry_wide_n indicator and the fraction of frames with no permeant in the zone"
+  },
+  "features.site_sigma_A": {
+   "origin": "detected",
+   "basis": "half the median ring spacing [3.32, 3.25, 2.69, 3.6, 2.58]"
+  },
+  "features.window_ps": {
+   "origin": "declared",
+   "basis": "look-back window equals the primary horizon: dynamics are measured on the same time scale on which the prediction is made"
+  },
+  "labels.primary_tau_ps": {
+   "origin": "declared",
+   "basis": "a sweep over horizons is required so conclusions are not tied to one arbitrary τ; values are cross-checked against the median transit time and the inter-crossing interval that the events step prints next to the declared τ"
+  },
+  "labels.tau_ps": {
+   "origin": "declared",
+   "basis": "a sweep over horizons is required so conclusions are not tied to one arbitrary τ; values are cross-checked against the median transit time and the inter-crossing interval that the events step prints next to the declared τ; at 300 mV conduction is fast, so the sweep is shifted toward shorter horizons"
+  },
+  "model.monotone": {
+   "origin": "declared",
+   "basis": "from physics, not from correlation: a wider pore cannot make a configuration less ready to pass a hydrated ion"
+  },
+  "model.seed": {
+   "origin": "declared",
+   "basis": "a single recorded run seed; fold seeds are derived from it"
+  },
+  "system.arch_profile.filter_motif": {
+   "origin": "detected",
+   "basis": "motif in 4 copies; ring: centroid offsets from the axis [3.7, 4.1, 3.0, 4.6] A (<10), axial spread 0.2 A (<6); frame 0"
+  },
+  "system.arch_profile.filter_motif_pattern": {
+   "origin": "declared",
+   "basis": "the dataset consists of engineered selectivity-filter mutants on the E71A background: T75A turns TVGYG into AVGYG and G77A turns it into TVAYG by construction; the widened signature admits those single substitutions while the geometric ring confirmation still gates detection"
+  },
+  "system.arch_profile.filter_present": {
+   "origin": "detected",
+   "basis": "motif in 4 copies; ring: centroid offsets from the axis [3.7, 4.1, 3.0, 4.6] A (<10), axial spread 0.2 A (<6); frame 0"
+  },
+  "system.arch_profile.n_sites": {
+   "origin": "detected",
+   "basis": "6 motif oxygen rings → 5 inter-ring sites"
+  },
+  "system.arch_profile.n_subunits": {
+   "origin": "detected",
+   "basis": "connected fragments of ≥30 atoms touching the pore (r<15 A from the axis): 4; frame 0"
+  },
+  "system.arch_profile.sites_basis": {
+   "origin": "detected",
+   "basis": "selectivity filter rings"
+  },
+  "system.architecture": {
+   "origin": "detected",
+   "basis": "K-type selectivity filter found"
+  },
+  "system.permeant": {
+   "origin": "declared",
+   "basis": "declared up front: this is the Na arm of the paired K/Na design; water would out-cross the rare Na permeant per particle for the same reason it does in the K arm, and readiness is defined for the ionic carrier"
+  }
+ }
+}

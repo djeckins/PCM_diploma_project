@@ -1,0 +1,39 @@
+model matrix: training on 86 of 104 columns; 18 excluded:
+  mask: 7
+  structural exclusion: 11
+outer folds (over independent assemblies): 10; the effective sample size is the number of trajectories
+fold 0:298K_2Msalt/01 τ=1000.0 done
+fold 1:298K_2Msalt/02 τ=1000.0 done
+fold 2:298K_2Msalt/03 τ=1000.0 done
+fold 3:298K_2Msalt/04 τ=1000.0 done
+fold 4:298K_2Msalt/05 τ=1000.0 done
+fold 5:330K_1Msalt/01 τ=1000.0 done
+fold 6:330K_1Msalt/02 τ=1000.0 done
+fold 7:330K_1Msalt/03 τ=1000.0 done
+fold 8:330K_1Msalt/04 τ=1000.0 done
+fold 9:330K_1Msalt/05 τ=1000.0 done
+fold 0:298K_2Msalt/01 τ=2000.0 done
+fold 1:298K_2Msalt/02 τ=2000.0 done
+fold 2:298K_2Msalt/03 τ=2000.0 done
+fold 3:298K_2Msalt/04 τ=2000.0 done
+fold 4:298K_2Msalt/05 τ=2000.0 done
+fold 5:330K_1Msalt/01 τ=2000.0 done
+fold 6:330K_1Msalt/02 τ=2000.0 done
+fold 7:330K_1Msalt/03 τ=2000.0 done
+fold 8:330K_1Msalt/04 τ=2000.0 done
+fold 9:330K_1Msalt/05 τ=2000.0 done
+fold 0:298K_2Msalt/01 τ=4000.0 done
+fold 1:298K_2Msalt/02 τ=4000.0 done
+fold 2:298K_2Msalt/03 τ=4000.0 done
+fold 3:298K_2Msalt/04 τ=4000.0 done
+fold 4:298K_2Msalt/05 τ=4000.0 done
+fold 5:330K_1Msalt/01 τ=4000.0 done
+fold 6:330K_1Msalt/02 τ=4000.0 done
+fold 7:330K_1Msalt/03 τ=4000.0 done
+fold 8:330K_1Msalt/04 τ=4000.0 done
+fold 9:330K_1Msalt/05 τ=4000.0 done
+condition transfer 298K_2Msalt->330K_1Msalt: trained on 6195 rows
+condition transfer 330K_1Msalt->298K_2Msalt: trained on 6190 rows
+head arm trees at τ=2000.0: pooled AP=0.284 at base rate 0.110 (×2.59 over chance)
+monitor: warned fraction 0.35 of crossings (random null 0.11); empty episodes 12/40
+per-frame answers: 12510; 'unclear' on 314 frames; block importances: occupancy=0.60, delivery=0.53, dynamics=0.40, hydration=0.26, fluctuations=0.17

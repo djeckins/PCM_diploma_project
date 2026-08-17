@@ -1,0 +1,41 @@
+{
+ "E71A/1": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 24570
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "G77AE71A/1": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 21474
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ },
+ "T75AE71A/1": {
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 24554
+  },
+  "flipped_columns": [
+   "ww_dipole_cos_mean",
+   "ele_axial_charge_asym_e",
+   "dyn_ion_drift_A_win"
+  ],
+  "direction": 1
+ }
+}

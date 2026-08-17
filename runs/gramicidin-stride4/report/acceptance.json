@@ -1,0 +1,377 @@
+{
+ "hyperparam_edges": {
+  "linear.C": {
+   "edge_frac": 0.0,
+   "ok": true
+  },
+  "trees.depth": {
+   "edge_frac": 0.0,
+   "ok": true
+  },
+  "trees.k_events": {
+   "edge_frac": 0.0,
+   "ok": true
+  },
+  "trees.colsample": {
+   "edge_frac": 0.0,
+   "ok": true
+  },
+  "trees.subsample": {
+   "edge_frac": 0.0,
+   "ok": true
+  },
+  "plsfma_coords.selection": {
+   "edge_frac": 0.0,
+   "ok": true
+  }
+ },
+ "edge_exception2_recorded": {
+  "ok": true,
+  "cases": [
+   {
+    "fold": "4:298K_2Msalt/05",
+    "tau": 1000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "5:330K_1Msalt/01",
+    "tau": 1000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "8:330K_1Msalt/04",
+    "tau": 1000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "4:298K_2Msalt/05",
+    "tau": 2000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "5:330K_1Msalt/01",
+    "tau": 2000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "8:330K_1Msalt/04",
+    "tau": 2000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "5:330K_1Msalt/01",
+    "tau": 4000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "8:330K_1Msalt/04",
+    "tau": 4000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   }
+  ]
+ },
+ "no_ceiling_hits": {
+  "ok": true,
+  "hits": 0
+ },
+ "penalty_in_df_units": {
+  "ok": true,
+  "df_by_fold": [
+   60.01107738667261,
+   1.957214723741151,
+   3.9105347644833732,
+   59.20525202609479,
+   1.9552772298075796,
+   3.9115524960303203,
+   59.7859295562733,
+   1.6420241766452408,
+   3.9126646950948887,
+   58.887763927191806,
+   1.9559919673799602,
+   3.981945501775904,
+   60.175233527686444,
+   1.649723641361859,
+   3.9136075982546386,
+   59.619020837085706,
+   1.65502749523261,
+   3.9119842956053352,
+   60.33489727475757,
+   1.665836238078953,
+   3.917112474425227,
+   59.70041408835347,
+   1.9574257260262669,
+   3.9139434675221083,
+   59.05479502182165,
+   1.9567397833967655,
+   3.9117875297049545,
+   59.70174228397395,
+   1.6393949262801435,
+   3.8315391901525038,
+   66.36057744915927,
+   1.7956955916909756,
+   3.948656813601987,
+   65.54938560063759,
+   1.7872914053825641,
+   3.949282098391877,
+   66.02696926158048,
+   1.786974526858357,
+   3.9505497013512674,
+   65.16071048118212,
+   1.7920343093197377,
+   3.8159026864764822,
+   66.3769816044573,
+   1.7941033469216845,
+   3.9509232438432864,
+   65.92770152908919,
+   1.7959437777376395,
+   3.9499576090948514,
+   66.37705744551087,
+   1.8024385707205193,
+   3.9525294951299297,
+   65.88918634244462,
+   1.794788571259032,
+   3.9505662757264193,
+   65.20247359566912,
+   1.7924404208046005,
+   3.94914654916784,
+   66.16470904187945,
+   1.7885022948532294,
+   3.949245335167626,
+   43.36559002989807,
+   1.2347379467722797,
+   3.712418681019784,
+   42.93380717111555,
+   1.8702587989596102,
+   3.7129900822132713,
+   43.187310396761916,
+   1.2215645861732072,
+   3.716970639024325,
+   42.57076495726759,
+   1.234217638850649,
+   3.967767453034231,
+   43.609512436810526,
+   1.2356462544392108,
+   3.9690884517152325,
+   43.04865367213074,
+   1.2382081434253407,
+   3.7155625211550234,
+   43.59254544553646,
+   1.8778786740198101,
+   3.726185376691908,
+   42.96458623012037,
+   1.8751194388104164,
+   3.968583329867252,
+   42.42604990991111,
+   1.8747374916308117,
+   3.9680225495778676,
+   43.11845291038893,
+   1.2263019071693098,
+   3.9678668291523365
+  ]
+ },
+ "events_and_features_per_branch": {
+  "trees": [
+   {
+    "n_events": 95,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 94,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 94,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 96,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 97,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 97,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 101,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 99,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 97,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 93,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 90,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 88,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 88,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 92,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 91,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 92,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 95,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 93,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 93,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 87,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 82,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 80,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 80,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 83,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 83,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 83,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 86,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 84,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 86,
+    "branch": "native",
+    "n_features": 86
+   },
+   {
+    "n_events": 81,
+    "branch": "native",
+    "n_features": 86
+   }
+  ]
+ },
+ "calibration_recorded_per_fold": {
+  "ok": true
+ },
+ "events_source_declared": {
+  "ok": true,
+  "declared": "own"
+ },
+ "vendored_checksums": {
+  "ok": true,
+  "actual": {
+   "heuristic_grid.json": "bb29c21e1339e71e7a877d5095a4d72c4ac3ab06ce04c863fbcfb407e567c4f0",
+   "wimley_white_1996.json": "d898884281bf666074ea8c2a5629896b31b9bea6bed4d4389a736ef355542b5c"
+  }
+ },
+ "figure_catalog": {
+  "ok": true
+ },
+ "answers_with_mechanism": {
+  "ok": true
+ },
+ "resting_frames_defined": {
+  "ok": true,
+  "resting": {
+   "defined": true,
+   "ap": 0.1366232365184763,
+   "base_rate": 0.04529180093089868,
+   "ratio_to_chance": 3.0165114592577416,
+   "n": 11172,
+   "n_pos": 506
+  },
+  "transit": {
+   "defined": true,
+   "ap": 0.7536296488095322,
+   "base_rate": 0.7015663643858203,
+   "ratio_to_chance": 1.0742100634617655,
+   "n": 1213,
+   "n_pos": 851
+  }
+ },
+ "applicability_mask_written": {
+  "ok": true
+ },
+ "note": "linter/test and notebook gates are checked by make test and a notebook run, outside this run's artifacts"
+}

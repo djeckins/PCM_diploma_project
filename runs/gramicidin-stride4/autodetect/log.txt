@@ -1,0 +1,26 @@
+selections: {"ion": "resname K", "ion_negative": "resname CL", "water_oxygen": "resname SOL and element O", "water_hydrogen": "resname SOL and element H", "lipid": "resname POPC", "phosphate": "resname POPC and element P", "channel": "not resname CL K POPC SOL"}
+frame step, ps: {'298K_2Msalt/01': 40.0, '298K_2Msalt/02': 40.0, '298K_2Msalt/03': 40.0, '298K_2Msalt/04': 40.0, '298K_2Msalt/05': 40.0, '330K_1Msalt/01': 40.0, '330K_1Msalt/02': 40.0, '330K_1Msalt/03': 40.0, '330K_1Msalt/04': 40.0, '330K_1Msalt/05': 40.0}; triclinic cell: True
+pore axis: z (emptiness of the central third between leaflets from phosphates on 7 frames: {'x': 5.5, 'y': 5.9, 'z': 100.0}; best-over-second margin 17×)
+filter: False (motif T[VIL]G[YF]G not found in 2 connected fragments)
+anchor: (not resname CL K POPC SOL) and name CA
+scan 298K_2Msalt/01 (stride 12): ion: 12 crossings over 199 particles, ion_negative: 0 crossings over 199 particles, water: 92 crossings over 5518 particles
+scan 298K_2Msalt/02 (stride 12): ion: 13 crossings over 199 particles, ion_negative: 0 crossings over 199 particles, water: 127 crossings over 5518 particles
+scan 298K_2Msalt/03 (stride 12): ion: 13 crossings over 199 particles, ion_negative: 0 crossings over 199 particles, water: 98 crossings over 5518 particles
+scan 298K_2Msalt/04 (stride 12): ion: 11 crossings over 199 particles, ion_negative: 0 crossings over 199 particles, water: 90 crossings over 5518 particles
+scan 298K_2Msalt/05 (stride 12): ion: 8 crossings over 199 particles, ion_negative: 0 crossings over 199 particles, water: 77 crossings over 5518 particles
+scan 330K_1Msalt/01 (stride 12): ion: 9 crossings over 103 particles, ion_negative: 0 crossings over 103 particles, water: 106 crossings over 5710 particles
+scan 330K_1Msalt/02 (stride 12): ion: 3 crossings over 103 particles, ion_negative: 0 crossings over 103 particles, water: 97 crossings over 5710 particles
+scan 330K_1Msalt/03 (stride 12): ion: 7 crossings over 103 particles, ion_negative: 0 crossings over 103 particles, water: 110 crossings over 5710 particles
+scan 330K_1Msalt/04 (stride 12): ion: 7 crossings over 103 particles, ion_negative: 0 crossings over 103 particles, water: 108 crossings over 5710 particles
+scan 330K_1Msalt/05 (stride 12): ion: 12 crossings over 103 particles, ion_negative: 0 crossings over 103 particles, water: 157 crossings over 5710 particles
+permeant: K (per particle: {'ion': 0.066, 'ion_negative': 0.0, 'water': 0.019})
+direction 298K_2Msalt: 1 (replica signs [1, 1, 1, 1, 1])
+direction 330K_1Msalt: 1 (replica signs [1, 1, 1, 1, 1])
+coordination cutoff 298K_2Msalt: 3.92 A (ion-water g(r) on 5 frames: peak 2.82 A, first minimum 3.92 A (window 2.2–4.8 A))
+coordination cutoff 330K_1Msalt: 3.72 A (ion-water g(r) on 5 frames: peak 2.82 A, first minimum 3.72 A (window 2.2–4.8 A))
+pore extent from the anchor: [-12.0, 12.0] A; bin 3.0 A × 8
+pore cylinder: 3.3 A
+sites from density: None (density peaks do not reproduce across halves: 3 vs 2)
+Autodetection REFUSALS (each names a config key):
+  system.arch_profile.n_sites: density peaks do not reproduce across halves: 3 vs 2
+config updated in place: configs/gramicidin.yaml

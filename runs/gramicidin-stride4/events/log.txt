@@ -1,0 +1,11 @@
+[298K_2Msalt/01] own=13 provided=14 flux_sign=1 left-censored at start: 13
+[298K_2Msalt/02] own=13 provided=14 flux_sign=1 left-censored at start: 13
+[298K_2Msalt/03] own=14 provided=15 flux_sign=1 left-censored at start: 13
+[298K_2Msalt/04] own=12 provided=13 flux_sign=1 left-censored at start: 16
+[298K_2Msalt/05] own=11 provided=12 flux_sign=1 left-censored at start: 10
+[330K_1Msalt/01] own=10 provided=20 flux_sign=1 left-censored at start: 5
+[330K_1Msalt/02] own=6 provided=19 flux_sign=1 left-censored at start: 5
+[330K_1Msalt/03] own=8 provided=14 flux_sign=1 left-censored at start: 5
+[330K_1Msalt/04] own=10 provided=17 flux_sign=1 left-censored at start: 5
+[330K_1Msalt/05] own=15 provided=17 flux_sign=1 left-censored at start: 5
+median transit time: 1360 ps; median interval between crossings: 8340 ps; declared horizons τ: [1000.0, 2000.0, 4000.0] ps

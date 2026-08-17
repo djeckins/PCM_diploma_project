@@ -1,0 +1,209 @@
+{
+ "per_replica": {
+  "298K_2Msalt/01": {
+   "n_events_dir": 13,
+   "n_events_total": 13,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 76,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.06109324758842444
+   },
+   "tau2000": {
+    "positives": 152,
+    "censored_dropped": 13,
+    "base_rate_valid": 0.12277867528271405
+   },
+   "tau4000": {
+    "positives": 285,
+    "censored_dropped": 25,
+    "base_rate_valid": 0.23246329526916804
+   }
+  },
+  "298K_2Msalt/02": {
+   "n_events_dir": 13,
+   "n_events_total": 13,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 82,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.06591639871382636
+   },
+   "tau2000": {
+    "positives": 165,
+    "censored_dropped": 13,
+    "base_rate_valid": 0.1332794830371567
+   },
+   "tau4000": {
+    "positives": 315,
+    "censored_dropped": 20,
+    "base_rate_valid": 0.255889520714866
+   }
+  },
+  "298K_2Msalt/03": {
+   "n_events_dir": 14,
+   "n_events_total": 14,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 86,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.06913183279742766
+   },
+   "tau2000": {
+    "positives": 166,
+    "censored_dropped": 8,
+    "base_rate_valid": 0.1335478680611424
+   },
+   "tau4000": {
+    "positives": 321,
+    "censored_dropped": 8,
+    "base_rate_valid": 0.2582461786001609
+   }
+  },
+  "298K_2Msalt/04": {
+   "n_events_dir": 12,
+   "n_events_total": 12,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 74,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.0594855305466238
+   },
+   "tau2000": {
+    "positives": 139,
+    "censored_dropped": 13,
+    "base_rate_valid": 0.1122778675282714
+   },
+   "tau4000": {
+    "positives": 249,
+    "censored_dropped": 25,
+    "base_rate_valid": 0.2030995106035889
+   }
+  },
+  "298K_2Msalt/05": {
+   "n_events_dir": 11,
+   "n_events_total": 11,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 69,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.05546623794212219
+   },
+   "tau2000": {
+    "positives": 131,
+    "censored_dropped": 13,
+    "base_rate_valid": 0.10581583198707593
+   },
+   "tau4000": {
+    "positives": 253,
+    "censored_dropped": 25,
+    "base_rate_valid": 0.20636215334420882
+   }
+  },
+  "330K_1Msalt/01": {
+   "n_events_dir": 10,
+   "n_events_total": 10,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 65,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.0522508038585209
+   },
+   "tau2000": {
+    "positives": 124,
+    "censored_dropped": 13,
+    "base_rate_valid": 0.10016155088852989
+   },
+   "tau4000": {
+    "positives": 237,
+    "censored_dropped": 19,
+    "base_rate_valid": 0.19237012987012986
+   }
+  },
+  "330K_1Msalt/02": {
+   "n_events_dir": 6,
+   "n_events_total": 6,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 37,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.0297427652733119
+   },
+   "tau2000": {
+    "positives": 74,
+    "censored_dropped": 13,
+    "base_rate_valid": 0.05977382875605816
+   },
+   "tau4000": {
+    "positives": 150,
+    "censored_dropped": 25,
+    "base_rate_valid": 0.12234910277324633
+   }
+  },
+  "330K_1Msalt/03": {
+   "n_events_dir": 8,
+   "n_events_total": 8,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 50,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.04019292604501608
+   },
+   "tau2000": {
+    "positives": 103,
+    "censored_dropped": 13,
+    "base_rate_valid": 0.08319870759289176
+   },
+   "tau4000": {
+    "positives": 200,
+    "censored_dropped": 25,
+    "base_rate_valid": 0.1631321370309951
+   }
+  },
+  "330K_1Msalt/04": {
+   "n_events_dir": 10,
+   "n_events_total": 10,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 61,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.04903536977491962
+   },
+   "tau2000": {
+    "positives": 120,
+    "censored_dropped": 13,
+    "base_rate_valid": 0.09693053311793215
+   },
+   "tau4000": {
+    "positives": 207,
+    "censored_dropped": 25,
+    "base_rate_valid": 0.16884176182707994
+   }
+  },
+  "330K_1Msalt/05": {
+   "n_events_dir": 15,
+   "n_events_total": 15,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 93,
+    "censored_dropped": 7,
+    "base_rate_valid": 0.0747588424437299
+   },
+   "tau2000": {
+    "positives": 183,
+    "censored_dropped": 13,
+    "base_rate_valid": 0.14781906300484654
+   },
+   "tau4000": {
+    "positives": 345,
+    "censored_dropped": 25,
+    "base_rate_valid": 0.2814029363784666
+   }
+  }
+ },
+ "tau_ps": [
+  1000.0,
+  2000.0,
+  4000.0
+ ]
+}

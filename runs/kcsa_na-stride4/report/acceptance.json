@@ -1,0 +1,297 @@
+{
+ "hyperparam_edges": {
+  "linear.C": {
+   "edge_frac": 0.037037037037037035,
+   "ok": true
+  },
+  "trees.depth": {
+   "edge_frac": 1.0,
+   "ok": false
+  },
+  "trees.k_events": {
+   "edge_frac": 0.6666666666666666,
+   "ok": false
+  },
+  "trees.colsample": {
+   "edge_frac": 0.6666666666666666,
+   "ok": false
+  },
+  "trees.subsample": {
+   "edge_frac": 0.3333333333333333,
+   "ok": true
+  },
+  "plsfma_coords.selection": {
+   "edge_frac": 0.0,
+   "ok": true
+  }
+ },
+ "edge_exception2_recorded": {
+  "ok": true,
+  "cases": [
+   {
+    "fold": "0:E71A/1",
+    "tau": 500.0,
+    "arm": "clock",
+    "note": "lower edge: fit degenerated to a constant (df=0.01); edge is meaningful"
+   },
+   {
+    "fold": "0:E71A/1",
+    "tau": 500.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "1:G77AE71A/1",
+    "tau": 500.0,
+    "arm": "linear",
+    "note": "lower edge: fit degenerated to a constant (df=0.03); edge is meaningful"
+   },
+   {
+    "fold": "1:G77AE71A/1",
+    "tau": 500.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.00); edge is meaningful"
+   },
+   {
+    "fold": "1:G77AE71A/1",
+    "tau": 500.0,
+    "arm": "clock",
+    "note": "lower edge: fit degenerated to a constant (df=0.00); edge is meaningful"
+   },
+   {
+    "fold": "1:G77AE71A/1",
+    "tau": 500.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "2:T75AE71A/1",
+    "tau": 500.0,
+    "arm": "linear",
+    "note": "lower edge: fit degenerated to a constant (df=0.23); edge is meaningful"
+   },
+   {
+    "fold": "2:T75AE71A/1",
+    "tau": 500.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.00); edge is meaningful"
+   },
+   {
+    "fold": "2:T75AE71A/1",
+    "tau": 500.0,
+    "arm": "clock",
+    "note": "lower edge: fit degenerated to a constant (df=0.01); edge is meaningful"
+   },
+   {
+    "fold": "2:T75AE71A/1",
+    "tau": 500.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "0:E71A/1",
+    "tau": 1000.0,
+    "arm": "clock",
+    "note": "lower edge: fit degenerated to a constant (df=0.02); edge is meaningful"
+   },
+   {
+    "fold": "0:E71A/1",
+    "tau": 1000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "1:G77AE71A/1",
+    "tau": 1000.0,
+    "arm": "linear",
+    "note": "lower edge: fit degenerated to a constant (df=0.07); edge is meaningful"
+   },
+   {
+    "fold": "1:G77AE71A/1",
+    "tau": 1000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.00); edge is meaningful"
+   },
+   {
+    "fold": "1:G77AE71A/1",
+    "tau": 1000.0,
+    "arm": "clock",
+    "note": "lower edge: fit degenerated to a constant (df=0.00); edge is meaningful"
+   },
+   {
+    "fold": "1:G77AE71A/1",
+    "tau": 1000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "2:T75AE71A/1",
+    "tau": 1000.0,
+    "arm": "linear",
+    "note": "lower edge: fit degenerated to a constant (df=0.47); edge is meaningful"
+   },
+   {
+    "fold": "2:T75AE71A/1",
+    "tau": 1000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.01); edge is meaningful"
+   },
+   {
+    "fold": "2:T75AE71A/1",
+    "tau": 1000.0,
+    "arm": "clock",
+    "note": "lower edge: fit degenerated to a constant (df=0.02); edge is meaningful"
+   },
+   {
+    "fold": "2:T75AE71A/1",
+    "tau": 1000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "0:E71A/1",
+    "tau": 2000.0,
+    "arm": "clock",
+    "note": "lower edge: fit degenerated to a constant (df=0.04); edge is meaningful"
+   },
+   {
+    "fold": "0:E71A/1",
+    "tau": 2000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "1:G77AE71A/1",
+    "tau": 2000.0,
+    "arm": "linear",
+    "note": "lower edge: fit degenerated to a constant (df=0.14); edge is meaningful"
+   },
+   {
+    "fold": "1:G77AE71A/1",
+    "tau": 2000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.00); edge is meaningful"
+   },
+   {
+    "fold": "1:G77AE71A/1",
+    "tau": 2000.0,
+    "arm": "clock",
+    "note": "lower edge: fit degenerated to a constant (df=0.01); edge is meaningful"
+   },
+   {
+    "fold": "1:G77AE71A/1",
+    "tau": 2000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "2:T75AE71A/1",
+    "tau": 2000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.02); edge is meaningful"
+   },
+   {
+    "fold": "2:T75AE71A/1",
+    "tau": 2000.0,
+    "arm": "clock",
+    "note": "lower edge: fit degenerated to a constant (df=0.03); edge is meaningful"
+   },
+   {
+    "fold": "2:T75AE71A/1",
+    "tau": 2000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   }
+  ]
+ },
+ "no_ceiling_hits": {
+  "ok": true,
+  "hits": 0
+ },
+ "penalty_in_df_units": {
+  "ok": true,
+  "df_by_fold": [
+   2.4494325624781097,
+   1.904374644601588,
+   0.00956511845348696,
+   0.03293046155762794,
+   0.0005996807902543785,
+   0.0011990699474475864,
+   0.2327105142432893,
+   0.004182895751058343,
+   0.008381965555862889,
+   4.512460939192116,
+   1.6403532467660635,
+   0.019455639164306596,
+   0.0657521911123378,
+   0.0011988927590906033,
+   0.0023962823381174724,
+   0.4705378080976322,
+   0.00853001410572086,
+   0.017124723130823014,
+   7.742027169945656,
+   1.794278038206718,
+   0.03900981083530524,
+   0.14180016410518362,
+   0.002594135518375645,
+   0.0051825799527259325,
+   0.9194704094019006,
+   0.016920265511772205,
+   0.034099748374505315
+  ]
+ },
+ "events_and_features_per_branch": {
+  "trees": [
+   {
+    "n_events": 8,
+    "branch": "native",
+    "n_features": 91
+   },
+   {
+    "n_events": 8,
+    "branch": "native",
+    "n_features": 91
+   },
+   {
+    "n_events": 8,
+    "branch": "native",
+    "n_features": 91
+   }
+  ]
+ },
+ "calibration_recorded_per_fold": {
+  "ok": false
+ },
+ "events_source_declared": {
+  "ok": true,
+  "declared": "own"
+ },
+ "vendored_checksums": {
+  "ok": true,
+  "actual": {
+   "heuristic_grid.json": "bb29c21e1339e71e7a877d5095a4d72c4ac3ab06ce04c863fbcfb407e567c4f0",
+   "wimley_white_1996.json": "d898884281bf666074ea8c2a5629896b31b9bea6bed4d4389a736ef355542b5c"
+  }
+ },
+ "figure_catalog": {
+  "ok": true
+ },
+ "answers_with_mechanism": {
+  "ok": true
+ },
+ "resting_frames_defined": {
+  "ok": false,
+  "resting": {
+   "defined": false,
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  "transit": {
+   "defined": false,
+   "reason": "both classes absent — the metric is undefined, not zero"
+  }
+ },
+ "applicability_mask_written": {
+  "ok": true
+ },
+ "note": "linter/test and notebook gates are checked by make test and a notebook run, outside this run's artifacts"
+}

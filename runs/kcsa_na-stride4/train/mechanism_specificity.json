@@ -1,0 +1,78 @@
+{
+ "axes": {
+  "constriction dehydration": {
+   "fires_on_ready_frac": NaN,
+   "fires_on_notready_frac": 0.13452914798206278,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.13452914798206278
+  },
+  "pathway/lining rearrangement": {
+   "fires_on_ready_frac": NaN,
+   "fires_on_notready_frac": 0.16607943625880844,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.16607943625880844
+  },
+  "ion placement and desolvation": {
+   "fires_on_ready_frac": NaN,
+   "fires_on_notready_frac": 0.13052530429212045,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.13052530429212045
+  },
+  "water-wire rupture": {
+   "fires_on_ready_frac": NaN,
+   "fires_on_notready_frac": 0.0,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.0
+  },
+  "electrostatics": {
+   "fires_on_ready_frac": NaN,
+   "fires_on_notready_frac": 0.0,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.0
+  },
+  "column immobility": {
+   "fires_on_ready_frac": NaN,
+   "fires_on_notready_frac": 0.0,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.0
+  },
+  "permeant delivery": {
+   "fires_on_ready_frac": NaN,
+   "fires_on_notready_frac": 0.0,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.0
+  }
+ },
+ "availability": {
+  "constriction dehydration": {
+   "available": true,
+   "n_columns": 25
+  },
+  "pathway/lining rearrangement": {
+   "available": true,
+   "n_columns": 34
+  },
+  "ion placement and desolvation": {
+   "available": true,
+   "n_columns": 10
+  },
+  "water-wire rupture": {
+   "available": true,
+   "n_columns": 4
+  },
+  "electrostatics": {
+   "available": true,
+   "n_columns": 5
+  },
+  "column immobility": {
+   "available": true,
+   "n_columns": 4
+  },
+  "permeant delivery": {
+   "available": true,
+   "n_columns": 9
+  }
+ },
+ "negligible_threshold_logit": 0.6907755278982137,
+ "near_universal_axes_warning": []
+}

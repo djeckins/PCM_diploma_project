@@ -1,0 +1,6 @@
+{
+ "smooth_ps": 500.0,
+ "thresholds_rule": "quantiles of the calibrated OOF scores of the remaining folds (out of this fold's sample)",
+ "per_trajectory": {},
+ "random_null": {}
+}

@@ -1,0 +1,78 @@
+{
+ "axes": {
+  "constriction dehydration": {
+   "fires_on_ready_frac": 0.421518054532056,
+   "fires_on_notready_frac": 0.657417482771128,
+   "odds_ratio_notready_vs_ready": 2.6335991959337637,
+   "fires_overall_frac": 0.6315704481227291
+  },
+  "pathway/lining rearrangement": {
+   "fires_on_ready_frac": 0.10611643330876934,
+   "fires_on_notready_frac": 0.17863619876677547,
+   "odds_ratio_notready_vs_ready": 1.8320284708422268,
+   "fires_overall_frac": 0.17069035123132822
+  },
+  "ion placement and desolvation": {
+   "fires_on_ready_frac": 0.3323507737656595,
+   "fires_on_notready_frac": 0.6553318824809575,
+   "odds_ratio_notready_vs_ready": 3.819546845823628,
+   "fires_overall_frac": 0.6199434800161485
+  },
+  "water-wire rupture": {
+   "fires_on_ready_frac": 0.03537214443625645,
+   "fires_on_notready_frac": 0.0841494377947044,
+   "odds_ratio_notready_vs_ready": 2.505676567656766,
+   "fires_overall_frac": 0.07880500605571256
+  },
+  "electrostatics": {
+   "fires_on_ready_frac": 0.0,
+   "fires_on_notready_frac": 0.011062749365252086,
+   "odds_ratio_notready_vs_ready": NaN,
+   "fires_overall_frac": 0.00985062575696407
+  },
+  "column immobility": {
+   "fires_on_ready_frac": 0.4767870302137067,
+   "fires_on_notready_frac": 0.7380304678998912,
+   "odds_ratio_notready_vs_ready": 3.0915592534278353,
+   "fires_overall_frac": 0.70940654016956
+  },
+  "permeant delivery": {
+   "fires_on_ready_frac": 0.6853352984524687,
+   "fires_on_notready_frac": 0.8256256800870512,
+   "odds_ratio_notready_vs_ready": 2.1739301830137725,
+   "fires_overall_frac": 0.8102543399273314
+  }
+ },
+ "availability": {
+  "constriction dehydration": {
+   "available": true,
+   "n_columns": 25
+  },
+  "pathway/lining rearrangement": {
+   "available": true,
+   "n_columns": 33
+  },
+  "ion placement and desolvation": {
+   "available": true,
+   "n_columns": 6
+  },
+  "water-wire rupture": {
+   "available": true,
+   "n_columns": 4
+  },
+  "electrostatics": {
+   "available": true,
+   "n_columns": 5
+  },
+  "column immobility": {
+   "available": true,
+   "n_columns": 4
+  },
+  "permeant delivery": {
+   "available": true,
+   "n_columns": 9
+  }
+ },
+ "negligible_threshold_logit": 0.10532160695798339,
+ "near_universal_axes_warning": []
+}
