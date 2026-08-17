@@ -1,0 +1,50 @@
+MIT License
+
+Copyright (c) 2026 Angelina Ivanova
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+---------------------------------------------------------------------------
+
+SCOPE
+
+This licence covers the source code and configuration written for this
+project: the Python packages and scripts (`src/`, `tools/`, `tests/`,
+`notebooks/`), the system configurations (`configs/`), the build and
+environment metadata, and the prose of the repository's own documentation.
+
+It does NOT cover three kinds of material, each licensed separately:
+
+  * `external/rao2019_heuristic/*.json` — two data files from a third-party
+    project, redistributed unmodified under their own MIT licence. Their
+    copyright notice is reproduced in
+    `external/rao2019_heuristic/LICENSE.CHAP.md`, and their provenance and
+    checksums in `external/rao2019_heuristic/PROVENANCE.md`.
+
+  * `runs/` and `docs/` — figures, derived tables, result records and generated
+    reports. These are research output rather than software and are licensed
+    under CC-BY-4.0; see `LICENSE-DATA.md`.
+
+  * the molecular-dynamics trajectories analysed by this code. They are not
+    contained in this repository, are not redistributed by it, and no licence
+    over them is granted or implied here. Their origin and availability are
+    described in `README.md`, "Where the data came from".
+
+Full attribution for every third-party component, together with the licences
+of the libraries this code imports, is in `THIRD_PARTY_NOTICES.md`.

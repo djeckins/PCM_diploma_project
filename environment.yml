@@ -1,0 +1,29 @@
+# Analysis working environment. The external MD package (GROMACS) is NOT part
+# of it and is NOT required to run any code in this repository: it is installed
+# as a separate 'gmx' environment because it pins its own versions of the
+# numerical libraries. Its sole role was reading the thermostat reference
+# temperature (ref-t) out of each run's tpr with 'gmx dump'; that is how the
+# temperatures recorded with origin: detected in configs/mthk.yaml,
+# configs/gramicidin.yaml, configs/kcsa.yaml and configs/kcsa_na.yaml were
+# obtained. configs/cx43.yaml instead carries origin: declared, taken from
+# ref_t in the shipped production mdp.
+name: chem
+channels: [conda-forge]
+dependencies:
+  - python>=3.11
+  # Floor 2.8: the release that relicensed MDAnalysis from GPLv3+ to LGPLv3+.
+  - mdanalysis>=2.8
+  - numpy>=1.26
+  - scipy>=1.11
+  - pandas>=2.1
+  # Backs DataFrame.to_markdown, which tools/final_results.py uses to write the
+  # runs/FINAL tables; pandas ships it only as an optional extra.
+  - tabulate>=0.9
+  - pyarrow>=14
+  - pyyaml>=6
+  - scikit-learn>=1.4
+  - xgboost>=2
+  - matplotlib>=3.8
+  - numba>=0.59
+  - pytest>=8
+  - ruff>=0.4

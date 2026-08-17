@@ -1,0 +1,70 @@
+# Citation metadata for this repository, in Citation File Format 1.2.0.
+# GitHub reads this file and offers a "Cite this repository" button from it.
+# Specification: https://citation-file-format.github.io
+#
+# Two fields are outstanding: the DOI of a Zenodo archive that has not been
+# created yet, and the release date that would accompany it. Both are described
+# in a comment below rather than filled with placeholder values, so that no line
+# of this file is a fabricated identifier and the YAML stays valid.
+
+cff-version: 1.2.0
+message: >-
+  If you use this software or the results it produced, please cite the
+  dissertation recorded under preferred-citation. That is the entry GitHub's
+  citation button and most CFF tooling show, and it is the one they show alone
+  while preferred-citation is present. The software entry in this file is for
+  citing the code specifically — a particular archived version of it, or the
+  implementation as distinct from the written work.
+title: "PCM 2 — permeation-readiness forecasting for ion channels"
+abstract: >-
+  A per-frame monitor for ion-channel molecular-dynamics trajectories. For every
+  frame it answers two questions: whether the configuration is ready to conduct
+  an ion within the next tau picoseconds, and if not, which mechanism is holding
+  it back. Readiness is predicted from physically grouped descriptors measured
+  from the trajectory alone, and the blocking mechanism is read off the trained
+  model's own attributions aggregated onto mechanism axes.
+type: software
+authors:
+  - family-names: Ivanova
+    given-names: Angelina
+    affiliation: "School of Physical and Chemical Sciences, Queen Mary University of London"
+    # An ORCID can be added here as an `orcid` key holding the full
+    # https://orcid.org/ URL of a registered identifier. Left out rather than
+    # filled with a dummy value, since a made-up identifier is worse than none.
+version: 0.1.0
+license:
+  - MIT
+  - CC-BY-4.0
+# This is the URL cited in the dissertation appendix, so the citation and the
+# appendix point at the same place.
+repository-code: "https://github.com/djeckins/PCM_diploma_project"
+keywords:
+  - ion channels
+  - ion permeation
+  - molecular dynamics
+  - machine learning
+  - interpretability
+  - transferability
+  - gramicidin A
+  - MthK
+  - KcsA
+  - connexin-43
+
+# A `doi` and a matching `date-released` can be added here once a release is
+# archived, so that the citation resolves to a fixed, dated snapshot. Neither
+# value exists yet: the archive has not been created, and a made-up identifier
+# would make this file cite a record that cannot be resolved.
+
+preferred-citation:
+  type: thesis
+  # Title as recorded for the 2026 submission. The year and month at the end of
+  # this entry are the submission date, not a date of publication.
+  title: "Predicting Permeation Readiness in Ion Channels: A Transferable, Interpretable Monitor for Molecular Dynamics Trajectories"
+  authors:
+    - family-names: Ivanova
+      given-names: Angelina
+  institution:
+    name: "Queen Mary University of London"
+  thesis-type: "MSc dissertation"
+  year: 2026
+  month: 9

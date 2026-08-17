@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pcm2"
+version = "0.1.0"
+description = "Permeation-readiness forecasting for ion-channel MD trajectories (MSc research project)"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+    # Trajectory reading layer only: streaming frames, PBC-aware distances.
+    # Floor is 2.8, the release that relicensed MDAnalysis from GPLv3+ to LGPLv3+:
+    # every version admitted here is weak-copyleft, so importing it as an unmodified
+    # library places no reciprocal obligation on this package. See THIRD_PARTY_NOTICES.md.
+    "MDAnalysis>=2.8",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "pandas>=2.1",
+    # DataFrame.to_markdown needs tabulate, and pandas ships it only as the
+    # optional "output-formatting" extra. tools/final_results.py calls
+    # to_markdown at six sites when writing the runs/FINAL tables, so the
+    # regeneration command documented in the README would fail on a clean
+    # install unless it is required here. Floor 0.9 is pandas' own floor.
+    "tabulate>=0.9",
+    "pyarrow>=14",
+    "PyYAML>=6.0",
+    # Model layer only: must never be imported by feature modules.
+    "scikit-learn>=1.4",
+    "xgboost>=2.0",
+    "matplotlib>=3.8",
+    "numba>=0.59",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+# The tests import pcm2 directly. Putting src on sys.path here lets a fresh
+# clone run the suite without an editable install first; with an editable
+# install present, this entry takes precedence, so the tests always exercise
+# the working tree rather than whatever version happens to be installed.
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+ignore = ["E501"]
