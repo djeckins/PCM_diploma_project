@@ -1,0 +1,30 @@
+{
+ "training_units": [
+  "gramicidin:298K_2Msalt/01",
+  "gramicidin:298K_2Msalt/02",
+  "gramicidin:298K_2Msalt/03",
+  "gramicidin:298K_2Msalt/04",
+  "gramicidin:298K_2Msalt/05",
+  "gramicidin:330K_1Msalt/01",
+  "gramicidin:330K_1Msalt/02",
+  "gramicidin:330K_1Msalt/03",
+  "gramicidin:330K_1Msalt/04",
+  "gramicidin:330K_1Msalt/05",
+  "kcsa:E71A/1",
+  "mthk:200MV/1",
+  "mthk:200MV/2",
+  "mthk:neg-200MV/1",
+  "mthk:neg-200MV/2"
+ ],
+ "held_out_family": "cx43",
+ "leakage": "no unit of family 'cx43' is in the training pool by construction",
+ "event_counts": {
+  "full_membrane_collector": 0,
+  "label_positive_runs": 0,
+  "authors_counter_filter_crossings": null
+ },
+ "headline": {
+  "defined": false,
+  "reason": "both classes absent — the metric is undefined, not zero"
+ }
+}

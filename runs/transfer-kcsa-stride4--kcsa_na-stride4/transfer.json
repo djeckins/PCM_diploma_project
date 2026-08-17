@@ -1,0 +1,46 @@
+{
+ "a_to_b": {
+  "source": "kcsa",
+  "target": "kcsa_na",
+  "n_columns_model": 92,
+  "n_present": 92,
+  "missing_columns": [],
+  "importance_lost_frac": 0.0,
+  "max_importance_loss_frac": 0.5,
+  "verdict": "APPLIED",
+  "scores_summary": {
+   "prob_mean": NaN,
+   "prob_p95": NaN
+  },
+  "target_eval": {
+   "defined": true,
+   "ap": 0.021812041939119464,
+   "base_rate": 0.0019614122167960933,
+   "ratio_to_chance": 11.12058023924658,
+   "n": 24982,
+   "n_pos": 49
+  }
+ },
+ "b_to_a": {
+  "source": "kcsa_na",
+  "target": "kcsa",
+  "n_columns_model": 91,
+  "n_present": 91,
+  "missing_columns": [],
+  "importance_lost_frac": 0.0,
+  "max_importance_loss_frac": 0.5,
+  "verdict": "APPLIED",
+  "scores_summary": {
+   "prob_mean": NaN,
+   "prob_p95": NaN
+  },
+  "target_eval": {
+   "defined": true,
+   "ap": 0.04161101560337788,
+   "base_rate": 0.012969337923304779,
+   "ratio_to_chance": 3.2084147895172412,
+   "n": 24982,
+   "n_pos": 324
+  }
+ }
+}

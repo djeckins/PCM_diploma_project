@@ -1,0 +1,46 @@
+{
+ "a_to_b": {
+  "source": "mthk",
+  "target": "kcsa",
+  "n_columns_model": 86,
+  "n_present": 86,
+  "missing_columns": [],
+  "importance_lost_frac": 0.0,
+  "max_importance_loss_frac": 0.5,
+  "verdict": "APPLIED",
+  "scores_summary": {
+   "prob_mean": 0.2105402737595976,
+   "prob_p95": 0.3647863165915733
+  },
+  "target_eval": {
+   "defined": true,
+   "ap": 0.07316867056905675,
+   "base_rate": 0.02579714789296587,
+   "ratio_to_chance": 2.8363085280837463,
+   "n": 24964,
+   "n_pos": 644
+  }
+ },
+ "b_to_a": {
+  "source": "kcsa",
+  "target": "mthk",
+  "n_columns_model": 92,
+  "n_present": 92,
+  "missing_columns": [],
+  "importance_lost_frac": 0.0,
+  "max_importance_loss_frac": 0.5,
+  "verdict": "APPLIED",
+  "scores_summary": {
+   "prob_mean": NaN,
+   "prob_p95": NaN
+  },
+  "target_eval": {
+   "defined": true,
+   "ap": 0.34194317979294925,
+   "base_rate": 0.28104656985478216,
+   "ratio_to_chance": 1.2166780045372287,
+   "n": 7988,
+   "n_pos": 2245
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "a_to_b": {
+  "source": "gramicidin",
+  "target": "kcsa",
+  "n_columns_model": 86,
+  "n_present": 86,
+  "missing_columns": [],
+  "importance_lost_frac": 0.0,
+  "max_importance_loss_frac": 0.5,
+  "verdict": "APPLIED",
+  "scores_summary": {
+   "prob_mean": 0.25730684507098733,
+   "prob_p95": 0.48019105905331216
+  },
+  "target_eval": {
+   "defined": true,
+   "ap": 0.09644258924509357,
+   "base_rate": 0.02579714789296587,
+   "ratio_to_chance": 3.7384981334076333,
+   "n": 24964,
+   "n_pos": 644
+  }
+ },
+ "b_to_a": {
+  "source": "kcsa",
+  "target": "gramicidin",
+  "n_columns_model": 92,
+  "n_present": 92,
+  "missing_columns": [],
+  "importance_lost_frac": 0.0,
+  "max_importance_loss_frac": 0.5,
+  "verdict": "APPLIED",
+  "scores_summary": {
+   "prob_mean": NaN,
+   "prob_p95": NaN
+  },
+  "target_eval": {
+   "defined": true,
+   "ap": 0.0479801179636635,
+   "base_rate": 0.055707395498392286,
+   "ratio_to_chance": 0.8612881204444067,
+   "n": 12440,
+   "n_pos": 693
+  }
+ }
+}

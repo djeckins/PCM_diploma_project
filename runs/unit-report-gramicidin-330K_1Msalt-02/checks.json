@@ -1,0 +1,28 @@
+{
+ "training_units": [
+  "kcsa:E71A/1",
+  "mthk:200MV/1",
+  "mthk:200MV/2",
+  "mthk:neg-200MV/1",
+  "mthk:neg-200MV/2"
+ ],
+ "held_out_family": "gramicidin",
+ "leakage": "no unit of family 'gramicidin' is in the training pool by construction",
+ "reproducibility_vs_experiment": {
+  "max_prob_deviation": 0.0,
+  "ok": true
+ },
+ "event_counts": {
+  "full_membrane_collector": 6,
+  "label_positive_runs": 6,
+  "authors_counter_filter_crossings": null
+ },
+ "headline": {
+  "defined": true,
+  "ap": 0.03789330166955304,
+  "base_rate": 0.0297427652733119,
+  "ratio_to_chance": 1.2740342507276752,
+  "n": 1244,
+  "n_pos": 37
+ }
+}
