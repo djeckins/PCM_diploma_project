@@ -1,0 +1,49 @@
+{
+ "per_replica": {
+  "200mV/R2": {
+   "n_events_dir": 2,
+   "n_events_total": 2,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 20,
+    "censored_dropped": 10,
+    "base_rate_valid": 0.020181634712411706
+   },
+   "tau2000": {
+    "positives": 40,
+    "censored_dropped": 20,
+    "base_rate_valid": 0.040774719673802244
+   },
+   "tau4000": {
+    "positives": 72,
+    "censored_dropped": 40,
+    "base_rate_valid": 0.07492195629552549
+   }
+  },
+  "200mV/R4": {
+   "n_events_dir": 0,
+   "n_events_total": 0,
+   "n_entry_unobserved_excluded_from_entrance": 0,
+   "tau1000": {
+    "positives": 0,
+    "censored_dropped": 10,
+    "base_rate_valid": 0.0
+   },
+   "tau2000": {
+    "positives": 0,
+    "censored_dropped": 20,
+    "base_rate_valid": 0.0
+   },
+   "tau4000": {
+    "positives": 0,
+    "censored_dropped": 40,
+    "base_rate_valid": 0.0
+   }
+  }
+ },
+ "tau_ps": [
+  1000.0,
+  2000.0,
+  4000.0
+ ]
+}

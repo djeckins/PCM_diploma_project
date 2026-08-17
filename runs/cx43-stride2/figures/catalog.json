@@ -1,0 +1,13 @@
+{
+ "catalog": [
+  "fig_block_importance",
+  "fig_calibration",
+  "fig_fold_spread",
+  "fig_pr_primary",
+  "fig_tau_ratio",
+  "fig_timeline"
+ ],
+ "produced": [
+  "fig_fold_spread.png"
+ ]
+}

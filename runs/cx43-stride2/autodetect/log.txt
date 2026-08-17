@@ -1,0 +1,17 @@
+selections: {"ion": "resname POT", "ion_negative": "resname CLA", "water_oxygen": "resname TIP3 and element O", "water_hydrogen": "resname TIP3 and element H", "lipid": "resname POPC", "phosphate": "resname POPC and element P", "channel": "not resname CLA POPC POT TIP3"}
+frame step, ps: {'200mV/R2': 50.0, '200mV/R3': 50.0, '200mV/R4': 50.0}; triclinic cell: False
+pore axis: z (emptiness of the central third between leaflets from phosphates on 7 frames: {'x': 7.2, 'y': 7.7, 'z': 97.4}; best-over-second margin 13×)
+filter: False (motif T[VIL]G[YF]G not found in 12 connected fragments)
+anchor: (not resname CLA POPC POT TIP3) and name CA
+scan 200mV/R2 (stride 4): ion: 2 crossings over 395 particles, ion_negative: 1 crossings over 431 particles, water: 4706 crossings over 89618 particles
+scan 200mV/R3 (stride 4): ion: 2 crossings over 395 particles, ion_negative: 1 crossings over 431 particles, water: 4706 crossings over 89618 particles
+scan 200mV/R4 (stride 4): ion: 0 crossings over 395 particles, ion_negative: 0 crossings over 431 particles, water: 4534 crossings over 89618 particles
+permeant declared by a human: POT; measured per-particle crossings: {'ion': 0.003, 'ion_negative': 0.002, 'water': 0.052}
+direction 200mV: -1 (replica signs [-1, -1, 0])
+coordination cutoff 200mV: 3.57 A (ion-water g(r) on 5 frames: peak 2.72 A, first minimum 3.57 A (window 2.2–4.8 A))
+pore extent from the anchor: [-63.0, 63.0] A; bin 15.75 A × 8
+pore cylinder: 10.3 A
+sites from density: None (density peaks do not reproduce across halves: 3 vs 2)
+Autodetection REFUSALS (each names a config key):
+  system.arch_profile.n_sites: density peaks do not reproduce across halves: 3 vs 2
+config updated in place: configs/cx43.yaml

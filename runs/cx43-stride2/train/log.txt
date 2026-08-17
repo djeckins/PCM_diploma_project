@@ -1,0 +1,10 @@
+model matrix: training on 82 of 104 columns; 22 excluded:
+  mask: 10
+  structural exclusion: 12
+outer folds (over independent assemblies): 2; the effective sample size is the number of trajectories
+fold 0:200mV/R2 τ=1000.0 done
+fold 1:200mV/R4 τ=1000.0 done
+fold 0:200mV/R2 τ=2000.0 done
+fold 1:200mV/R4 τ=2000.0 done
+fold 0:200mV/R2 τ=4000.0 done
+fold 1:200mV/R4 τ=4000.0 done

@@ -1,0 +1,3 @@
+[200mV/R2] 1001 frames aligned
+[200mV/R4] 1001 frames aligned
+superimposed coordinates: 2002 frames x 6804 Cartesian components

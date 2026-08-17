@@ -1,0 +1,3 @@
+[200mV/R2] own=2 provided=None flux_sign=-1 left-censored at start: 133
+[200mV/R4] own=0 provided=None flux_sign=0 left-censored at start: 133
+median transit time: 4375 ps; median interval between crossings: 3200 ps; declared horizons τ: [1000.0, 2000.0, 4000.0] ps

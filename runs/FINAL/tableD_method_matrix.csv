@@ -1,0 +1,8 @@
+Method,Gramicidin A,MthK,KcsA-E71A,Cx43
+Rao 2019 Σd (published structure rule),x0.97,x1.05,x0.64,—
+PLS-FMA (g_fma port),x1.04,x0.95,x0.78,—
+Linear (ridge-logistic),x2.66,x1.16,x0.57,—
+GBT (this work),x2.59,x1.37,x1.98,—
+Clock (temporal null),x1.53,x1.01,x0.55,—
+GBT zero-shot (other conducting proteins),x1.60,x1.14,x1.21,x3.91
+Base rate (chance),x1.00,x1.00,x1.00,x1.00

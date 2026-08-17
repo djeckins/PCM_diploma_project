@@ -1,0 +1,18 @@
+{
+ "note": "Rao arms are unfitted rules on all valid Cx43 frames; the fitted arms are trained on the three conducting proteins and applied to cx43:200mV/R2, the only Cx43 unit carrying positives. PLS-FMA has no entry: its input is the superimposed Cartesian coordinates of one protein, so it cannot transfer.",
+ "seed": 20260816,
+ "by_tau": {
+  "2000": {
+   "Clock (temporal null)": 5.2,
+   "Linear control (structural)": 0.679,
+   "Linear (ridge-logistic)": 1.948
+  },
+  "4000": {
+   "Rao 2019 energy": 0.778,
+   "Rao 2019 sigma": 1.001,
+   "Clock (temporal null)": 3.811,
+   "Linear control (structural)": 0.745,
+   "Linear (ridge-logistic)": 7.931
+  }
+ }
+}

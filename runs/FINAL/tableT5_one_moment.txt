@@ -1,0 +1,8 @@
+frame at t = 100000 ps | truth: crossing within τ = False
+
+  Rao 2019        23.4 kJ/mol → DEWETTED        state of the constriction, no timing claim
+  PLS-FMA         model output 0.123            linear function of the collective mode projection
+  clock           P = 0.141                     from time-since-crossing and event rate only
+  linear control  P = 0.091                     radius + hydrophobicity, fitted
+  linear (ours)   P = 0.139                     all descriptors, ridge logistic
+  trees (ours)    P = 0.083 → NOT_READY         pore state: permeant delivery (dlv_t_since_cross_ps=2.12e+04 (contribution -0.359 logit toward not-ready))

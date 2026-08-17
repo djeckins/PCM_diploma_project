@@ -1,0 +1,436 @@
+{
+ "per_arm": {
+  "clock": {
+   "1000.0": {
+    "pooled": {
+     "defined": false,
+     "reason": "both classes absent — the metric is undefined, not zero"
+    },
+    "per_fold": {
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": false,
+     "reason": "both classes absent — the metric is undefined, not zero"
+    },
+    "per_fold": {
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": false,
+     "reason": "both classes absent — the metric is undefined, not zero"
+    },
+    "per_fold": {
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   }
+  },
+  "linear": {
+   "1000.0": {
+    "pooled": {
+     "defined": false,
+     "reason": "both classes absent — the metric is undefined, not zero"
+    },
+    "per_fold": {
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": false,
+     "reason": "both classes absent — the metric is undefined, not zero"
+    },
+    "per_fold": {
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": false,
+     "reason": "both classes absent — the metric is undefined, not zero"
+    },
+    "per_fold": {
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   }
+  },
+  "linear_control_structural": {
+   "1000.0": {
+    "pooled": {
+     "defined": false,
+     "reason": "both classes absent — the metric is undefined, not zero"
+    },
+    "per_fold": {
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": false,
+     "reason": "both classes absent — the metric is undefined, not zero"
+    },
+    "per_fold": {
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": false,
+     "reason": "both classes absent — the metric is undefined, not zero"
+    },
+    "per_fold": {
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   }
+  },
+  "plsfma_coords": {
+   "1000.0": {
+    "pooled": {
+     "defined": false,
+     "reason": "both classes absent — the metric is undefined, not zero"
+    },
+    "per_fold": {
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": false,
+     "reason": "both classes absent — the metric is undefined, not zero"
+    },
+    "per_fold": {
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": false,
+     "reason": "both classes absent — the metric is undefined, not zero"
+    },
+    "per_fold": {
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    }
+   }
+  },
+  "published_rao2019": {
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.007600070906735703,
+     "base_rate": 0.010090817356205853,
+     "ratio_to_chance": 0.7531670268575081,
+     "n": 1982,
+     "n_pos": 20
+    },
+    "per_fold": {
+     "0:200mV/R2": {
+      "defined": true,
+      "ap": 0.01687115112215225,
+      "base_rate": 0.020181634712411706,
+      "ratio_to_chance": 0.835965538102644,
+      "n": 991,
+      "n_pos": 20
+     },
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.3655453618756372
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.014828329698447561,
+     "base_rate": 0.020387359836901122,
+     "ratio_to_chance": 0.7273295717088528,
+     "n": 1962,
+     "n_pos": 40
+    },
+    "per_fold": {
+     "0:200mV/R2": {
+      "defined": true,
+      "ap": 0.032853240396792494,
+      "base_rate": 0.040774719673802244,
+      "ratio_to_chance": 0.8057257207313359,
+      "n": 981,
+      "n_pos": 40
+     },
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.3575312174817898
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.029141686262159874,
+     "base_rate": 0.037460978147762745,
+     "ratio_to_chance": 0.7779211249426566,
+     "n": 1922,
+     "n_pos": 72
+    },
+    "per_fold": {
+     "0:200mV/R2": {
+      "defined": true,
+      "ap": 0.06486211221155269,
+      "base_rate": 0.07492195629552549,
+      "ratio_to_chance": 0.8657290254903075,
+      "n": 961,
+      "n_pos": 72
+     },
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.38674924924924925
+   }
+  },
+  "published_rao2019_win": {
+   "1000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.0060183268531989196,
+     "base_rate": 0.010090817356205853,
+     "ratio_to_chance": 0.5964161911520129,
+     "n": 1982,
+     "n_pos": 20
+    },
+    "per_fold": {
+     "0:200mV/R2": {
+      "defined": true,
+      "ap": 0.013867312859097519,
+      "base_rate": 0.020181634712411706,
+      "ratio_to_chance": 0.687125352168282,
+      "n": 991,
+      "n_pos": 20
+     },
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.15746687054026504
+   },
+   "2000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.012199273417448881,
+     "base_rate": 0.020387359836901122,
+     "ratio_to_chance": 0.5983743611258676,
+     "n": 1962,
+     "n_pos": 40
+    },
+    "per_fold": {
+     "0:200mV/R2": {
+      "defined": true,
+      "ap": 0.029069047603283448,
+      "base_rate": 0.040774719673802244,
+      "ratio_to_chance": 0.7129183924705266,
+      "n": 981,
+      "n_pos": 40
+     },
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.18500260145681582
+   },
+   "4000.0": {
+    "pooled": {
+     "defined": true,
+     "ap": 0.024273346826542596,
+     "base_rate": 0.037460978147762745,
+     "ratio_to_chance": 0.6479635083418732,
+     "n": 1922,
+     "n_pos": 72
+    },
+    "per_fold": {
+     "0:200mV/R2": {
+      "defined": true,
+      "ap": 0.06575536590714877,
+      "base_rate": 0.07492195629552549,
+      "ratio_to_chance": 0.8776514810662496,
+      "n": 961,
+      "n_pos": 72
+     },
+     "1:200mV/R4": {
+      "defined": false,
+      "reason": "both classes absent — the metric is undefined, not zero"
+     }
+    },
+    "auroc_report_only": 0.26540540540540536
+   }
+  }
+ },
+ "degenerate_folds": [
+  {
+   "arm": "clock",
+   "tau": 1000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "clock",
+   "tau": 2000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "clock",
+   "tau": 4000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "linear",
+   "tau": 1000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "linear",
+   "tau": 2000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "linear",
+   "tau": 4000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "linear_control_structural",
+   "tau": 1000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "linear_control_structural",
+   "tau": 2000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "linear_control_structural",
+   "tau": 4000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "plsfma_coords",
+   "tau": 1000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "plsfma_coords",
+   "tau": 2000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "plsfma_coords",
+   "tau": 4000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "published_rao2019",
+   "tau": 1000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "published_rao2019",
+   "tau": 2000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "published_rao2019",
+   "tau": 4000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "published_rao2019_win",
+   "tau": 1000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "published_rao2019_win",
+   "tau": 2000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  {
+   "arm": "published_rao2019_win",
+   "tau": 4000.0,
+   "fold": "1:200mV/R4",
+   "reason": "both classes absent — the metric is undefined, not zero"
+  }
+ ],
+ "headline_note": "headline per-frame metric is pooled AP/base at the primary τ; the headline monitor quantity is event-level",
+ "paired_vs_head": {},
+ "paired_vs_head_note": "head arm 'trees' has no out-of-fold scores at τ=4000.0: every fold refused (degenerate training); paired comparison is undefined by construction",
+ "anchor_ablation": {
+  "resting": {
+   "defined": false,
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  "transit": {
+   "defined": false,
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  "note": "the study's conclusion must hold on resting frames"
+ },
+ "block_ablation": {},
+ "condition_transfer": {}
+}

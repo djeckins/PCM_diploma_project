@@ -1,0 +1,1391 @@
+[
+ {
+  "fold": "0:200mV/R2",
+  "tau": 1000.0,
+  "arms": {
+   "linear": {
+    "skipped": "no columns or a single class in training"
+   },
+   "trees": {
+    "skipped": "no columns or a single class in training"
+   },
+   "linear_control_structural": {
+    "skipped": "no columns or a single class in training"
+   },
+   "clock": {
+    "skipped": "no columns or a single class in training"
+   },
+   "plsfma_coords": {
+    "skipped": "coords artifact missing or single-class training fold"
+   }
+  }
+ },
+ {
+  "fold": "1:200mV/R4",
+  "tau": 1000.0,
+  "arms": {
+   "linear": {
+    "hyperparams": {
+     "chosen_C": 0.0001,
+     "curve": [
+      {
+       "C": 0.0001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.01,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.1,
+       "logloss": Infinity
+      },
+      {
+       "C": 1.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 10.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 100.0,
+       "logloss": Infinity
+      }
+     ],
+     "edge": {
+      "C_on_edge": true,
+      "position": 0,
+      "grid_len": 7,
+      "exception2": "lower edge: fit degenerated to a constant (df=0.21); edge is meaningful"
+     },
+     "df_effective": 0.21225743052584778,
+     "df_at_grid_ends": [
+      0.21225743052584778,
+      88.48474075045254
+     ],
+     "n_iter": 7,
+     "class_weight": "None",
+     "weight_measurement": {
+      "C_probe": 0.1,
+      "logloss_unweighted": Infinity,
+      "logloss_balanced_prior_corrected": Infinity,
+      "chosen": "None"
+     },
+     "dup_pairs": [
+      [
+       "dyn_ion_persist",
+       "missing[dyn_ion_drift_A_win]",
+       -1.0
+      ],
+      [
+       "dlv_approach_pair_n",
+       "missing[dlv_approach_A_win]",
+       -1.0
+      ],
+      [
+       "dlv_crossed_before",
+       "missing[dlv_t_since_cross_ps]",
+       -1.0
+      ],
+      [
+       "missing[geo_r_bin0_A]",
+       "missing[geo_r_bin0_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin0_A]",
+       "missing[hyd_water_bin0_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin1_A]",
+       "missing[geo_r_bin1_rel]",
+       0.9999999999999998
+      ],
+      [
+       "missing[geo_r_bin1_A]",
+       "missing[hyd_water_bin1_density]",
+       0.9999999999999998
+      ],
+      [
+       "missing[geo_r_bin2_A]",
+       "missing[geo_r_bin2_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin2_A]",
+       "missing[hyd_water_bin2_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin3_A]",
+       "missing[geo_r_bin3_rel]",
+       0.9999999999999998
+      ],
+      [
+       "missing[geo_r_bin3_A]",
+       "missing[hyd_water_bin3_density]",
+       0.9999999999999998
+      ],
+      [
+       "missing[geo_r_bin4_A]",
+       "missing[geo_r_bin4_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin4_A]",
+       "missing[hyd_water_bin4_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin5_A]",
+       "missing[geo_r_bin5_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin5_A]",
+       "missing[hyd_water_bin5_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin6_A]",
+       "missing[geo_r_bin6_rel]",
+       0.9999999999999998
+      ],
+      [
+       "missing[geo_r_bin6_A]",
+       "missing[hyd_water_bin6_density]",
+       0.9999999999999998
+      ],
+      [
+       "missing[geo_r_bin7_A]",
+       "missing[geo_r_bin7_rel]",
+       0.9999999999999998
+      ],
+      [
+       "missing[geo_r_bin7_A]",
+       "missing[hyd_water_bin7_density]",
+       0.9999999999999998
+      ],
+      [
+       "missing[geo_r_bin0_rel]",
+       "missing[hyd_water_bin0_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin1_rel]",
+       "missing[hyd_water_bin1_density]",
+       0.9999999999999998
+      ],
+      [
+       "missing[geo_r_bin2_rel]",
+       "missing[hyd_water_bin2_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin3_rel]",
+       "missing[hyd_water_bin3_density]",
+       0.9999999999999998
+      ],
+      [
+       "missing[geo_r_bin4_rel]",
+       "missing[hyd_water_bin4_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin5_rel]",
+       "missing[hyd_water_bin5_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin6_rel]",
+       "missing[hyd_water_bin6_density]",
+       0.9999999999999998
+      ],
+      [
+       "missing[geo_r_bin7_rel]",
+       "missing[hyd_water_bin7_density]",
+       0.9999999999999998
+      ]
+     ]
+    },
+    "calibration": {
+     "requested": "sigmoid",
+     "applied": "unfit",
+     "kind": "probability",
+     "degenerate_fit": true
+    },
+    "threshold": 0.5,
+    "branch": "encoded",
+    "n_features_seen": 82
+   },
+   "trees": {
+    "skipped": "degenerate training: no rotation produced both classes — degenerate fold"
+   },
+   "linear_control_structural": {
+    "hyperparams": {
+     "chosen_C": 0.0001,
+     "curve": [
+      {
+       "C": 0.0001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.01,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.1,
+       "logloss": Infinity
+      },
+      {
+       "C": 1.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 10.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 100.0,
+       "logloss": Infinity
+      }
+     ],
+     "edge": {
+      "C_on_edge": true,
+      "position": 0,
+      "grid_len": 7,
+      "exception2": "lower edge: fit degenerated to a constant (df=0.00); edge is meaningful"
+     },
+     "df_effective": 0.003910298766938557,
+     "df_at_grid_ends": [
+      0.003910298766938557,
+      1.998709905360454
+     ],
+     "n_iter": 7,
+     "class_weight": "None",
+     "weight_measurement": {
+      "C_probe": 0.1,
+      "logloss_unweighted": Infinity,
+      "logloss_balanced_prior_corrected": Infinity,
+      "chosen": "None"
+     },
+     "dup_pairs": []
+    },
+    "calibration": {
+     "requested": "sigmoid",
+     "applied": "unfit",
+     "kind": "probability",
+     "degenerate_fit": true
+    },
+    "threshold": 0.5,
+    "branch": "encoded",
+    "n_features_seen": 2
+   },
+   "clock": {
+    "hyperparams": {
+     "chosen_C": 0.0001,
+     "curve": [
+      {
+       "C": 0.0001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.01,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.1,
+       "logloss": Infinity
+      },
+      {
+       "C": 1.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 10.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 100.0,
+       "logloss": Infinity
+      }
+     ],
+     "edge": {
+      "C_on_edge": true,
+      "position": 0,
+      "grid_len": 7,
+      "exception2": "lower edge: fit degenerated to a constant (df=0.01); edge is meaningful"
+     },
+     "df_effective": 0.007868829785805794,
+     "df_at_grid_ends": [
+      0.007868829785805794,
+      3.9939028770183915
+     ],
+     "n_iter": 7,
+     "class_weight": "None",
+     "weight_measurement": {
+      "C_probe": 0.1,
+      "logloss_unweighted": Infinity,
+      "logloss_balanced_prior_corrected": Infinity,
+      "chosen": "None"
+     },
+     "dup_pairs": []
+    },
+    "calibration": {
+     "requested": "sigmoid",
+     "applied": "unfit",
+     "kind": "probability",
+     "degenerate_fit": true
+    },
+    "threshold": 0.5,
+    "branch": "encoded",
+    "n_features_seen": 3
+   },
+   "plsfma_coords": {
+    "hyperparams": {
+     "chosen_components": 1,
+     "curve": [
+      {
+       "components": 1,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 2,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 3,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 4,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 5,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 6,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 7,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 8,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 9,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 10,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 11,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 12,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 13,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 14,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 15,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 16,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 17,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 18,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 19,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 20,
+       "cv_pearson_r": -Infinity
+      }
+     ],
+     "edge": {
+      "on_edge": true,
+      "position": 0,
+      "grid_len": 20,
+      "exception2": "lower bound of the admissible component count (one latent component); fewer do not exist"
+     },
+     "mode_vector_norm": 0.0028232361328699904,
+     "ewmcm_vector_norm": 244437384.89957407
+    },
+    "calibration": {
+     "requested": "sigmoid",
+     "applied": "unfit",
+     "kind": "raw",
+     "degenerate_fit": true
+    },
+    "threshold": 0.5,
+    "branch": "cartesian_coords",
+    "n_features_seen": 6804,
+    "n_union_columns_dropped": 0
+   }
+  }
+ },
+ {
+  "fold": "0:200mV/R2",
+  "tau": 2000.0,
+  "arms": {
+   "linear": {
+    "skipped": "no columns or a single class in training"
+   },
+   "trees": {
+    "skipped": "no columns or a single class in training"
+   },
+   "linear_control_structural": {
+    "skipped": "no columns or a single class in training"
+   },
+   "clock": {
+    "skipped": "no columns or a single class in training"
+   },
+   "plsfma_coords": {
+    "skipped": "coords artifact missing or single-class training fold"
+   }
+  }
+ },
+ {
+  "fold": "1:200mV/R4",
+  "tau": 2000.0,
+  "arms": {
+   "linear": {
+    "hyperparams": {
+     "chosen_C": 0.0001,
+     "curve": [
+      {
+       "C": 0.0001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.01,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.1,
+       "logloss": Infinity
+      },
+      {
+       "C": 1.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 10.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 100.0,
+       "logloss": Infinity
+      }
+     ],
+     "edge": {
+      "C_on_edge": true,
+      "position": 0,
+      "grid_len": 7,
+      "exception2": "lower edge: fit degenerated to a constant (df=0.41); edge is meaningful"
+     },
+     "df_effective": 0.4134834189619492,
+     "df_at_grid_ends": [
+      0.4134834189619492,
+      88.72462089462293
+     ],
+     "n_iter": 6,
+     "class_weight": "None",
+     "weight_measurement": {
+      "C_probe": 0.1,
+      "logloss_unweighted": Infinity,
+      "logloss_balanced_prior_corrected": Infinity,
+      "chosen": "None"
+     },
+     "dup_pairs": [
+      [
+       "dyn_ion_persist",
+       "missing[dyn_ion_drift_A_win]",
+       -1.0
+      ],
+      [
+       "dlv_approach_pair_n",
+       "missing[dlv_approach_A_win]",
+       -1.0
+      ],
+      [
+       "dlv_crossed_before",
+       "missing[dlv_t_since_cross_ps]",
+       -1.0
+      ],
+      [
+       "missing[geo_r_bin0_A]",
+       "missing[geo_r_bin0_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin0_A]",
+       "missing[hyd_water_bin0_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin1_A]",
+       "missing[geo_r_bin1_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin1_A]",
+       "missing[hyd_water_bin1_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin2_A]",
+       "missing[geo_r_bin2_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin2_A]",
+       "missing[hyd_water_bin2_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin3_A]",
+       "missing[geo_r_bin3_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin3_A]",
+       "missing[hyd_water_bin3_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin4_A]",
+       "missing[geo_r_bin4_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin4_A]",
+       "missing[hyd_water_bin4_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin5_A]",
+       "missing[geo_r_bin5_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin5_A]",
+       "missing[hyd_water_bin5_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin6_A]",
+       "missing[geo_r_bin6_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin6_A]",
+       "missing[hyd_water_bin6_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin7_A]",
+       "missing[geo_r_bin7_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin7_A]",
+       "missing[hyd_water_bin7_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin0_rel]",
+       "missing[hyd_water_bin0_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin1_rel]",
+       "missing[hyd_water_bin1_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin2_rel]",
+       "missing[hyd_water_bin2_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin3_rel]",
+       "missing[hyd_water_bin3_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin4_rel]",
+       "missing[hyd_water_bin4_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin5_rel]",
+       "missing[hyd_water_bin5_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin6_rel]",
+       "missing[hyd_water_bin6_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin7_rel]",
+       "missing[hyd_water_bin7_density]",
+       1.0
+      ]
+     ]
+    },
+    "calibration": {
+     "requested": "sigmoid",
+     "applied": "unfit",
+     "kind": "probability",
+     "degenerate_fit": true
+    },
+    "threshold": 0.5,
+    "branch": "encoded",
+    "n_features_seen": 82
+   },
+   "trees": {
+    "skipped": "degenerate training: no rotation produced both classes — degenerate fold"
+   },
+   "linear_control_structural": {
+    "hyperparams": {
+     "chosen_C": 0.0001,
+     "curve": [
+      {
+       "C": 0.0001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.01,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.1,
+       "logloss": Infinity
+      },
+      {
+       "C": 1.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 10.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 100.0,
+       "logloss": Infinity
+      }
+     ],
+     "edge": {
+      "C_on_edge": true,
+      "position": 0,
+      "grid_len": 7,
+      "exception2": "lower edge: fit degenerated to a constant (df=0.01); edge is meaningful"
+     },
+     "df_effective": 0.007640539988038469,
+     "df_at_grid_ends": [
+      0.007640539988038469,
+      1.9993425677264265
+     ],
+     "n_iter": 6,
+     "class_weight": "None",
+     "weight_measurement": {
+      "C_probe": 0.1,
+      "logloss_unweighted": Infinity,
+      "logloss_balanced_prior_corrected": Infinity,
+      "chosen": "None"
+     },
+     "dup_pairs": []
+    },
+    "calibration": {
+     "requested": "sigmoid",
+     "applied": "unfit",
+     "kind": "probability",
+     "degenerate_fit": true
+    },
+    "threshold": 0.5,
+    "branch": "encoded",
+    "n_features_seen": 2
+   },
+   "clock": {
+    "hyperparams": {
+     "chosen_C": 0.0001,
+     "curve": [
+      {
+       "C": 0.0001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.01,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.1,
+       "logloss": Infinity
+      },
+      {
+       "C": 1.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 10.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 100.0,
+       "logloss": Infinity
+      }
+     ],
+     "edge": {
+      "C_on_edge": true,
+      "position": 0,
+      "grid_len": 7,
+      "exception2": "lower edge: fit degenerated to a constant (df=0.02); edge is meaningful"
+     },
+     "df_effective": 0.015584384508132291,
+     "df_at_grid_ends": [
+      0.015584384508132291,
+      3.996398788763936
+     ],
+     "n_iter": 6,
+     "class_weight": "None",
+     "weight_measurement": {
+      "C_probe": 0.1,
+      "logloss_unweighted": Infinity,
+      "logloss_balanced_prior_corrected": Infinity,
+      "chosen": "None"
+     },
+     "dup_pairs": []
+    },
+    "calibration": {
+     "requested": "sigmoid",
+     "applied": "unfit",
+     "kind": "probability",
+     "degenerate_fit": true
+    },
+    "threshold": 0.5,
+    "branch": "encoded",
+    "n_features_seen": 3
+   },
+   "plsfma_coords": {
+    "hyperparams": {
+     "chosen_components": 1,
+     "curve": [
+      {
+       "components": 1,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 2,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 3,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 4,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 5,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 6,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 7,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 8,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 9,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 10,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 11,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 12,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 13,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 14,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 15,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 16,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 17,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 18,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 19,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 20,
+       "cv_pearson_r": -Infinity
+      }
+     ],
+     "edge": {
+      "on_edge": true,
+      "position": 0,
+      "grid_len": 20,
+      "exception2": "lower bound of the admissible component count (one latent component); fewer do not exist"
+     },
+     "mode_vector_norm": 0.005387464815918581,
+     "ewmcm_vector_norm": 490067153.4800232
+    },
+    "calibration": {
+     "requested": "sigmoid",
+     "applied": "unfit",
+     "kind": "raw",
+     "degenerate_fit": true
+    },
+    "threshold": 0.5,
+    "branch": "cartesian_coords",
+    "n_features_seen": 6804,
+    "n_union_columns_dropped": 0
+   }
+  }
+ },
+ {
+  "fold": "0:200mV/R2",
+  "tau": 4000.0,
+  "arms": {
+   "linear": {
+    "skipped": "no columns or a single class in training"
+   },
+   "trees": {
+    "skipped": "no columns or a single class in training"
+   },
+   "linear_control_structural": {
+    "skipped": "no columns or a single class in training"
+   },
+   "clock": {
+    "skipped": "no columns or a single class in training"
+   },
+   "plsfma_coords": {
+    "skipped": "coords artifact missing or single-class training fold"
+   }
+  }
+ },
+ {
+  "fold": "1:200mV/R4",
+  "tau": 4000.0,
+  "arms": {
+   "linear": {
+    "hyperparams": {
+     "chosen_C": 0.0001,
+     "curve": [
+      {
+       "C": 0.0001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.01,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.1,
+       "logloss": Infinity
+      },
+      {
+       "C": 1.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 10.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 100.0,
+       "logloss": Infinity
+      }
+     ],
+     "edge": {
+      "C_on_edge": true,
+      "position": 0,
+      "grid_len": 7,
+      "exception2": null
+     },
+     "df_effective": 0.7114930680522288,
+     "df_at_grid_ends": [
+      0.7114930680522288,
+      88.83867330811812
+     ],
+     "n_iter": 5,
+     "class_weight": "None",
+     "weight_measurement": {
+      "C_probe": 0.1,
+      "logloss_unweighted": Infinity,
+      "logloss_balanced_prior_corrected": Infinity,
+      "chosen": "None"
+     },
+     "dup_pairs": [
+      [
+       "dyn_ion_persist",
+       "missing[dyn_ion_drift_A_win]",
+       -0.9999999999999998
+      ],
+      [
+       "dlv_approach_pair_n",
+       "missing[dlv_approach_A_win]",
+       -1.0
+      ],
+      [
+       "dlv_crossed_before",
+       "missing[dlv_t_since_cross_ps]",
+       -0.9999999999999998
+      ],
+      [
+       "missing[geo_r_bin0_A]",
+       "missing[geo_r_bin0_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin0_A]",
+       "missing[hyd_water_bin0_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin1_A]",
+       "missing[geo_r_bin1_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin1_A]",
+       "missing[hyd_water_bin1_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin2_A]",
+       "missing[geo_r_bin2_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin2_A]",
+       "missing[hyd_water_bin2_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin3_A]",
+       "missing[geo_r_bin3_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin3_A]",
+       "missing[hyd_water_bin3_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin4_A]",
+       "missing[geo_r_bin4_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin4_A]",
+       "missing[hyd_water_bin4_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin5_A]",
+       "missing[geo_r_bin5_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin5_A]",
+       "missing[hyd_water_bin5_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin6_A]",
+       "missing[geo_r_bin6_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin6_A]",
+       "missing[hyd_water_bin6_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin7_A]",
+       "missing[geo_r_bin7_rel]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin7_A]",
+       "missing[hyd_water_bin7_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin0_rel]",
+       "missing[hyd_water_bin0_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin1_rel]",
+       "missing[hyd_water_bin1_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin2_rel]",
+       "missing[hyd_water_bin2_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin3_rel]",
+       "missing[hyd_water_bin3_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin4_rel]",
+       "missing[hyd_water_bin4_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin5_rel]",
+       "missing[hyd_water_bin5_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin6_rel]",
+       "missing[hyd_water_bin6_density]",
+       1.0
+      ],
+      [
+       "missing[geo_r_bin7_rel]",
+       "missing[hyd_water_bin7_density]",
+       1.0
+      ]
+     ]
+    },
+    "calibration": {
+     "requested": "sigmoid",
+     "applied": "unfit",
+     "kind": "probability",
+     "degenerate_fit": true
+    },
+    "threshold": 0.5,
+    "branch": "encoded",
+    "n_features_seen": 82
+   },
+   "trees": {
+    "skipped": "degenerate training: no rotation produced both classes — degenerate fold"
+   },
+   "linear_control_structural": {
+    "hyperparams": {
+     "chosen_C": 0.0001,
+     "curve": [
+      {
+       "C": 0.0001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.01,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.1,
+       "logloss": Infinity
+      },
+      {
+       "C": 1.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 10.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 100.0,
+       "logloss": Infinity
+      }
+     ],
+     "edge": {
+      "C_on_edge": true,
+      "position": 0,
+      "grid_len": 7,
+      "exception2": "lower edge: fit degenerated to a constant (df=0.01); edge is meaningful"
+     },
+     "df_effective": 0.013219894161523183,
+     "df_at_grid_ends": [
+      0.013219894161523183,
+      1.9996220019264932
+     ],
+     "n_iter": 5,
+     "class_weight": "None",
+     "weight_measurement": {
+      "C_probe": 0.1,
+      "logloss_unweighted": Infinity,
+      "logloss_balanced_prior_corrected": Infinity,
+      "chosen": "None"
+     },
+     "dup_pairs": []
+    },
+    "calibration": {
+     "requested": "sigmoid",
+     "applied": "unfit",
+     "kind": "probability",
+     "degenerate_fit": true
+    },
+    "threshold": 0.5,
+    "branch": "encoded",
+    "n_features_seen": 2
+   },
+   "clock": {
+    "hyperparams": {
+     "chosen_C": 0.0001,
+     "curve": [
+      {
+       "C": 0.0001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.001,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.01,
+       "logloss": Infinity
+      },
+      {
+       "C": 0.1,
+       "logloss": Infinity
+      },
+      {
+       "C": 1.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 10.0,
+       "logloss": Infinity
+      },
+      {
+       "C": 100.0,
+       "logloss": Infinity
+      }
+     ],
+     "edge": {
+      "C_on_edge": true,
+      "position": 0,
+      "grid_len": 7,
+      "exception2": "lower edge: fit degenerated to a constant (df=0.03); edge is meaningful"
+     },
+     "df_effective": 0.027585815084922777,
+     "df_at_grid_ends": [
+      0.027585815084922777,
+      3.9972662593134736
+     ],
+     "n_iter": 5,
+     "class_weight": "None",
+     "weight_measurement": {
+      "C_probe": 0.1,
+      "logloss_unweighted": Infinity,
+      "logloss_balanced_prior_corrected": Infinity,
+      "chosen": "None"
+     },
+     "dup_pairs": []
+    },
+    "calibration": {
+     "requested": "sigmoid",
+     "applied": "unfit",
+     "kind": "probability",
+     "degenerate_fit": true
+    },
+    "threshold": 0.5,
+    "branch": "encoded",
+    "n_features_seen": 3
+   },
+   "plsfma_coords": {
+    "hyperparams": {
+     "chosen_components": 1,
+     "curve": [
+      {
+       "components": 1,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 2,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 3,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 4,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 5,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 6,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 7,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 8,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 9,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 10,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 11,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 12,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 13,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 14,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 15,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 16,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 17,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 18,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 19,
+       "cv_pearson_r": -Infinity
+      },
+      {
+       "components": 20,
+       "cv_pearson_r": -Infinity
+      }
+     ],
+     "edge": {
+      "on_edge": true,
+      "position": 0,
+      "grid_len": 20,
+      "exception2": "lower bound of the admissible component count (one latent component); fewer do not exist"
+     },
+     "mode_vector_norm": 0.008883184619451465,
+     "ewmcm_vector_norm": 890084161.7838694
+    },
+    "calibration": {
+     "requested": "sigmoid",
+     "applied": "unfit",
+     "kind": "raw",
+     "degenerate_fit": true
+    },
+    "threshold": 0.5,
+    "branch": "cartesian_coords",
+    "n_features_seen": 6804,
+    "n_union_columns_dropped": 0
+   }
+  }
+ }
+]

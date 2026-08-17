@@ -1,0 +1,15 @@
+[200mV/R2] 1001 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 173464}
+[200mV/R4] 1001 frames, vdw ladder: {'resname+name': 0, 'name': 0, 'element': 173464}
+applicability: 104 columns total = 94 active + 6 structurally inapplicable + 4 constant
+  hyd_wet_frac_win: constant
+  ww_continuous: constant
+  occ_has_innermost: constant
+  ns_filter_n_ions: inapplicable_structural
+  ns_S0_occ: inapplicable_structural
+  ns_S1_occ: inapplicable_structural
+  ns_S2_occ: inapplicable_structural
+  ns_S3_occ: inapplicable_structural
+  ns_S4_occ: inapplicable_structural
+  ele_pot_lipid_cut12_e_per_A: constant
+columns with <=2 distinct values (do not resolve dynamics): ['dyn_ion_persist', 'dlv_approach_pair_n', 'dlv_rate_win', 'bl_rao_sigma_d', 'bl_rao_flag_n']
+table: 2002 rows x 104 columns

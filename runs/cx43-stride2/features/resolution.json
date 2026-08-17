@@ -1,0 +1,522 @@
+{
+ "geo_r_constriction_A": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "geo_z_constriction_A": {
+  "n_distinct": 38,
+  "frac_changed": 0.8006993006993007,
+  "missing_frac": 0.0
+ },
+ "geo_n_search": {
+  "n_distinct": 35,
+  "frac_changed": 0.935064935064935,
+  "missing_frac": 0.0
+ },
+ "geo_search_frac": {
+  "n_distinct": 37,
+  "frac_changed": 0.929070929070929,
+  "missing_frac": 0.0
+ },
+ "geo_boundary_frac": {
+  "n_distinct": 31,
+  "frac_changed": 0.9135864135864136,
+  "missing_frac": 0.0
+ },
+ "geo_lining_carbonyl_cos": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "geo_lining_n": {
+  "n_distinct": 27,
+  "frac_changed": 0.8996003996003996,
+  "missing_frac": 0.0
+ },
+ "geo_r_bin0_A": {
+  "n_distinct": 799,
+  "frac_changed": 1.0,
+  "missing_frac": 0.6008991008991009
+ },
+ "geo_r_bin1_A": {
+  "n_distinct": 1832,
+  "frac_changed": 1.0,
+  "missing_frac": 0.08441558441558442
+ },
+ "geo_r_bin2_A": {
+  "n_distinct": 1988,
+  "frac_changed": 1.0,
+  "missing_frac": 0.006493506493506494
+ },
+ "geo_r_bin3_A": {
+  "n_distinct": 1802,
+  "frac_changed": 1.0,
+  "missing_frac": 0.09940059940059941
+ },
+ "geo_r_bin4_A": {
+  "n_distinct": 1887,
+  "frac_changed": 1.0,
+  "missing_frac": 0.056943056943056944
+ },
+ "geo_r_bin5_A": {
+  "n_distinct": 1996,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0024975024975024975
+ },
+ "geo_r_bin6_A": {
+  "n_distinct": 1935,
+  "frac_changed": 1.0,
+  "missing_frac": 0.03296703296703297
+ },
+ "geo_r_bin7_A": {
+  "n_distinct": 1288,
+  "frac_changed": 1.0,
+  "missing_frac": 0.35664335664335667
+ },
+ "geo_bin0_nsearch": {
+  "n_distinct": 7,
+  "frac_changed": 0.49600399600399603,
+  "missing_frac": 0.0
+ },
+ "geo_bin1_nsearch": {
+  "n_distinct": 10,
+  "frac_changed": 0.7362637362637363,
+  "missing_frac": 0.0
+ },
+ "geo_bin2_nsearch": {
+  "n_distinct": 14,
+  "frac_changed": 0.8476523476523476,
+  "missing_frac": 0.0
+ },
+ "geo_bin3_nsearch": {
+  "n_distinct": 11,
+  "frac_changed": 0.7842157842157842,
+  "missing_frac": 0.0
+ },
+ "geo_bin4_nsearch": {
+  "n_distinct": 11,
+  "frac_changed": 0.8186813186813187,
+  "missing_frac": 0.0
+ },
+ "geo_bin5_nsearch": {
+  "n_distinct": 15,
+  "frac_changed": 0.8181818181818182,
+  "missing_frac": 0.0
+ },
+ "geo_bin6_nsearch": {
+  "n_distinct": 12,
+  "frac_changed": 0.7787212787212787,
+  "missing_frac": 0.0
+ },
+ "geo_bin7_nsearch": {
+  "n_distinct": 8,
+  "frac_changed": 0.6843156843156843,
+  "missing_frac": 0.0
+ },
+ "geo_r_bin0_rel": {
+  "n_distinct": 558,
+  "frac_changed": 0.9410589410589411,
+  "missing_frac": 0.6008991008991009
+ },
+ "geo_r_bin1_rel": {
+  "n_distinct": 1832,
+  "frac_changed": 1.0,
+  "missing_frac": 0.08441558441558442
+ },
+ "geo_r_bin2_rel": {
+  "n_distinct": 1721,
+  "frac_changed": 0.964035964035964,
+  "missing_frac": 0.006493506493506494
+ },
+ "geo_r_bin3_rel": {
+  "n_distinct": 1801,
+  "frac_changed": 1.0,
+  "missing_frac": 0.09940059940059941
+ },
+ "geo_r_bin4_rel": {
+  "n_distinct": 1887,
+  "frac_changed": 1.0,
+  "missing_frac": 0.056943056943056944
+ },
+ "geo_r_bin5_rel": {
+  "n_distinct": 1788,
+  "frac_changed": 0.97002997002997,
+  "missing_frac": 0.0024975024975024975
+ },
+ "geo_r_bin6_rel": {
+  "n_distinct": 1935,
+  "frac_changed": 1.0,
+  "missing_frac": 0.03296703296703297
+ },
+ "geo_r_bin7_rel": {
+  "n_distinct": 563,
+  "frac_changed": 0.8116883116883117,
+  "missing_frac": 0.35664335664335667
+ },
+ "hyd_water_pore_n": {
+  "n_distinct": 112,
+  "frac_changed": 0.9790209790209791,
+  "missing_frac": 0.0
+ },
+ "hyd_min_bin_water_n": {
+  "n_distinct": 30,
+  "frac_changed": 0.9225774225774226,
+  "missing_frac": 0.0
+ },
+ "hyd_wet_frac_win": {
+  "n_distinct": 1,
+  "frac_changed": 0.0004995004995004995,
+  "missing_frac": 0.0
+ },
+ "hyd_wet_logodds_win": {
+  "n_distinct": 21,
+  "frac_changed": 0.02097902097902098,
+  "missing_frac": 0.0
+ },
+ "hyd_lining_hydrophobicity": {
+  "n_distinct": 1608,
+  "frac_changed": 0.9945054945054945,
+  "missing_frac": 0.0
+ },
+ "hyd_lining_n_facing": {
+  "n_distinct": 27,
+  "frac_changed": 0.8996003996003996,
+  "missing_frac": 0.0
+ },
+ "hyd_water_pore_density": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "hyd_lining_facing_per_sub": {
+  "n_distinct": 27,
+  "frac_changed": 0.8996003996003996,
+  "missing_frac": 0.0
+ },
+ "hyd_water_bin0_n": {
+  "n_distinct": 54,
+  "frac_changed": 0.9470529470529471,
+  "missing_frac": 0.0
+ },
+ "hyd_water_bin1_n": {
+  "n_distinct": 32,
+  "frac_changed": 0.9310689310689311,
+  "missing_frac": 0.0
+ },
+ "hyd_water_bin2_n": {
+  "n_distinct": 38,
+  "frac_changed": 0.9405594405594405,
+  "missing_frac": 0.0
+ },
+ "hyd_water_bin3_n": {
+  "n_distinct": 37,
+  "frac_changed": 0.9355644355644356,
+  "missing_frac": 0.0
+ },
+ "hyd_water_bin4_n": {
+  "n_distinct": 36,
+  "frac_changed": 0.9425574425574426,
+  "missing_frac": 0.0
+ },
+ "hyd_water_bin5_n": {
+  "n_distinct": 37,
+  "frac_changed": 0.9410589410589411,
+  "missing_frac": 0.0
+ },
+ "hyd_water_bin6_n": {
+  "n_distinct": 37,
+  "frac_changed": 0.9305694305694305,
+  "missing_frac": 0.0
+ },
+ "hyd_water_bin7_n": {
+  "n_distinct": 53,
+  "frac_changed": 0.9440559440559441,
+  "missing_frac": 0.0
+ },
+ "hyd_water_bin0_density": {
+  "n_distinct": 799,
+  "frac_changed": 1.0,
+  "missing_frac": 0.6008991008991009
+ },
+ "hyd_water_bin1_density": {
+  "n_distinct": 1832,
+  "frac_changed": 1.0,
+  "missing_frac": 0.08441558441558442
+ },
+ "hyd_water_bin2_density": {
+  "n_distinct": 1988,
+  "frac_changed": 1.0,
+  "missing_frac": 0.006493506493506494
+ },
+ "hyd_water_bin3_density": {
+  "n_distinct": 1802,
+  "frac_changed": 1.0,
+  "missing_frac": 0.09940059940059941
+ },
+ "hyd_water_bin4_density": {
+  "n_distinct": 1887,
+  "frac_changed": 1.0,
+  "missing_frac": 0.056943056943056944
+ },
+ "hyd_water_bin5_density": {
+  "n_distinct": 1996,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0024975024975024975
+ },
+ "hyd_water_bin6_density": {
+  "n_distinct": 1935,
+  "frac_changed": 1.0,
+  "missing_frac": 0.03296703296703297
+ },
+ "hyd_water_bin7_density": {
+  "n_distinct": 1288,
+  "frac_changed": 1.0,
+  "missing_frac": 0.35664335664335667
+ },
+ "ww_n_waters": {
+  "n_distinct": 112,
+  "frac_changed": 0.9790209790209791,
+  "missing_frac": 0.0
+ },
+ "ww_max_gap_A": {
+  "n_distinct": 313,
+  "frac_changed": 0.989010989010989,
+  "missing_frac": 0.0
+ },
+ "ww_continuous": {
+  "n_distinct": 1,
+  "frac_changed": 0.0004995004995004995,
+  "missing_frac": 0.0
+ },
+ "ww_dipole_cos_mean": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "ww_dipole_cos_std": {
+  "n_distinct": 1994,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "ww_water_linear_density": {
+  "n_distinct": 112,
+  "frac_changed": 0.9790209790209791,
+  "missing_frac": 0.0
+ },
+ "ww_max_gap_rel": {
+  "n_distinct": 313,
+  "frac_changed": 0.989010989010989,
+  "missing_frac": 0.0
+ },
+ "occ_n_ions_pore": {
+  "n_distinct": 11,
+  "frac_changed": 0.5924075924075924,
+  "missing_frac": 0.0
+ },
+ "occ_has_innermost": {
+  "n_distinct": 1,
+  "frac_changed": 0.0004995004995004995,
+  "missing_frac": 0.0
+ },
+ "occ_innermost_z_A": {
+  "n_distinct": 1999,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "occ_innermost_dz_constr_A": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "occ_innermost_coord_n": {
+  "n_distinct": 9,
+  "frac_changed": 0.7167832167832168,
+  "missing_frac": 0.0
+ },
+ "occ_desolvation": {
+  "n_distinct": 9,
+  "frac_changed": 0.7167832167832168,
+  "missing_frac": 0.0
+ },
+ "ns_filter_n_ions": {
+  "n_distinct": 0,
+  "frac_changed": 1.0,
+  "missing_frac": 1.0
+ },
+ "ns_S0_occ": {
+  "n_distinct": 0,
+  "frac_changed": 1.0,
+  "missing_frac": 1.0
+ },
+ "ns_S1_occ": {
+  "n_distinct": 0,
+  "frac_changed": 1.0,
+  "missing_frac": 1.0
+ },
+ "ns_S2_occ": {
+  "n_distinct": 0,
+  "frac_changed": 1.0,
+  "missing_frac": 1.0
+ },
+ "ns_S3_occ": {
+  "n_distinct": 0,
+  "frac_changed": 1.0,
+  "missing_frac": 1.0
+ },
+ "ns_S4_occ": {
+  "n_distinct": 0,
+  "frac_changed": 1.0,
+  "missing_frac": 1.0
+ },
+ "ele_pot_protein_cut12_e_per_A": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "ele_pot_water_cut12_e_per_A": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "ele_pot_ions_cut12_e_per_A": {
+  "n_distinct": 851,
+  "frac_changed": 0.6118881118881119,
+  "missing_frac": 0.0
+ },
+ "ele_pot_lipid_cut12_e_per_A": {
+  "n_distinct": 1,
+  "frac_changed": 0.0004995004995004995,
+  "missing_frac": 0.0
+ },
+ "ele_axial_charge_asym_e": {
+  "n_distinct": 756,
+  "frac_changed": 0.9965034965034965,
+  "missing_frac": 0.0
+ },
+ "sym_com_radial_spread_A": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "sym_com_z_spread_A": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "sym_nn_dist_cv": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "sym_com_z_spread_rel": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "flu_water_pore_var_win": {
+  "n_distinct": 1890,
+  "frac_changed": 0.984015984015984,
+  "missing_frac": 0.0
+ },
+ "flu_ion_pore_var_win": {
+  "n_distinct": 443,
+  "frac_changed": 0.7802197802197802,
+  "missing_frac": 0.0
+ },
+ "flu_r_constr_var_win": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "dyn_ion_persist": {
+  "n_distinct": 2,
+  "frac_changed": 0.22777222777222778,
+  "missing_frac": 0.0
+ },
+ "dyn_ion_drift_A_win": {
+  "n_distinct": 1634,
+  "frac_changed": 1.0,
+  "missing_frac": 0.1838161838161838
+ },
+ "dyn_wet_state_age_ps": {
+  "n_distinct": 1001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "dyn_occ_change_age_ps": {
+  "n_distinct": 11,
+  "frac_changed": 0.6253746253746254,
+  "missing_frac": 0.0
+ },
+ "dlv_n_upper_mouth": {
+  "n_distinct": 3,
+  "frac_changed": 0.03296703296703297,
+  "missing_frac": 0.0
+ },
+ "dlv_n_lower_mouth": {
+  "n_distinct": 3,
+  "frac_changed": 0.09040959040959042,
+  "missing_frac": 0.0
+ },
+ "dlv_n_entry_mouth": {
+  "n_distinct": 3,
+  "frac_changed": 0.03296703296703297,
+  "missing_frac": 0.0
+ },
+ "dlv_entry_wide_n": {
+  "n_distinct": 37,
+  "frac_changed": 0.9095904095904096,
+  "missing_frac": 0.0
+ },
+ "dlv_dist_entry_A": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "dlv_approach_pair_n": {
+  "n_distinct": 2,
+  "frac_changed": 0.001998001998001998,
+  "missing_frac": 0.0
+ },
+ "dlv_approach_A_win": {
+  "n_distinct": 2000,
+  "frac_changed": 1.0,
+  "missing_frac": 0.000999000999000999
+ },
+ "dlv_t_since_cross_ps": {
+  "n_distinct": 73,
+  "frac_changed": 1.0,
+  "missing_frac": 0.9475524475524476
+ },
+ "dlv_crossed_before": {
+  "n_distinct": 2,
+  "frac_changed": 0.0014985014985014985,
+  "missing_frac": 0.0
+ },
+ "dlv_rate_win": {
+  "n_distinct": 2,
+  "frac_changed": 0.0024975024975024975,
+  "missing_frac": 0.0
+ },
+ "bl_rao_E_kJmol": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "bl_rao_E_win_kJmol": {
+  "n_distinct": 2001,
+  "frac_changed": 1.0,
+  "missing_frac": 0.0
+ },
+ "bl_rao_sigma_d": {
+  "n_distinct": 2,
+  "frac_changed": 0.0014985014985014985,
+  "missing_frac": 0.0
+ },
+ "bl_rao_flag_n": {
+  "n_distinct": 2,
+  "frac_changed": 0.0014985014985014985,
+  "missing_frac": 0.0
+ }
+}

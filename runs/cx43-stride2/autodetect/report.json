@@ -1,0 +1,211 @@
+{
+ "measured": {
+  "dt_ps_per_file": {
+   "200mV/R2": 50.0,
+   "200mV/R3": 50.0,
+   "200mV/R4": 50.0
+  },
+  "triclinic": false,
+  "vdw_ladder_steps": {
+   "resname+name": 0,
+   "name": 0,
+   "element": 173464
+  }
+ },
+ "refusals": [
+  {
+   "key": "system.arch_profile.n_sites",
+   "message": "density peaks do not reproduce across halves: 3 vs 2"
+  }
+ ],
+ "origins_after": {
+  "data.data_root": {
+   "origin": "detected",
+   "basis": "discovered on disk under /path/to/data/protein_center_200mV/cx43_root: 200mV: 3 replicas"
+  },
+  "data.conditions": {
+   "origin": "detected",
+   "basis": "discovered on disk under /path/to/data/protein_center_200mV/cx43_root: 200mV: 3 replicas"
+  },
+  "data.conditions[200mV].replicas[R2].lineage": {
+   "origin": "declared",
+   "basis": "declared: R2-R4 are separate 100 ns production runs from one assembled system (the SI ships a single initial_structure); they share no production frames and diverge at production start, so they are kept as separate lineages for splitting; the shared assembly is recorded here so a reviewer can merge them if stricter separation is wanted"
+  },
+  "data.conditions[200mV].replicas[R2].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "CHARMM-GUI FF-Converter headers in the SI toppar files"
+  },
+  "data.conditions[200mV].replicas[R2].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "folder and mdp name efield_200mV; the shipped mdp applies electric-field-z = -0.008 V/nm, i.e. cations drift toward -z"
+  },
+  "data.conditions[200mV].replicas[R2].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "ref_t in the shipped production mdp"
+  },
+  "data.conditions[200mV].replicas[R3].lineage": {
+   "origin": "declared",
+   "basis": "declared: R2-R4 are separate 100 ns production runs from one assembled system (the SI ships a single initial_structure); they share no production frames and diverge at production start, so they are kept as separate lineages for splitting; the shared assembly is recorded here so a reviewer can merge them if stricter separation is wanted"
+  },
+  "data.conditions[200mV].replicas[R3].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "CHARMM-GUI FF-Converter headers in the SI toppar files"
+  },
+  "data.conditions[200mV].replicas[R3].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "folder and mdp name efield_200mV; the shipped mdp applies electric-field-z = -0.008 V/nm, i.e. cations drift toward -z"
+  },
+  "data.conditions[200mV].replicas[R3].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "ref_t in the shipped production mdp"
+  },
+  "data.conditions[200mV].replicas[R4].lineage": {
+   "origin": "declared",
+   "basis": "declared: R2-R4 are separate 100 ns production runs from one assembled system (the SI ships a single initial_structure); they share no production frames and diverge at production start, so they are kept as separate lineages for splitting; the shared assembly is recorded here so a reviewer can merge them if stricter separation is wanted"
+  },
+  "data.conditions[200mV].replicas[R4].protocol.forcefield": {
+   "origin": "declared",
+   "basis": "CHARMM-GUI FF-Converter headers in the SI toppar files"
+  },
+  "data.conditions[200mV].replicas[R4].protocol.voltage_mV": {
+   "origin": "declared",
+   "basis": "folder and mdp name efield_200mV; the shipped mdp applies electric-field-z = -0.008 V/nm, i.e. cations drift toward -z"
+  },
+  "data.conditions[200mV].replicas[R4].protocol.temperature_K": {
+   "origin": "declared",
+   "basis": "ref_t in the shipped production mdp"
+  },
+  "labels.tau_ps": {
+   "origin": "declared",
+   "basis": "a sweep over horizons is required so conclusions are not tied to one arbitrary τ; values are cross-checked against the median transit time and the inter-crossing interval that the events step prints next to the declared τ"
+  },
+  "labels.primary_tau_ps": {
+   "origin": "declared",
+   "basis": "a sweep over horizons is required so conclusions are not tied to one arbitrary τ; values are cross-checked against the median transit time and the inter-crossing interval that the events step prints next to the declared τ"
+  },
+  "events.source": {
+   "origin": "declared",
+   "basis": "a single time anchor shared by both systems; the shipped gramicidin annotation is used as a cross-check — the events step prints the comparison"
+  },
+  "data.pore.crossing_cylinder_radius_A": {
+   "origin": "declared",
+   "basis": "the connexon vestibule opens to ~35 A diameter while the protein footprint is ~90 A across; 20 A covers the funnel mouth and stays well inside the dodecamer wall"
+  },
+  "features.window_ps": {
+   "origin": "declared",
+   "basis": "look-back window equals the primary horizon: dynamics are measured on the same time scale on which the prediction is made"
+  },
+  "features.mouth_radius_A": {
+   "origin": "declared",
+   "basis": "the cytoplasmic funnel of the connexon is far wider than a K-channel mouth; the delivery zone must cover it, diagnostics: the dlv_entry_wide_n indicator and the fraction of frames with no permeant in the zone"
+  },
+  "model.seed": {
+   "origin": "declared",
+   "basis": "a single recorded run seed; fold seeds are derived from it"
+  },
+  "model.monotone": {
+   "origin": "declared",
+   "basis": "from physics, not from correlation: a wider pore cannot make a configuration less ready to pass a hydrated ion"
+  },
+  "evaluate.alarm.smooth_ps": {
+   "origin": "declared",
+   "basis": "half the primary τ: smoothing stays shorter than the prediction horizon"
+  },
+  "data.stride": {
+   "origin": "declared",
+   "basis": "development compute budget; the stride is part of run identity, the results folder carries it in its name; 50 ps × 2 = 100 ps between table frames"
+  },
+  "system.permeant": {
+   "origin": "declared",
+   "basis": "declared up front: a wide aqueous pore passes water molecules per particle orders of magnitude more often than ions; readiness is defined for the ionic charge carrier K+ driven by the applied bias"
+  },
+  "data.selections.ion": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=89618), lipid ['POPC'] ([134] atoms × [1016]), channel by subtraction: ['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY']…; names unioned over 3 topologies"
+  },
+  "data.selections.ion_negative": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=89618), lipid ['POPC'] ([134] atoms × [1016]), channel by subtraction: ['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY']…; names unioned over 3 topologies"
+  },
+  "data.selections.water_oxygen": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=89618), lipid ['POPC'] ([134] atoms × [1016]), channel by subtraction: ['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY']…; names unioned over 3 topologies"
+  },
+  "data.selections.water_hydrogen": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=89618), lipid ['POPC'] ([134] atoms × [1016]), channel by subtraction: ['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY']…; names unioned over 3 topologies"
+  },
+  "data.selections.lipid": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=89618), lipid ['POPC'] ([134] atoms × [1016]), channel by subtraction: ['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY']…; names unioned over 3 topologies"
+  },
+  "data.selections.phosphate": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=89618), lipid ['POPC'] ([134] atoms × [1016]), channel by subtraction: ['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY']…; names unioned over 3 topologies"
+  },
+  "data.selections.channel": {
+   "origin": "detected",
+   "basis": "by composition: cations ['POT'] (|q|=[1.0]), anions ['CLA'], water ['TIP3'] (O+2H, n=89618), lipid ['POPC'] ([134] atoms × [1016]), channel by subtraction: ['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY']…; names unioned over 3 topologies"
+  },
+  "data.pore.axis": {
+   "origin": "detected",
+   "basis": "emptiness of the central third between leaflets from phosphates on 7 frames: {'x': 7.2, 'y': 7.7, 'z': 97.4}; best-over-second margin 13×"
+  },
+  "system.arch_profile.filter_present": {
+   "origin": "detected",
+   "basis": "motif T[VIL]G[YF]G not found in 12 connected fragments"
+  },
+  "system.arch_profile.n_subunits": {
+   "origin": "detected",
+   "basis": "connected fragments of ≥30 atoms touching the pore (r<30 A from the axis): 12; frame 0"
+  },
+  "system.architecture": {
+   "origin": "detected",
+   "basis": "no filter; the channel is a single-file pore (water wire)"
+  },
+  "data.selections.anchor": {
+   "origin": "detected",
+   "basis": "CA of the whole channel: no filter, anchor = backbone center of mass"
+  },
+  "data.conditions[200mV].direction": {
+   "origin": "detected",
+   "basis": "sign of the net permeant flux across replicas: [-1, -1, 0]"
+  },
+  "data.conditions[200mV].replicas[R2].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 1.0000 e"
+  },
+  "data.conditions[200mV].replicas[R3].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 1.0000 e"
+  },
+  "data.conditions[200mV].replicas[R4].protocol.charge_scaling": {
+   "origin": "detected",
+   "basis": "|q| of the monovalent permeant in the topology = 1.0000 e"
+  },
+  "features.coordination_cutoff_A": {
+   "origin": "detected",
+   "basis": "median over conditions from g(r): [3.5749999999999944]; spread 0.00 A"
+  },
+  "data.pore.z_low_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-62.5, 62.6] A; −4 A at the mouth"
+  },
+  "data.pore.z_high_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-62.5, 62.6] A; +4 A at the mouth"
+  },
+  "data.pore.bin_low_offset_A": {
+   "origin": "detected",
+   "basis": "5–95 percentiles of channel axial coordinates from the anchor on 5 frames: [-62.5, 62.6] A"
+  },
+  "data.pore.bin_width_A": {
+   "origin": "detected",
+   "basis": "(63.0--63.0)/8 bins"
+  },
+  "data.pore.cylinder_radius_A": {
+   "origin": "detected",
+   "basis": "median of the maximum search R(z) over 3 frames [12.83, 8.76, 8.42] + 1.5 A margin"
+  }
+ }
+}

@@ -1,0 +1,2 @@
+[200mV/R2] events in direction: 2; τ=1000: +20, censored dropped 10, base rate 0.020; τ=2000: +40, censored dropped 20, base rate 0.041; τ=4000: +72, censored dropped 40, base rate 0.075; entrance labels exclude events without entry: 0
+[200mV/R4] events in direction: 0; τ=1000: +0, censored dropped 10, base rate 0.000; τ=2000: +0, censored dropped 20, base rate 0.000; τ=4000: +0, censored dropped 40, base rate 0.000; entrance labels exclude events without entry: 0

@@ -1,0 +1,58 @@
+[
+ {
+  "method": "clock",
+  "claims": "temporal null: event seriality only (time since last crossing, event rate, pore ion count); no structural input",
+  "frames_judged": 0,
+  "verdict_accuracy": NaN,
+  "balanced_accuracy": NaN,
+  "ap_over_chance": NaN
+ },
+ {
+  "method": "linear",
+  "claims": "this work (linear branch): same probabilistic claim, ridge-logistic on all descriptors",
+  "frames_judged": 0,
+  "verdict_accuracy": NaN,
+  "balanced_accuracy": NaN,
+  "ap_over_chance": NaN
+ },
+ {
+  "method": "linear_control_structural",
+  "claims": "fitted linear control on the published criterion's inputs (constriction radius + lining hydrophobicity)",
+  "frames_judged": 0,
+  "verdict_accuracy": NaN,
+  "balanced_accuracy": NaN,
+  "ap_over_chance": NaN
+ },
+ {
+  "method": "plsfma_coords",
+  "claims": "PLS-FMA (Krivobokova et al. 2012; the authors' g_fma PLS core, Helland/Denham): collective mode maximally covarying with the readiness label, regressed on superimposed C-alpha Cartesian coordinates — the published method's machinery applied to a binary functional quantity",
+  "frames_judged": 0,
+  "verdict_accuracy": NaN,
+  "balanced_accuracy": NaN,
+  "ap_over_chance": NaN
+ },
+ {
+  "method": "published_rao2019",
+  "claims": "Rao et al. 2019 heuristic: local DEWETTING of the constriction (frame-wise application); readiness proxy = wetted",
+  "frames_judged": 1922,
+  "verdict_accuracy": 0.037460978147762745,
+  "balanced_accuracy": 0.5,
+  "ap_over_chance": 0.7779211249426566
+ },
+ {
+  "method": "published_rao2019_win",
+  "claims": "Rao et al. 2019 heuristic on window-averaged inputs (closer to the authors' time-averaged definition)",
+  "frames_judged": 1922,
+  "verdict_accuracy": 0.037460978147762745,
+  "balanced_accuracy": 0.5,
+  "ap_over_chance": 0.6479635083418732
+ },
+ {
+  "method": "published_rao2019_sigma",
+  "claims": "Rao et al. 2019 STRUCTURE classifier as published: sum of contour distances (sigma_d) over all pore-facing residue points past the 1RT line; non-conductive when sigma_d > 0.55 — the rule the paper's AUC 0.91 belongs to",
+  "frames_judged": 1922,
+  "verdict_accuracy": 0.037460978147762745,
+  "balanced_accuracy": 0.5,
+  "ap_over_chance": 1.0005205622071838
+ }
+]
