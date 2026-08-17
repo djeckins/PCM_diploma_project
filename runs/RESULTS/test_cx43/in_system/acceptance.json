@@ -1,0 +1,137 @@
+{
+ "hyperparam_edges": {
+  "linear.C": {
+   "edge_frac": 0.1111111111111111,
+   "ok": true
+  },
+  "plsfma_coords.selection": {
+   "edge_frac": 0.0,
+   "ok": true
+  }
+ },
+ "edge_exception2_recorded": {
+  "ok": true,
+  "cases": [
+   {
+    "fold": "1:200mV/R4",
+    "tau": 1000.0,
+    "arm": "linear",
+    "note": "lower edge: fit degenerated to a constant (df=0.21); edge is meaningful"
+   },
+   {
+    "fold": "1:200mV/R4",
+    "tau": 1000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.00); edge is meaningful"
+   },
+   {
+    "fold": "1:200mV/R4",
+    "tau": 1000.0,
+    "arm": "clock",
+    "note": "lower edge: fit degenerated to a constant (df=0.01); edge is meaningful"
+   },
+   {
+    "fold": "1:200mV/R4",
+    "tau": 1000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "1:200mV/R4",
+    "tau": 2000.0,
+    "arm": "linear",
+    "note": "lower edge: fit degenerated to a constant (df=0.41); edge is meaningful"
+   },
+   {
+    "fold": "1:200mV/R4",
+    "tau": 2000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.01); edge is meaningful"
+   },
+   {
+    "fold": "1:200mV/R4",
+    "tau": 2000.0,
+    "arm": "clock",
+    "note": "lower edge: fit degenerated to a constant (df=0.02); edge is meaningful"
+   },
+   {
+    "fold": "1:200mV/R4",
+    "tau": 2000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   },
+   {
+    "fold": "1:200mV/R4",
+    "tau": 4000.0,
+    "arm": "linear_control_structural",
+    "note": "lower edge: fit degenerated to a constant (df=0.01); edge is meaningful"
+   },
+   {
+    "fold": "1:200mV/R4",
+    "tau": 4000.0,
+    "arm": "clock",
+    "note": "lower edge: fit degenerated to a constant (df=0.03); edge is meaningful"
+   },
+   {
+    "fold": "1:200mV/R4",
+    "tau": 4000.0,
+    "arm": "plsfma_coords",
+    "note": "lower bound of the admissible component count (one latent component); fewer do not exist"
+   }
+  ]
+ },
+ "no_ceiling_hits": {
+  "ok": true,
+  "hits": 0
+ },
+ "penalty_in_df_units": {
+  "ok": true,
+  "df_by_fold": [
+   0.21225743052584778,
+   0.003910298766938557,
+   0.007868829785805794,
+   0.4134834189619492,
+   0.007640539988038469,
+   0.015584384508132291,
+   0.7114930680522288,
+   0.013219894161523183,
+   0.027585815084922777
+  ]
+ },
+ "events_and_features_per_branch": {},
+ "calibration_recorded_per_fold": {
+  "ok": false
+ },
+ "events_source_declared": {
+  "ok": true,
+  "declared": "own"
+ },
+ "vendored_checksums": {
+  "ok": true,
+  "actual": {
+   "heuristic_grid.json": "bb29c21e1339e71e7a877d5095a4d72c4ac3ab06ce04c863fbcfb407e567c4f0",
+   "wimley_white_1996.json": "d898884281bf666074ea8c2a5629896b31b9bea6bed4d4389a736ef355542b5c"
+  }
+ },
+ "figure_catalog": {
+  "ok": false
+ },
+ "answers_with_mechanism": {
+  "ok": false
+ },
+ "resting_frames_defined": {
+  "ok": false,
+  "resting": {
+   "defined": false,
+   "reason": "both classes absent — the metric is undefined, not zero"
+  },
+  "transit": {
+   "defined": false,
+   "reason": "both classes absent — the metric is undefined, not zero"
+  }
+ },
+ "applicability_mask_written": {
+  "ok": true
+ },
+ "note": "linter/test and notebook gates are checked by make test and a notebook run, outside this run's artifacts"
+}
